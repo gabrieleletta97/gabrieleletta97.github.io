@@ -26,8 +26,8 @@ author:
   pronouns         : "he/him"  
   bio              : "\"So little done, such things to be\""
   location         : "Milan, Italy"
-  employer         : |  # Use the pipe symbol for a multiline string
-    "Università Cattolica del Sacro Cuore"
+  employer         : |  Università Cattolica del Sacro
+     Cuore
   uri              : # URL
   email            : "gabriele.letta@unicatt.it" 
 
