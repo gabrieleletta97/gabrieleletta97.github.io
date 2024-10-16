@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Gabriele Letta"
   pronouns         : "he/him"  
-  bio              : "PhD Student in Economics<br>&nbsp;and Finance"
+  bio              : "PhD Student in Economics and<br>&nbsp;&nbsp;&nbsp;Finance"
   location         : "Milan, Italy"
-  employer         : "Università Cattolica del Sacro<br>&nbsp;Cuore"                          
+  employer         : "Università Cattolica del Sacro<br>&nbsp;&nbsp;&nbsp;Cuore"                          
   uri              : # URL
   email            : "gabriele.letta@unicatt.it" 
 
