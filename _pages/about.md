@@ -1,12 +1,12 @@
 ---
 permalink: /
-title: "Welcome to my website"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-A data-driven personal website
+Welcome to my website
 ======
 
 
