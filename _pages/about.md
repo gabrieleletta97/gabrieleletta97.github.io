@@ -10,12 +10,12 @@ Welcome to my website
 ======
 
 
-Roman-born and raised, currently a PhD Student in Economics and Finance at Università Cattolica del Sacro Cuore, Milan (Department of Economics and Finance). 
+I am Gabriele Letta. I was born and raised in Rome, and I am currently a PhD Student in Economics and Finance at Università Cattolica del Sacro Cuore, Milan, at the Department of Economics and Finance. 
 
 MSc at Sapienza University of Rome, 2021.
 
 Policy Evaluation, Health and Public Economics.
-iting a markdown file for a talk](/images/editing-talk.png)
+
 
 Contacts
 ------
