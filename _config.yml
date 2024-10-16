@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Gabriele Letta"
   pronouns         : "he/him"  
-  bio              : "PhD Student in Economics and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finance"
+  bio              : "PhD Student in Economics and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finance"
   location         : "Milan, Italy"
-  employer         : "Università Cattolica del Sacro<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cuore"                          
+  employer         : "Università Cattolica del Sacro<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cuore"                          
   uri              : # URL
   email            : "gabriele.letta@unicatt.it" 
 
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "gabriele-letta-b0796a1b6"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "@gabriele_letta"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
