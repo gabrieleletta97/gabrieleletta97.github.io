@@ -26,7 +26,9 @@ author:
   pronouns         : "he/him"  
   bio              : "\"So little done, such things to be\""
   location         : "Milan, Italy"
-  employer         : "Università Cattolica del Sacro" | "Cuore"
+  employer: |  
+   Università Cattolica del Sacro  # This is the first line
+   Cuore                            # This is the second line
   uri              : # URL
   email            : "gabriele.letta@unicatt.it" 
 
