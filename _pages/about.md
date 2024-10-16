@@ -10,7 +10,7 @@ Welcome to my website
 ======
 
 
-I am Gabriele Letta. I was born and raised in Rome, and I am currently a PhD Student in Economics and Finance at Università Cattolica del Sacro Cuore, Milan, at the Department of Economics and Finance. 
+My name is Gabriele Letta, I was born and raised in Rome, and I am a PhD Student in Economics and Finance at Università Cattolica del Sacro Cuore, Milan, within the Department of Economics and Finance. 
 
 MSc at Sapienza University of Rome, 2021.
 
