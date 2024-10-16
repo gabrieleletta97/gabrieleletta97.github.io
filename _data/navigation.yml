@@ -11,14 +11,14 @@ main:
   - title: "CV"
     url: /cv/  
 
-  - title: "Education"
-    url: /education/  
-
   - title: "Teaching"
     url: /teaching/ 
 
   - title: "Guide"
-    url: /markdown/  
+    url: /markdown/ 
+
+  #- title: "Education"
+  #  url: /education/  
 
   #- title: "Talks"
   #  url: /talks/
