@@ -14,7 +14,7 @@ My name is Gabriele Letta, I was born and raised in Rome, and I am a PhD Student
 
 MSc at Sapienza University of Rome, 2021.
 
-Policy Evaluation, Health and Public Economics.
+**Interests**: Policy Evaluation, Health and Public Economics.
 
 
 Contacts
