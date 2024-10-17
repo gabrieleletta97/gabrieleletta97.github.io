@@ -79,6 +79,8 @@ publication_category:
     title:
   working_papers:
     title: "Working Papers"
+  work_in_progress:
+    title: "Work in Progress"
   manuscripts:
     title: 'Journal Articles' 
   other_publications:
