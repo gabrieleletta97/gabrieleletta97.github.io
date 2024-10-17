@@ -1,6 +1,5 @@
 ---
 title: "Paper Title Number 4"
-authors:
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
