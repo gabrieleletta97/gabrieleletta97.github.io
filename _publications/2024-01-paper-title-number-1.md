@@ -8,7 +8,7 @@ saw a positive effect on quarterly ARs by a value between 10-13% the average rat
 date: 2024
 venue: 'Working Paper'
 slidesurl:
-paperurl: 'http://academicpages.github.io/files/MoreTimeForUs.pdf'
+paperurl: 'http://gabriele_letta.github.io/files/MoreTimeForUs.pdf'
 citation: 'Letta, Gabriele; Salmasi, Luca; Tutati, Gilberto. (2024). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
