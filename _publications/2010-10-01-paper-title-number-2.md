@@ -1,6 +1,5 @@
 ---
 title: "Paper Title Number 2"
-authors:
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
