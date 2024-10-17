@@ -1,6 +1,6 @@
 ---
 title: "More time for us? Suspended workers, abortions and fertility: evidence from Covid-19"
-authors: Gabriele Letta, Luca Salmasi, Gilberto Turati
+authors:
 collection: publications
 category: working_papers
 permalink: /publication/MoreTimeForUs.md
