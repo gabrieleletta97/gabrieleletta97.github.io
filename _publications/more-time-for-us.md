@@ -5,7 +5,7 @@ authors: ["Gabriele Letta", "Luca Salmasi", "Gilberto Turati"]
 category: working_papers
 permalink: /publication/more-time-for-us
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2024
+date: 2024-01-01
 venue: 'Journal 1'
 paperurl: 'http://gabriele_letta.github.io/files/more-time-for-us.pdf'
 ---
