@@ -4,7 +4,7 @@ collection: publications
 authors: ["Gabriele Letta", "Claudio Lucifora", "Antonio Giampiero Russo", "Daria Vigani"]
 category: work_in_progress
 permalink: /publication/1-pascnet
-excerpt: 'Work in Progress'
+excerpt: ''
 date: 2024-01-01
 venue: 
 paperurl:
