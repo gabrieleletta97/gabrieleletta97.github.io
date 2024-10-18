@@ -3,7 +3,7 @@ title: "Inequalities in access to healthcare and mortality. An analysis of the S
 collection: publications
 authors: ["Martina Celidoni", "Gabriele Letta", "Luca Salmasi", "Gilberto Turati"]
 category: working_papers
-permalink: /publication/stroke-units
+permalink: /publication/2-stroke-units
 excerpt: ''
 date: 2024-01-01
 venue: 'Working Paper'
