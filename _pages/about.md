@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Born and raised in Rome; **PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan**, Department of Economics and Finance. 
+**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan**, Department of Economics and Finance. 
 
-MSc at Sapienza University of Rome, 2021.
+Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
 **Interests**: Policy Evaluation, Health and Public Economics.
 
