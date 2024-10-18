@@ -4,9 +4,9 @@ collection: publications
 authors: ["Gabriele Letta", "Claudio Lucifora", "Antonio Giampiero Russo", "Daria Vigani"]
 category: work_in_progress
 permalink: /publication/1-pascnet
-excerpt: ''
+excerpt: 'Work in Progress'
 date: 2024-01-01
-venue: 'Work in Progress'
+venue: 
 paperurl:
 ---
 **Keywords**: Covid-19, prestazioni ambulatoriali, sistemi sanitari, Lombardia.
