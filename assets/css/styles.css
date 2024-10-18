@@ -1,0 +1,11 @@
+.publications-page {
+    font-size: 0.9em; /* Adjust this value as needed for smaller font */
+    max-width: 800px; /* Adjust this value to extend text width */
+    margin: 0 auto; /* Centers the text block */
+    padding: 20px; /* Adds some padding around the text */
+}
+
+/* Optional: Adjust other elements within the publications page */
+.publications-page h2 {
+    font-size: 1.2em; /* Adjust heading sizes as needed */
+}
