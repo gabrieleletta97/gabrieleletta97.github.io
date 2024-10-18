@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Other"
+permalink: /other/
+author_profile: true
 ---
 
 <div class="quote">
