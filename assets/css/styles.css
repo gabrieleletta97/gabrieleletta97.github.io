@@ -8,10 +8,6 @@
 }
 
 .teaching-page {
-    font-size: 0.75em; /* Smaller font size */
+    font-size: 0.75em; /* Adjust the font size */
 }
 
-/* Optional: Adjust other elements within the publications page */
-.teaching-page h2 {
-    font-size: 0.9em; /* Adjust heading sizes as needed */
-}
