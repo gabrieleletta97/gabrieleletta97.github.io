@@ -12,6 +12,6 @@ author_profile: true
 </div>
 
 <div style="text-align: center;">
-  <img src="/images/idiotic.jpeg" alt="" style="max-width: 100%; height: auto;">
+  <img src="https://gabrieleletta97.github.io/gabriele_letta.github.io/images/idiotic.jpeg" alt="Description of the image" style="max-width: 100%; height: auto;">
 </div>
 
