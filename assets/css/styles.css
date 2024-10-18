@@ -13,7 +13,7 @@
 
 /* Increase font size for publication category headers */
 .publication-category-title {
-    font-size: 75px; /* Adjust the size as needed */
+    font-size: 75px !important; /* Adjust the size as needed */
     font-weight: bold; /* Makes the text bold */
 }
 
