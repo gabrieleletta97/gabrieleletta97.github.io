@@ -1,11 +1,11 @@
 ---
 title: "Paper Title Number 1"
 collection: publications
-authors: ["Author One", "Author Two"]
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+authors: ["Gabriele Letta", "Gilberto Turati"]
+category: working_papers
+permalink: /publication/MoreTimeForUs.md
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+date: 2024
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
