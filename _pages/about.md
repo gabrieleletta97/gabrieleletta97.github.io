@@ -11,7 +11,7 @@ MSc at Sapienza University of Rome, 2021.
 
 **Interests**: Policy Evaluation, Health and Public Economics.
 
-You may find my [CV](https://github.com/gabrieleletta97.github.io/gabriele_letta/files/CV_Letta.pdf) attached here.
+You may find my [CV](https://github.com/gabrieleletta97/gabriele_letta.github.io/files/CV_Letta.pdf) attached here.
 
 Contacts
 ------
