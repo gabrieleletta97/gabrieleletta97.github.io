@@ -7,7 +7,7 @@ permalink: /publication/1-pascnet
 excerpt: ''
 date: 2024-01-01
 venue: 'Working Paper'
-paperurl: ''
+paperurl:
 ---
 **Keywords**: Covid-19, prestazioni ambulatoriali, sistemi sanitari, Lombardia.
 
