@@ -1,20 +1,14 @@
 ---
 title: "Policy Evaluation - Macroeconomics Tutorial"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Master's degree course"
+permalink: /teaching/2-Polev1
+venue: "Università Cattolica del Sacro Cuore, Department of Economics and Finance"
+date: 2022-01-01
+location: "Milan, Italy"
 ---
+**Course**: Policy Evaluation (MSc in Economics)
 
-This is a description of a teaching experience. You can use markdown like any other post.
+**Semester**: Fall
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+**Software**: Gretl
