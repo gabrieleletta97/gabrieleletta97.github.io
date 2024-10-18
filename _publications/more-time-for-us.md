@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "More time for us? Suspended workers, abortions and fertility: evidence from Covid-19."
 collection: publications
 authors: ["Gabriele Letta", "Luca Salmasi", "Gilberto Turati"]
 category: working_papers
