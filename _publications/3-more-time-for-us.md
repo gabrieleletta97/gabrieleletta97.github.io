@@ -3,7 +3,7 @@ title: "More time for us? Suspended workers, abortions and fertility: evidence f
 collection: publications
 authors: ["Gabriele Letta", "Luca Salmasi", "Gilberto Turati"]
 category: working_papers
-permalink: /publication/more-time-for-us
+permalink: /publication/3-more-time-for-us
 excerpt: ''
 date: 2024-01-01
 venue: 'Working Paper'
