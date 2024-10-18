@@ -11,7 +11,7 @@ author_profile: true
   </blockquote>
 </div>
 
-<div class="image">
+<div style="text-align: center;">
   <img src="/images/idiotic.jpeg" alt="" style="max-width: 100%; height: auto;">
 </div>
 
