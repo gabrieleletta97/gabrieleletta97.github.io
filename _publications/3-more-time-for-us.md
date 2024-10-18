@@ -6,8 +6,8 @@ category: working_papers
 permalink: /publication/3-more-time-for-us
 excerpt: ''
 date: 2024-01-01
-venue: 'Working Paper'
-paperurl: 'https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf'
+venue: 
+paperurl: '[Working Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf)'
 ---
 [Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf)
 
