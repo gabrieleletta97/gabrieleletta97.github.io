@@ -4,10 +4,10 @@ collection: publications
 authors: ["Gabriele Letta", "Luca Salmasi", "Gilberto Turati"]
 category: working_papers
 permalink: /publication/3-more-time-for-us
-excerpt: ''
+excerpt: 'Working Paper'
 date: 2024-01-01
 venue: 
-paperurl: '[Working Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf)'
+paperurl: 'https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf'
 ---
 [Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf)
 
