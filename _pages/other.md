@@ -10,6 +10,6 @@ title: "Other"
 </div>
 
 <div class="image">
-  <img src="/images/.jpg" alt="" style="max-width: 100%; height: auto;">
+  <img src="/images/idiotic.jpeg" alt="" style="max-width: 100%; height: auto;">
 </div>
 
