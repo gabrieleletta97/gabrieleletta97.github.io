@@ -7,7 +7,60 @@ layout: default
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+   <h2 class="publication-category-title">Journal Articles</h2>
+    {% for publication in site.publications %}
+      {% if publication.category == "Journal Articles" %}
+        <p>{{ publication.title }}</p>
+      {% endif %}
+    {% endfor %}
+
+    <h2 class="publication-category-title">Working Papers</h2>
+    {% for publication in site.publications %}
+      {% if publication.category == "Working Papers" %}
+        <p>{{ publication.title }}</p>
+      {% endif %}
+    {% endfor %}
+
+    <h2 class="publication-category-title">Work in Progress</h2>
+    {% for publication in site.publications %}
+      {% if publication.category == "Work in Progress" %}
+        <p>{{ publication.title }}</p>
+      {% endif %}
+    {% endfor %}
+
+    <h2 class="publication-category-title">Other Publications</h2>
+    {% for publication in site.publications %}
+      {% if publication.category == "Other Publications" %}
+        <p>{{ publication.title }}</p>
+      {% endif %}
+    {% endfor %}
+
+    {{ content }}
+  </div>
+</div>
+
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
