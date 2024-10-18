@@ -7,8 +7,3 @@ venue: "Università Cattolica del Sacro Cuore, Milan, Italy - Department of Econ
 date: 2022-01-01
 location: "Milan, Italy"
 ---
-**Course**: Policy Evaluation (MSc in Economics)
-
-**Semester**: Fall
-
-**Software**: Gretl
