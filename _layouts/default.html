@@ -10,6 +10,7 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     <meta name="google-site-verification" content="2I7it8xIaAcIBgcuqCDs9ydZ3fp3F5z2teCq3_NLCZw" />
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
 </head>
 
 <body class="{% if page.permalink == '/publications/' %}publications-page{% elsif page.collection == 'teaching' %}teaching-page{% endif %}">
