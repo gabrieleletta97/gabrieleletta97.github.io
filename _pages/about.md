@@ -6,7 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-My name is **Gabriele Letta**, I was born and raised in Rome, and I am **PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan**, within the Department of Economics and Finance. 
+Born and raised in Rome; **PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan**, Department of Economics and Finance. 
+
 MSc at Sapienza University of Rome, 2021.
 
 **Interests**: Policy Evaluation, Health and Public Economics.
