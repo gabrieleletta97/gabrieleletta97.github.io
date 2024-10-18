@@ -17,5 +17,23 @@
     font-weight: bold; /* Makes the text bold */
 }
 
+.quote {
+    font-size: 1.5em; /* Adjust the size as needed */
+    font-style: italic; /* Italicize the quote */
+    text-align: center; /* Center the quote */
+    margin: 20px 0; /* Space around the quote */
+}
+
+.image {
+    text-align: center; /* Center the image */
+    margin: 20px 0; /* Space around the image */
+}
+
+.image img {
+    max-width: 80%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 
 
