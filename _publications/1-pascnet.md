@@ -2,11 +2,11 @@
 title: "Valutazione degli effetti indiretti dell’epidemia da Covid-19 sul sistema sanitario."
 collection: publications
 authors: ["Gabriele Letta", "Claudio Lucifora", "Antonio Giampiero Russo", "Daria Vigani"]
-category: working_papers
+category: work_in_progress
 permalink: /publication/1-pascnet
 excerpt: ''
 date: 2024-01-01
-venue: 'Working Paper'
+venue: 'Work in Progress'
 paperurl:
 ---
 **Keywords**: Covid-19, prestazioni ambulatoriali, sistemi sanitari, Lombardia.
