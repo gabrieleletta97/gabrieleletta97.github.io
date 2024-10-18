@@ -1,6 +1,6 @@
 .publications-page {
-    font-size: 0.9em; /* Adjust this value as needed for smaller font */
-    max-width: 800px; /* Adjust this value to extend text width */
+    font-size: 0.9em; /* Smaller font size */
+    max-width: 800px; /* Adjust width for longer text */
     margin: 0 auto; /* Centers the text block */
     padding: 20px; /* Adds some padding around the text */
 }
