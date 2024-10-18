@@ -1,9 +1,9 @@
 ---
 title: "Paper Title Number 1"
 collection: publications
-authors: ["Gabriele Letta", "Gilberto Turati"]
+authors: ["Gabriele Letta", "Luca Salmasi", "Gilberto Turati"]
 category: working_papers
-permalink: /publication/MoreTimeForUs.md
+permalink: /publication/MoreTimeForUs
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024
 venue: 'Journal 1'
