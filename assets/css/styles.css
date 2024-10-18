@@ -33,6 +33,14 @@
     height: auto; /* Maintain aspect ratio */
 }
 
+/* Styles for mobile devices */
+@media (max-width: 600px) {
+    .author__avatar img {
+        width: 100px; /* Adjust the size as needed */
+        height: auto;  /* Maintain aspect ratio */
+    }
+}
+
 
 
 
