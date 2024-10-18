@@ -12,14 +12,10 @@
 }
 
 /* Increase font size for publication category headers */
-h2.publication-category-title { /* Assuming your headers are <h2> elements with this class */
-    font-size: 2em; /* Adjust the size as needed */
-    margin-bottom: 1em; /* Optional: adds space below the header */
+.publication-category-title {
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold; /* Makes the text bold */
 }
 
-h3.publication-category-title { /* If you have <h3> headers */
-    font-size: 1.75em; /* Adjust the size as needed */
-    margin-bottom: 1em; /* Optional: adds space below the header */
-}
 
 
