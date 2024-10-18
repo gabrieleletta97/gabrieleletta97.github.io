@@ -14,8 +14,8 @@ main:
   - title: "Teaching"
     url: /teaching/ 
 
-  - title: "Guide"
-    url: /markdown/ 
+  # - title: "Guide"
+  #   url: /markdown/ 
 
   #- title: "Education"
   #  url: /education/  
