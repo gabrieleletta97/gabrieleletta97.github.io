@@ -3,7 +3,7 @@ title: "Management by objective and health care research: financial incentives t
 collection: publications
 authors: ["Gabriele Letta", "Luca Salmasi", "Gilberto Turati"]
 category: work_in_progress
-permalink: /publication/1-mbo
+permalink: /publication/3-mbo
 excerpt: 'Work in Progress'
 date: 2024-01-01
 venue: 
