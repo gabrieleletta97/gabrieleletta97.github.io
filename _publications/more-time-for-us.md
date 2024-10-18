@@ -4,8 +4,7 @@ collection: publications
 authors: ["Gabriele Letta", "Luca Salmasi", "Gilberto Turati"]
 category: working_papers
 permalink: /publication/more-time-for-us
-excerpt: '**Keywords**: Abortion, Covid-19, Essential sectors, Live births, Work suspension.
-**JEL Classification**: I12, I18, J13, J16.'
+excerpt: '**Keywords**: Abortion, Covid-19, Essential sectors, Live births, Work suspension.<br>**JEL Classification**: I12, I18, J13, J16.'
 date: 2024-01-01
 venue: 'Working Paper'
 paperurl: 'https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf'
