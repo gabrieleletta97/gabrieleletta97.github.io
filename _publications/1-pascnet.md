@@ -3,7 +3,7 @@ title: "Valutazione degli effetti indiretti dell’epidemia da Covid-19 sul sist
 collection: publications
 authors: ["Gabriele Letta", "Claudio Lucifora", "Antonio Giampiero Russo", "Daria Vigani"]
 category: working_papers
-permalink: /publication/more-time-for-us
+permalink: /publication/1-pascnet
 excerpt: ''
 date: 2024-01-01
 venue: 'Working Paper'
