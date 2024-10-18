@@ -30,7 +30,7 @@
     {% endif %}
 
     {% if post.date %}
-      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published on:</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> </strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time></p>
     {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
