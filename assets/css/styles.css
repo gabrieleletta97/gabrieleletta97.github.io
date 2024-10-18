@@ -12,8 +12,8 @@
 }
 
 .publication-category-title {
-    font-size: 85px; /* Adjust the size as needed */
-    font-weight: bold; /* Makes the text bold */
+    font-size: 75px !important; /* Ensure the size is applied */
+    font-weight: bold !important; /* Ensure the bold style is applied */
 }
 
 .quote {
