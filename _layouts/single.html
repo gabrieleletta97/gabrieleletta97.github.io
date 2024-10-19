@@ -51,11 +51,12 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.image %}
-           <div class="publication-image" style="text-align: center; margin: 20px 0;">
-            <img src="{{ page.image | relative_url }}" alt="Image for {{ page.title }}" style="max-width: 200px; height: auto;">
-          </div>
-        {% endif %}
+{% if page.image %}
+  <div class="publication-image" style="text-align: center; margin: 20px 0;">
+    <img src="{{ page.image | relative_url }}" alt="Image for {{ page.title }}" style="max-width: 200px; height: auto;">
+  </div>
+{% endif %}
+
 
         {% if page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
