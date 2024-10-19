@@ -7,11 +7,12 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
 <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-    <meta name="google-site-verification" content="2I7it8xIaAcIBgcuqCDs9ydZ3fp3F5z2teCq3_NLCZw" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css"> <!-- Updated to use site.baseurl -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <title>{{ page.title }}</title>
 </head>
+
 
 <body class="{% if page.permalink == '/publications/' %}publications-page{% elsif page.collection == 'teaching' %}teaching-page{% elsif page.permalink == '/other/' %}other-page{% elsif page.permalink == '/about/' %}about-page{% endif %}">
 
