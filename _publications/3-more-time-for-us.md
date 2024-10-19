@@ -8,6 +8,7 @@ excerpt: 'Working Paper'
 date: 2024-01-01
 venue: 
 paperurl: 'https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf'
+image: "https://gabrieleletta97.github.io/gabriele_letta.github.io/images/more-time-for-us.jpg"  # Path to your image
 ---
 [Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf)
 
