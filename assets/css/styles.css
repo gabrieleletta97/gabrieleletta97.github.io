@@ -41,6 +41,19 @@
     }
 }
 
+.other-page {
+    font-size: 0.85em; /* Adjust to the desired size */
+}
+
+/* Optionally, adjust the quote block size specifically on the 'Other' page */
+.other-page .quote {
+    font-size: 1.2em; /* Adjust the quote size as needed */
+}
+
+.other-page blockquote {
+    font-size: 1em; /* Adjust blockquote size */
+}
+
 
 
 
