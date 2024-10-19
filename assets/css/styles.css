@@ -1,5 +1,5 @@
 body {
-    font-size: 0.65em; /* Adjust to your preferred size */
+    font-size: 0.65em; /* General font size for the whole site */
 }
 
 @media (max-width: 600px) {
@@ -14,11 +14,12 @@ body {
     font-weight: bold; /* Ensure it's bold */
 }
 
-/* Other existing styles */
-.publications-page {
-    font-size: 0.75em; /* This will not affect category titles */
+/* Apply font size to all text inside publications-page */
+.publications-page, .publications-page * {
+    font-size: 0.65em; /* Ensure all text inside publications-page follows the body font size */
 }
 
+/* Other existing styles */
 .quote-container {
     display: flex;
     justify-content: center; /* Centers the quote horizontally */
