@@ -8,6 +8,7 @@ excerpt: ''
 date: 2024-01-01
 venue: 
 paperurl:
+image: "https://gabrieleletta97.github.io/gabriele_letta.github.io/images/pascnet_graph.jpg"  # Path to your image
 ---
 **Keywords**: Covid-19, prestazioni ambulatoriali, sistemi sanitari, Lombardia.
 
