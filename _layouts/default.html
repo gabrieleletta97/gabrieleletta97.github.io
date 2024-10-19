@@ -16,7 +16,9 @@ layout: compress
 
 <body class="{% if page.permalink == '/publications/' %}publications-page{% elsif page.collection == 'teaching' %}teaching-page{% elsif page.permalink == '/other/' %}other-page{% elsif page.permalink == '/about/' %}about-page{% endif %}">
 
+    
     <div class="profile-info">
+        <img src="{{ site.author.avatar }}" alt="Avatar of {{ site.author.name }}" class="avatar">
         <p>{{ page.pronouns }}</p>
         <p>{{ page.bio }}</p>
         <p>{{ page.location }}</p>
