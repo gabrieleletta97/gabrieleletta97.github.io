@@ -13,16 +13,15 @@ layout: compress
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
 </head>
 
+<body class="{% if page.permalink == '/publications/' %}publications-page{% elsif page.collection == 'teaching' %}teaching-page{% elsif page.permalink == '/other/' %}other-page{% endif %}">
+
     <div class="profile-info">
-    <p>{{ page.pronouns }}</p>
-    <p>{{ page.bio }}</p>
-    <p>{{ page.location }}</p>
-    <p>{{ page.employer }}</p>
-    <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-  </div>
-
-<body class="{% if page.permalink == '/publications/' %}publications-page{% elsif page.collection == 'teaching' %}teaching-page{% endif %}">
-
+        <p>{{ page.pronouns }}</p>
+        <p>{{ page.bio }}</p>
+        <p>{{ page.location }}</p>
+        <p>{{ page.employer }}</p>
+        <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+    </div>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
