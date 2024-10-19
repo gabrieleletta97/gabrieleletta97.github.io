@@ -22,12 +22,9 @@ body {
     display: flex; /* Use flexbox for centering */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
-    margin: 0 auto; /* Center the container itself */
-    max-width: 800px; /* Optional: limit the width */
 }
 
 .quote-container {
-    margin-bottom: 20px; /* Space between quote and image */
     text-align: center !important; /* Center text in the quote container */
 }
 
