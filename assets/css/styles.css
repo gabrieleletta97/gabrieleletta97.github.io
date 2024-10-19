@@ -1,6 +1,21 @@
-body {
-    font-size: 0.8em; /* Adjust to your preferred size */
+/* styles.css */
+
+html {
+    font-size: 0.8em; /* Change this value to make the text smaller or larger */
 }
+
+body {
+    font-size: inherit; /* Ensure body uses the font size defined in html */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit; /* Headings inherit from the body */
+}
+
+p {
+    font-size: inherit; /* Paragraphs inherit from the body */
+}
+
 
 @media (max-width: 600px) {
     body {
@@ -12,10 +27,6 @@ body {
     }
 }
 
-/* Other existing styles */
-.publications-page {
-    font-size: 0.75em; /* This will not affect category titles */
-}
 
 /* For specific elements like publication titles */
 .archive .publication-category-title {
