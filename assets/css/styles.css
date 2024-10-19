@@ -9,6 +9,7 @@ body {
 
 @media (max-width: 600px) {
     .avatar {
-        width: 200px !important; /* Set this to the size you want for mobile */
+        width: 250px !important; /* Increase the size for mobile */
+        height: auto; /* Maintain aspect ratio */
     }
 }
