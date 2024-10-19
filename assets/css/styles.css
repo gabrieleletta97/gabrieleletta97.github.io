@@ -13,8 +13,14 @@ body {
     }
 }
 
-.publication-category-title {
-    font-size: 2em; /* Adjust to your desired size */
-    font-weight: bold; /* Optional: make the title bold */
+/* Increase font size for publication categories */
+.archive .publication-category-title {
+    font-size: 1.5em; /* Desired size */
+    font-weight: bold; /* Ensure it's bold */
+}
+
+/* Other existing styles */
+.publications-page {
+    font-size: 0.75em; /* This will not affect category titles */
 }
 
