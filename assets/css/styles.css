@@ -1,5 +1,5 @@
 body {
-    font-size: 0.75em; /* Adjust to your preferred size */
+    font-size: 0.65em; /* Adjust to your preferred size */
 }
 
 @media (max-width: 600px) {
@@ -15,7 +15,7 @@ body {
 
 /* Increase font size for publication categories */
 .archive .publication-category-title {
-    font-size: 1.5em; /* Desired size */
+    font-size: 2em; /* Desired size */
     font-weight: bold; /* Ensure it's bold */
 }
 
