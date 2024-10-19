@@ -39,4 +39,15 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+.publication-image {
+    text-align: center; /* Center the image */
+    margin: 20px 0; /* Add some margin around the image */
+}
+
+.publication-image img {
+    max-width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 
