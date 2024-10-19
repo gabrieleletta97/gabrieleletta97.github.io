@@ -12,3 +12,9 @@ body {
         height: auto;  /* Maintain aspect ratio */
     }
 }
+
+.publication-category-title {
+    font-size: 2em; /* Adjust to your desired size */
+    font-weight: bold; /* Optional: make the title bold */
+}
+
