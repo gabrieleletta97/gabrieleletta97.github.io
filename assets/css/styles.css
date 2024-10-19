@@ -6,13 +6,9 @@ body {
 }
 
 /* Example: Adjust avatar size for mobile responsiveness */
-.avatar {
-    width: 200px; /* Change to your desired size */
-    height: auto; /* Maintain aspect ratio */
-}
 
 @media (max-width: 600px) {
     .avatar {
-        width: 150px; /* Set this to the size you want for mobile */
+        width: 200px; /* Set this to the size you want for mobile */
     }
 }
