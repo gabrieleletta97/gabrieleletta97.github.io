@@ -16,29 +16,64 @@ layout: default
   {% include sidebar.html %}
 
   <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
+    <h1 class="page__title">{{ page.title }}</h1>
 
-    {% assign categories = "Journal Articles,Working Papers,Work in Progress,Other Publications" | split: "," %}
-    
-    {% for category in categories %}
-      <div class="publications-page">
-        <h2 class="publication-category-title">{{ category }}</h2>
-        {% for publication in site.publications %}
-          {% if publication.category == category %}
-            <p>
-              <a href="{{ publication.permalink }}">{{ publication.title }}</a>
-              {% if publication.image %}
-                <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }}" style="max-width: 100%; height: auto; margin-top: 10px;">
-              {% endif %}
-            </p>
-          {% endif %}
-        {% endfor %}
-      </div>
-    {% endfor %}
-    
-    {{ content }}
+    <div class="publications-page">
+      <h2 class="publication-category-title">Journal Articles</h2>
+      {% for publication in site.publications %}
+        {% if publication.category == "Journal Articles" %}
+          <p>
+            <a href="{{ publication.permalink }}">{{ publication.title }}</a><br>
+            Authors: {{ publication.authors | join: ', ' }}<br>
+            {{ publication.date | date: "%Y" }}<br>
+            <a href="{{ publication.paperurl }}">Download Paper</a>
+          </p>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="publications-page">
+      <h2 class="publication-category-title">Working Papers</h2>
+      {% for publication in site.publications %}
+        {% if publication.category == "Working Papers" %}
+          <p>
+            <a href="{{ publication.permalink }}">{{ publication.title }}</a><br>
+            Authors: {{ publication.authors | join: ', ' }}<br>
+            {{ publication.date | date: "%Y" }}<br>
+            <a href="{{ publication.paperurl }}">Download Paper</a>
+          </p>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="publications-page">
+      <h2 class="publication-category-title">Work in Progress</h2>
+      {% for publication in site.publications %}
+        {% if publication.category == "Work in Progress" %}
+          <p>
+            <a href="{{ publication.permalink }}">{{ publication.title }}</a><br>
+            Authors: {{ publication.authors | join: ', ' }}<br>
+            {{ publication.date | date: "%Y" }}<br>
+            <a href="{{ publication.paperurl }}">Download Paper</a>
+          </p>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="publications-page">
+      <h2 class="publication-category-title">Other Publications</h2>
+      {% for publication in site.publications %}
+        {% if publication.category == "Other Publications" %}
+          <p>
+            <a href="{{ publication.permalink }}">{{ publication.title }}</a><br>
+            Authors: {{ publication.authors | join: ', ' }}<br>
+            {{ publication.date | date: "%Y" }}<br>
+            <a href="{{ publication.paperurl }}">Download Paper</a>
+          </p>
+        {% endif %}
+      {% endfor %}
+    </div>
+
   </div>
 </div>
 
