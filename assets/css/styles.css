@@ -13,3 +13,13 @@ body {
         height: auto; /* Maintain aspect ratio */
     }
 }
+
+.content-center {
+    text-align: center; /* Center-align text and inline elements */
+    margin: 0 auto; /* Center the container itself */
+    max-width: 800px; /* Set a max width for better readability */
+}
+
+.quote-container {
+    margin-bottom: 20px; /* Space between quote and image */
+}
