@@ -28,3 +28,15 @@ body {
     text-align: center !important; /* Center text in the quote container */
 }
 
+/* Center the content */
+.content-center {
+    text-align: center; /* Center text and inline elements */
+}
+
+/* Reduce image size */
+.image-container img {
+    max-width: 80%; /* Set a max width, adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
