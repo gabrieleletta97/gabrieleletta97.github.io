@@ -1,5 +1,5 @@
 body {
-    font-size: 0.65em; /* General font size for the whole site */
+    font-size: 0.8em; /* Adjust to your preferred size */
 }
 
 @media (max-width: 600px) {
@@ -8,27 +8,26 @@ body {
     }
 }
 
-/* Increase font size for publication categories */
+/* Other existing styles */
+.publications-page {
+    font-size: 0.75em; /* This will not affect category titles */
+}
+
+/* For specific elements like publication titles */
 .archive .publication-category-title {
-    font-size: 2em; /* Desired size */
+    font-size: 1.5em; /* Adjust the size for publication categories */
     font-weight: bold; /* Ensure it's bold */
 }
 
-/* Apply font size to all text inside publications-page */
-.publications-page, .publications-page * {
-    font-size: 0.65em; /* Ensure all text inside publications-page follows the body font size */
-}
-
-/* Other existing styles */
 .quote-container {
     display: flex;
-    justify-content: center; /* Centers the quote horizontally */
-    align-items: center;     /* Centers the quote vertically, if needed */
-    text-align: center;      /* Centers the text inside the blockquote */
-    margin: 40px 0;         /* Adds space around the quote */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
 }
 
 .quote blockquote {
-    font-size: 1em;        /* Adjust font size as needed */
-    margin: 0;               /* Remove default margin */
+    font-size: 1em;
+    margin: 0;
 }
