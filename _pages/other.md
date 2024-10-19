@@ -3,6 +3,7 @@ layout: default
 title: "Other"
 permalink: /other/
 author_profile: true
+classes: "other-page"  # Add this line to assign a custom class
 ---
 
 <div class="quote">
