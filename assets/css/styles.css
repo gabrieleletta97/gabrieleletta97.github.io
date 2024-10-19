@@ -1,3 +1,9 @@
 body {
     font-size: 0.75em; /* Adjust to your preferred size */
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.75em; /* Smaller size on mobile */
+    }
+}
