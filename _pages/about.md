@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan**, Department of Economics and Finance. 
+**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** - Department of Economics and Finance. 
 
 Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
