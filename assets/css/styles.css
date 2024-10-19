@@ -2,7 +2,7 @@
 
 /* Set a smaller font size for the entire website */
 body {
-    font-size: 0.75em; /* Adjust this value as needed */
+    font-size: 0.8em; /* Adjust this value as needed */
 }
 
 /* Example: Adjust avatar size for mobile responsiveness */
@@ -41,11 +41,10 @@ body {
 
 .publication-image {
     text-align: center; /* Center the image */
-    margin: 20px 0; /* Add some margin around the image */
 }
 
 .publication-image img {
-    max-width: 100%; /* Responsive width */
+    max-width: 400px; /* Responsive width */
     height: auto; /* Maintain aspect ratio */
 }
 
