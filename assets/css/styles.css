@@ -25,15 +25,15 @@ body {
 }
 
 .quote-container {
-    display: flex;                /* Use Flexbox for centering */
-    justify-content: center;      /* Center horizontally */
-    align-items: center;          /* Center vertically if needed */
-    text-align: center;           /* Center text within the quote */
-    margin: 20px 0;              /* Space above and below the quote */
+    display: flex;
+    justify-content: center; /* Centers the quote horizontally */
+    align-items: center;     /* Centers the quote vertically, if needed */
+    text-align: center;      /* Centers the text inside the blockquote */
+    margin: 40px 0;         /* Adds space around the quote */
 }
 
 .quote blockquote {
-    font-size: 1.5em;            /* Adjust font size as needed */
-    font-style: italic;           /* Italicize the quote */
-    margin: 0;                   /* Remove default margin */
+    font-size: 1em;        /* Adjust font size as needed */
+    margin: 0;               /* Remove default margin */
 }
+
