@@ -8,7 +8,7 @@ excerpt: ''
 date: 2021-01-01
 venue: 'Etica ed Economia'
 paperurl: 'https://eticaeconomia.it/eredita-universale-e-concentrazione-di-ricchezza-in-italia/'
-image: "images/gini.jpg"  # Path to your image
+image: "https://gabrieleletta97.github.io/gabriele_letta.github.io/images/gini.jpg"  # Path to your image
 ---
 [Link](https://eticaeconomia.it/eredita-universale-e-concentrazione-di-ricchezza-in-italia/)
 
