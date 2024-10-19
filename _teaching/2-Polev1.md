@@ -1,5 +1,5 @@
 ---
-title: "Policy Evaluation - Macroeconomics Tutorial"
+title: "Policy Evaluation - Macroeconometrics Tutorial"
 collection: teaching
 course_type: "Master's degree course"  # Changed from 'type'
 permalink: /teaching/2-Polev1
