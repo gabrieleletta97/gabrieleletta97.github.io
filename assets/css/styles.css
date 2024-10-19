@@ -54,6 +54,17 @@
     font-size: 0.75em; /* Adjust blockquote size */
 }
 
+.about-page {
+    font-size: 0.75em; /* Adjust to the desired size */
+}
 
+/* Optionally, adjust specific elements on the 'About' page */
+.about-page .quote {
+    font-size: 0.9em; /* Adjust the quote size as needed */
+}
+
+.about-page blockquote {
+    font-size: 0.75em; /* Adjust blockquote size */
+}
 
 
