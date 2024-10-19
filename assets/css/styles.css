@@ -15,11 +15,15 @@ body {
 }
 
 .content-center {
-    text-align: center; /* Center-align text and inline elements */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
     margin: 0 auto; /* Center the container itself */
-    max-width: 800px; /* Set a max width for better readability */
+    max-width: 800px; /* Optional: limit the width */
 }
 
 .quote-container {
     margin-bottom: 20px; /* Space between quote and image */
+    text-align: center; /* Center text in the quote container */
 }
+
