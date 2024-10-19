@@ -5,11 +5,6 @@ body {
 @media (max-width: 600px) {
     body {
         font-size: 0.75em; /* Smaller size on mobile */
-        
-    }
-    .author__avatar img {
-        width: 150px; /* Increase the size for mobile */
-        height: auto;  /* Maintain aspect ratio */
     }
 }
 
@@ -36,4 +31,3 @@ body {
     font-size: 1em;        /* Adjust font size as needed */
     margin: 0;               /* Remove default margin */
 }
-
