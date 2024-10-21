@@ -19,3 +19,5 @@ Contacts
 [gabriele.letta@unicatt.it](mailto:gabriele.letta@unicatt.it)
 
 Università Cattolica del Sacro Cuore, Via Lodovico Necchi 5, 20123 Milan (Italy)
+
+[Twitter (X)](https://x.com/gabriele_letta) - [LinkedIn](https://www.linkedin.com/in/gabriele-letta-b0796a1b6/)
