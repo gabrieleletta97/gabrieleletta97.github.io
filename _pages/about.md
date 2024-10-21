@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Gabriele Letta"
 author_profile: true
 redirect_from: 
   - /about/
