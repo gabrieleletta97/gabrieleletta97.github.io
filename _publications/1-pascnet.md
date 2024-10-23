@@ -7,7 +7,6 @@ authors:
   - name: "Claudio Lucifora"
     url: "https://docenti.unicatt.it/ppd2/en/docenti/02980/claudio-lucifora/profilo"
   - name: "Antonio Giampiero Russo"
-    url: 
   - name: "Daria Vigani"
     url: "https://scholar.google.it/citations?user=Epsb6CIAAAAJ&hl=it"
 category: work_in_progress
