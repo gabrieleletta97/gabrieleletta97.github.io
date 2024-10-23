@@ -10,7 +10,7 @@ venue: 'Etica ed Economia'
 paperurl: 'https://eticaeconomia.it/eredita-universale-e-concentrazione-di-ricchezza-in-italia/'
 image: "https://gabrieleletta97.github.io/gabriele_letta.github.io/images/gini.jpg"  # Path to your image
 ---
-[Link](https://eticaeconomia.it/eredita-universale-e-concentrazione-di-ricchezza-in-italia/)
+[Link](https://eticaeconomia.it/eredita-universale-e-concentrazione-di-ricchezza-in-italia/) (online magazine)
 
 Gabriele Letta esamina la concentrazione dei patrimoni in Italia e le potenziali implicazioni distributive di un’eredità universale. 
 Dopo una sintetica descrizione delle differenze tra i trend di concentrazione che emergono dai dati amministrativi e da quelli statistici, 
