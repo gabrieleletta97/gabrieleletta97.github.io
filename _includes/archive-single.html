@@ -27,13 +27,19 @@
       {% endif %}
     </h2>
 
- {% if post.authors %}
+{% if post.authors %}
   <p><strong>Authors:</strong>
     {% for author in post.authors %}
-      <a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}
+      {% if author.url %}
+        <a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+      {% else %}
+        {{ author.name }}
+      {% endif %}
+      {% if forloop.last == false %}, {% endif %}
     {% endfor %}
   </p>
 {% endif %}
+
 
     {% if post.venue %}
       <p><i>{{ post.venue }}</i></p>
