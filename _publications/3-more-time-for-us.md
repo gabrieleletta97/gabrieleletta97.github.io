@@ -7,7 +7,8 @@ authors:
   - name: "Luca Salmasi"
     url: "https://sites.google.com/view/luca-salmasi/home-page"
   - name: "Gilberto Turati"
-    url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"category: working_papers
+    url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
+category: working_papers
 permalink: /publication/3-more-time-for-us
 excerpt: 'Working Paper'
 date: 2024-01-01
