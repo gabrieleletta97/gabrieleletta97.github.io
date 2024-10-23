@@ -23,6 +23,7 @@ layout: default
     {% assign categories = site.data.publication_category %}
     {% for category in categories %}
       <h2>{{ category.title }}</h2>
+      {% assign found_posts = false %}
       {% for post in site.publications %}
         {% if post.category == category.name %}
           <div class="publication-entry">
@@ -46,8 +47,12 @@ layout: default
               <p><a href="{{ post.paperurl }}" class="btn">Download Paper</a></p>
             {% endif %}
           </div>
+          {% assign found_posts = true %}
         {% endif %}
       {% endfor %}
+      {% unless found_posts %}
+        <p>No publications found in this category.</p>
+      {% endunless %}
     {% endfor %}
   </div>
 </div>
