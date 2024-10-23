@@ -20,33 +20,38 @@
         <!-- Keep hyperlink for other collections -->
         {% if post.link %}
           <a href="{{ post.link }}">{{ post.title }}</a>
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+            <i class="fa fa-link" aria-hidden="true" title="permalink"></i>
+            <span class="sr-only">Permalink</span>
+          </a>
         {% else %}
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
         {% endif %}
       {% endif %}
     </h2>
 
-{% if post.authors %}
-  <p><strong>Authors:</strong>
-    {% for author in post.authors %}
-      {% if author.url %}
-        <a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
-      {% else %}
-        {{ author.name }}
-      {% endif %}
-      {% if forloop.last == false %}, {% endif %}
-    {% endfor %}
-  </p>
-{% endif %}
-
+    {% if post.authors %}
+      <p><strong>Authors:</strong>
+        {% for author in post.authors %}
+          {% if author.url %}
+            <a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+          {% else %}
+            {{ author.name }}
+          {% endif %}
+          {% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </p>
+    {% endif %}
 
     {% if post.venue %}
       <p><i>{{ post.venue }}</i></p>
     {% endif %}
 
     {% if post.date %}
-      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time></p>
+      <p class="page__date">
+        <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>
+      </p>
     {% endif %}
 
     {% if post.excerpt %}
