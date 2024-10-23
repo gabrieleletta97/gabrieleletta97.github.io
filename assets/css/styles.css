@@ -48,6 +48,15 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+/* Change the color of all links to black */
+a {
+    color: black !important; /* Set link color to black */
+    text-decoration: none; /* Optional: remove underline from links */
+}
+
+a:hover {
+    color: darkgray; /* Optional: change color on hover */
+}
 
 
 
