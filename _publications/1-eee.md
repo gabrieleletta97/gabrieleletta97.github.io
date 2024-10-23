@@ -4,6 +4,7 @@ collection: publications
 authors:
   - name: "Gabriele Letta"
     url: "https://gabrieleletta97.github.io/gabriele_letta.github.io//"
+category: other_publications
 permalink: /publication/1-eee
 excerpt: ''
 date: 2021-01-01
