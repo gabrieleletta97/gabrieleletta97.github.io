@@ -16,12 +16,15 @@ layout: compress
 <body class="{% if page.permalink == '/publications/' %}publications-page{% elsif page.collection == 'teaching' %}teaching-page{% elsif page.permalink == '/other/' %}other-page{% elsif page.permalink == '/about/' %}about-page{% endif %}">
 
     {% if page.author_profile %}
-    <div class="profile-info">
-        <p>{{ site.author.pronouns }}</p>
-        <p>{{ site.author.bio }}</p>
-        <p>{{ site.author.location }}</p>
-        <p>{{ site.author.employer }}</p>
-        <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      <div class="profile-info">
+      {% if site.author.avatar %}
+      <img src="{{ site.author.avatar | relative_url }}" alt="Profile Picture">
+      {% endif %}
+      <p>{{ site.author.pronouns }}</p>
+      <p>{{ site.author.bio }}</p>
+      <p>{{ site.author.location }}</p>
+      <p>{{ site.author.employer }}</p>
+      <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
     </div>
     {% endif %}
 
