@@ -13,7 +13,7 @@ category: work_in_progress
 permalink: /publication/1-pascnet
 excerpt: ''
 date: 2024-01-01
-venue: 
+venue: ""
 paperurl:
 image: "https://gabrieleletta97.github.io/gabriele_letta.github.io/images/pascnet_graph.png" 
 ---
