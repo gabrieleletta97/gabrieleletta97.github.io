@@ -1,7 +1,8 @@
 ---
 title: "Eredità universale e concentrazione di ricchezza in Italia."
 collection: publications
-authors: ["Gabriele Letta"]
+  - name: "Gabriele Letta"
+    url: "https://gabrieleletta97.github.io"
 category: other_publications
 permalink: /publication/1-eee
 excerpt: ''
