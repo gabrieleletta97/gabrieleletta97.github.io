@@ -12,7 +12,7 @@ category: working_papers
 permalink: /publication/3-more-time-for-us
 excerpt: 'Working Paper'
 date: 2024-01-01
-venue: 
+venue: ""
 paperurl: 'https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/more-time-for-us.pdf'
 image: "https://gabrieleletta97.github.io/gabriele_letta.github.io/images/more-time-for-us.png"  # Path to your image
 ---
