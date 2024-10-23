@@ -17,3 +17,9 @@ We investigate the effect of an Italian non-pharmaceutical policy aimed at count
 **Keywords**: Abortion, Covid-19, Essential sectors, Live births, Work suspension.
 
 **JEL Classification**: I12, I18, J13, J16.
+
+**Presented at**: 
+* *Internal seminar of the second year PhD Students in Economics and Finance (DEFAP)* (Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy - Jan 2024)
+* *Second PhD Conference in Social Sciences and Economics* (Department of Social Science and Economics, Sapienza University of Rome, Italy - Sep 2024)
+* *XXXVI SIEP Conference 2024 - Reimagining Welfare: Sustainable Paths in Public Finance* (Università degli Studi di Cagliari, Italy - Sep 2024)
+* *Internal seminar of the third year PhD Students in Economics and Finance (DEFAP)* (Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy - Oct 2024) 
