@@ -1,27 +1,54 @@
-{% if post.authors %}
-  <p><strong>Authors:</strong> 
-    {% for author in post.authors %}
-      {% if author.url %}
-        <a href="{{ author.url }}">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if page.collection == "teaching" %}
+        <!-- No hyperlink for teaching collection -->
+        {{ post.title }}
       {% else %}
-        {{ author.name }}{% if forloop.last == false %}, {% endif %}
+        <!-- Keep hyperlink for other collections -->
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ post.title }}</a>
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+        {% endif %}
       {% endif %}
-    {% endfor %}
-  </p>
-{% endif %}
+    </h2>
 
-{% if post.venue %}
-  <p><i>{{ post.venue }}</i></p>
-{% endif %}
+    {% if post.authors %}
+      <p><strong>Authors:</strong> {{ post.authors | join: ", " }}</p>
+    {% endif %}
 
-{% if post.date %}
-  <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time></p>
-{% endif %}
+    {% if post.venue %}
+      <p><i>{{ post.venue }}</i></p>
+    {% endif %}
 
-{% if post.excerpt %}
-  <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-{% endif %}
+    {% if post.date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time></p>
+    {% endif %}
 
-{% if post.paperurl %}
-  <p><a href="{{ post.paperurl }}" class="btn">Download Paper</a></p>
-{% endif %}
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% endif %}
+
+    {% if post.citation %}
+      <p>Recommended citation: {{ post.citation }}</p>
+    {% endif %}
+
+    {% if post.paperurl %}
+      <p><a href="{{ post.paperurl }}">Download Paper</a></p>
+    {% endif %}
+  </article>
+</div>
