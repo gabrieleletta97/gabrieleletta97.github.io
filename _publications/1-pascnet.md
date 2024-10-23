@@ -9,7 +9,7 @@ authors:
   - name: "Antonio Giampiero Russo"
     url: ""
   - name: "Daria Vigani"
-    url: ""
+    url: "https://scholar.google.it/citations?user=Epsb6CIAAAAJ&hl=it"
 category: work_in_progress
 permalink: /publication/1-pascnet
 excerpt: ''
