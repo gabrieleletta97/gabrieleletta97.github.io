@@ -1,66 +1,34 @@
 ---
-layout: default
+layout: archive
+title: "Research"
+permalink: /publications/
+author_profile: true
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+{% include base_path %}
 
-<div id="main" role="main">
-  {% include sidebar.html %}
-
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-
-    <!-- Display categories and publications -->
-    {% if site.publication_category %}
-      {% for category in site.publication_category %}
-        <h2>{{ category.title }}</h2>
+<!-- Check if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2>
         <hr />
-        {% assign found_posts = false %}
-        {% for post in site.publications %}
-          {% if post.category == category.name %}
-            <div class="publication-entry">
-              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-              <!-- Display clickable authors -->
-              <p>
-                {% for author in post.authors %}
-                  {% if author.url %}
-                    <a href="{{ author.url }}" target="_blank">{{ author.name }}</a>
-                  {% else %}
-                    {{ author.name }}
-                  {% endif %}
-                  {% unless forloop.last %}, {% endunless %}
-                {% endfor %}
-              </p>
-
-              <p>{{ post.excerpt }}</p>
-
-              <!-- Link to download the paper -->
-              {% if post.paperurl %}
-                <p><a href="{{ post.paperurl }}" class="btn">Download Paper</a></p>
-              {% endif %}
-            </div>
-            {% assign found_posts = true %}
-          {% endif %}
-        {% endfor %}
-        {% unless found_posts %}
-          <p>No publications found in this category.</p>
-        {% endunless %}
-      {% endfor %}
-    {% else %}
-      {% for post in site.publications %}
-        {% include archive-single.html %}
-      {% endfor %}
-    {% endif %}
-  </div>
-</div>
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
