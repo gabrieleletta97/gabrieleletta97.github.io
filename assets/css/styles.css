@@ -48,5 +48,10 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+.publication-title {
+    color: black !important; /* Use this class to target the titles */
+}
+
+
 
 
