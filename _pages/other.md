@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: "Other"
 permalink: /other/
 author_profile: true
