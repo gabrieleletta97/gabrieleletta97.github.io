@@ -24,7 +24,6 @@ Università Cattolica del Sacro Cuore, Via Lodovico Necchi 5, 20123 Milan (Italy
 
 
 
-  <div class="image-container">
-    <img src="https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/refs/heads/master/images/built-to-spill-etsy.jpg" alt="Description of the image" style="max-width: 100%; height: auto;">
-  </div>
+<div class="image-container">
+  <img src="https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/images/built-to-spill-etsy.jpg" alt="Description of the image" style="max-width: 100%; height: auto;">
 </div>
