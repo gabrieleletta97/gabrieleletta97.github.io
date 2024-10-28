@@ -1,5 +1,5 @@
 ---
-title: "Student tutorials - International Economics; Economic Policy"
+title: "Student tutorials - International Economics; Economic Policy (BSc in Scienze Economiche - Economics)"
 collection: teaching
 course_type: "Undergraduate course"  # Changed from 'type'
 permalink: /teaching/1-tutoring
