@@ -58,6 +58,12 @@ a:hover {
     color: darkgray; /* Optional: change color on hover */
 }
 
+.publication {
+    max-width: 800px; /* Change this value as needed */
+    margin: 0 auto; /* Centers the publication entries */
+    padding: 20px; /* Add some padding for better spacing */
+}
+
 
 
 
