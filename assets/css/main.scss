@@ -40,3 +40,10 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.container .header {
+    white-space: nowrap; /* Ensures titles do not wrap */
+    overflow: visible; /* Ensures full title displays */
+    text-overflow: unset; /* Removes any truncation settings */
+    width: 100%; /* Optional, ensures the title container takes full width */
+}
+
