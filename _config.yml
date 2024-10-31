@@ -9,7 +9,7 @@ title: "Gabriele Letta"
 title_separator: "-"
 name: &name "Gabriele Letta"
 description: &description "Website"
-url: "https://gabrieleletta97.github.io/gabriele_letta.github.io/" # Base URL for the site
+url: "https://gabrieleletta97.github.io" # Base URL for the site
 baseurl: "" # Use this if you deploy to a subpath, e.g., "/gabriele_letta" or leave it empty
 repository: "gabrieleletta97/gabriele_letta.github.io"
 
