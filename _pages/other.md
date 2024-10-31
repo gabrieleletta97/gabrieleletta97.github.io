@@ -16,6 +16,6 @@ classes: "other-page"
   </div>
 
   <div class="image-container">
-    <img src="https://gabrieleletta97.github.io/gabriele_letta.github.io/images/idiotic.jpeg" alt="Description of the image" style="max-width: 75%; height: auto;">
+    <img src="https://gabrieleletta97.github.io/images/idiotic.jpeg" alt="Description of the image" style="max-width: 75%; height: auto;">
   </div>
 </div>
