@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Valutazione degli effetti indiretti dell’epidemia da Covid-19 sul sistema sanitario."
 collection: publications
@@ -23,4 +24,4 @@ Nel presente studio viene studiata la risposta dei sistemi sanitari della Region
 **Keywords**: Covid-19, Prestazioni ambulatoriali, Sistemi sanitari, Lombardia.
 
 **JEL Classification**: I10, I12, I18.
-
+-->
