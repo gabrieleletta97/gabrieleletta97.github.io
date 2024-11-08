@@ -14,7 +14,7 @@ excerpt: 'Working Paper'
 date: 2024-01-01
 venue: ""
 paperurl:
-image: "https://gabrieleletta97.github.io/gabriele_letta.github.io/images/more-time-for-us.png"  # Path to your image
+image: "https://gabrieleletta97.github.io/images/more-time-for-us.png"  # Path to your image
 ---
 Drop me an e-mail for the draft.
 
