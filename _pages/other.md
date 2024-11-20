@@ -17,7 +17,7 @@ author_profile: true
   </div>  
 
 <div class="content-center">
-To Edoardo, whom I still keep close within my dearest memories
+To Edoardo, whom I still hold close within my sweetest memories
   </div>  
 
   <div class="image-container">
