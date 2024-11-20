@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "In Loving Memory"
+title: "Other"
 permalink: /other/
 author_profile: true
 ---
