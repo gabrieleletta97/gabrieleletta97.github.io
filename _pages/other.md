@@ -10,14 +10,14 @@ author_profile: true
     <div class="quote">
       <blockquote>
         <p>
-          "It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all." - Fyodor Dostoevsky
+          "It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all." - FD
         </p>
       </blockquote>
     </div>
   </div>  
 
   <p>
-    to Edo, always in my mind
+    Edo, you are always in my mind
   </p>
 
   <div class="image-container">
