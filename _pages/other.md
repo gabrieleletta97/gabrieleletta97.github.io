@@ -1,21 +1,26 @@
 ---
 layout: default
-title: "Other"
+title: "In Loving Memory"
 permalink: /other/
 author_profile: true
-classes: "other-page" 
 ---
 
 <div class="content-center">
   <div class="quote-container">
     <div class="quote">
       <blockquote>
-        <p>"It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all." - FD</p>
+        <p>
+          "It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all." - Fyodor Dostoevsky
+        </p>
       </blockquote>
     </div>
-  </div>
+  </div>  
+
+  <p>
+    to Edo, always in my mind
+  </p>
 
   <div class="image-container">
-    <img src="https://gabrieleletta97.github.io/images/idiotic.jpeg" alt="Description of the image" style="max-width: 75%; height: auto;">
+    <img src="https://gabrieleletta97.github.io/images/idiotic.jpeg" alt="[Friend's Name] photo or a symbolic image" style="max-width: 75%; height: auto;">
   </div>
 </div>
