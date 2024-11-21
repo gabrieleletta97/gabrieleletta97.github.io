@@ -32,5 +32,4 @@ We investigate the effect of an Italian non-pharmaceutical policy aimed at count
 * *Second PhD Conference in Social Sciences and Economics* (Department of Social Science and Economics, Sapienza University of Rome, Italy - Sep 2024)
 * *XXXVI SIEP Conference 2024 - Reimagining Welfare: Sustainable Paths in Public Finance* (Università degli Studi di Cagliari, Italy - Sep 2024)
 * *Internal seminar of the third year PhD Students in Economics and Finance (DEFAP)* (Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy - Oct 2024)
-* *17th UniTO-Collegio Carlo Alberto Ph.D. Workshop in Economics (Poster Session)* (Collegio Carlo Alberto – University of Turin, Turin, Italy
- - Nov 2024) 
+* *17th UniTO-Collegio Carlo Alberto Ph.D. Workshop in Economics (Poster Session)* (Collegio Carlo Alberto – University of Turin, Turin, Italy - Nov 2024) 
