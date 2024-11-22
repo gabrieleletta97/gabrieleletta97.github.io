@@ -1,5 +1,5 @@
 ---
-title: "More time for us? Suspended workers, abortions and fertility: evidence from Covid-19."
+title: "Does time at home expose vulnerability? Suspended workers, abortions and fertility."
 collection: publications
 authors:
   - name: "Gabriele Letta"
