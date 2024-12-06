@@ -221,18 +221,18 @@ permalink: /:categories/:title/
 timezone: Etc/UTC 
 
 # Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jemoji
+# plugins:
+#  - jekyll-feed
+#  - jekyll-gist
+#  - jekyll-paginate
+#  - jemoji
 
 # Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jemoji
+# whitelist:
+#  - jekyll-feed
+#  - jekyll-gist
+#  - jekyll-paginate
+#  - jemoji
 
 # Archives
 category_archive:
