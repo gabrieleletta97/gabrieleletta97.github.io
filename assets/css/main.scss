@@ -47,3 +47,14 @@
     width: 100%; /* Optional, ensures the title container takes full width */
 }
 
+
+.author__avatar img {
+    width: 200px; /* Adjust to desired size */
+    height: 200px;
+    border-radius: 50%; /* Circular appearance */
+    object-fit: cover; /* Ensures the image fills the dimensions without distortion */
+    display: block;
+    margin: 0 auto; /* Centers the avatar horizontally */
+}
+
+
