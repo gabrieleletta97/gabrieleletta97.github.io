@@ -1,5 +1,5 @@
 ---
-title: "Does time at home expose vulnerability? Suspended workers, abortions and fertility."
+title: "Suspended workers, abortions and fertility."
 collection: publications
 authors:
   - name: "Gabriele Letta"
