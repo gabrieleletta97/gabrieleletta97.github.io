@@ -32,4 +32,5 @@ We investigate the effect of an Italian job suspension policy aimed at counterac
 * *XXXVI SIEP Conference 2024 - Reimagining Welfare: Sustainable Paths in Public Finance* (Università degli Studi di Cagliari, Italy - Sep 2024)
 * *Internal seminar of the third year PhD Students in Economics and Finance (DEFAP)* (Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy - Oct 2024)
 * *17th UniTO-Collegio Carlo Alberto Ph.D. Workshop in Economics (Poster Session)* (Collegio Carlo Alberto – University of Turin, Turin, Italy - Nov 2024)
-* *PhD & Post-Doc UniMi Brown Bag Seminars* (Department of Economics, Management and Quantitative Methods, University of Milan, Italy - Dec 2024)  
+* *PhD & Post-Doc UniMi Brown Bag Seminars* (Department of Economics, Management and Quantitative Methods, University of Milan, Italy - Dec 2024)
+* *Fourth Winter Symposium in Economics and Finance* (Deparment of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy - Dec 2024)
