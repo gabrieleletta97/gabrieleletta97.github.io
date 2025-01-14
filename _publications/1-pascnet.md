@@ -6,8 +6,6 @@ authors:
     url: "https://gabrieleletta97.github.io/gabriele_letta.github.io/"
   - name: "Claudio Lucifora"
     url: "https://docenti.unicatt.it/ppd2/en/docenti/02980/claudio-lucifora/profilo"
-  - name: "Antonio Giampiero Russo"
-    url: "https://scholar.google.it/citations?user=rODwvfsAAAAJ&hl=it"
   - name: "Daria Vigani"
     url: "https://scholar.google.it/citations?user=Epsb6CIAAAAJ&hl=it"
 category: work_in_progress
