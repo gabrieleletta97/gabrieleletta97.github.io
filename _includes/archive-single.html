@@ -30,6 +30,10 @@
       {% endif %}
     </h2>
 
+    {% if post.course_type %}
+      <p><strong>Course Type:</strong> {{ post.course_type }}</p>
+    {% endif %}
+
     {% if post.authors %}
       <p><strong>Authors:</strong>
         {% for author in post.authors %}
