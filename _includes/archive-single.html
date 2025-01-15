@@ -34,6 +34,10 @@
       <p><strong>Type:</strong> {{ post.course_type }}</p>
     {% endif %}
 
+    {% if post.language %}
+      <p><strong>Language:</strong> {{ post.language }}</p>
+    {% endif %}
+
     {% if post.authors %}
       <p><strong>Authors:</strong>
         {% for author in post.authors %}
