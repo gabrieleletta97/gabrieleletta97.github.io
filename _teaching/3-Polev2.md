@@ -1,5 +1,5 @@
 ---
-title: "Policy Evaluation - Macroeconometrics Tutorial (MSc in Economics)"
+title: "Policy Evaluation - Macroeconometrics Tutorial<br>(MSc in Economics)"
 collection: teaching
 type: "Master's degree course"
 permalink: /teaching/3-Polev2
