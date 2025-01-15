@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 **PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** - Department of Economics and Finance. 
-Since the 01/01/2025, visiting student at **UB - Universidad de Barcelona**.
+Since the 01/01/2025, visiting student at **UB - Universitat de Barcelona**.
 
 Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
