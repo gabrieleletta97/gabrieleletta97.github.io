@@ -1,5 +1,5 @@
 ---
-title: "Student tutorials - International Economics; Economic Policy
+title: "Student tutorials - International Economics;<br>Economic Policy
 (BSc in Scienze Economiche - Economics)"
 collection: teaching
 course_type: "Undergraduate course"  # Changed from 'type'
@@ -8,5 +8,3 @@ venue: "Sapienza University of Rome, Italy - Department of Economics and Law"
 date: 2021-01-01
 location: "Rome, Italy"
 ---
-
-
