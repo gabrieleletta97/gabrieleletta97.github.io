@@ -9,7 +9,7 @@ authors:
   - name: "Gilberto Turati"
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
 category: working_papers
-permalink: /publication/3-more-time-for-us
+permalink: /publication/3-ivg
 excerpt: 'Working Paper'
 date: 2025-01-01
 venue: ""
