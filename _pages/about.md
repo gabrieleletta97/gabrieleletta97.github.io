@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 **PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** - Department of Economics and Finance. <br>
-Visiting student at **UB - Universitat de Barcelona**, starting from 01/02/2025.
+Currently visiting student at **UB - Universitat de Barcelona**, since 01/02/2025.
 
 Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
@@ -20,6 +20,7 @@ Contacts
 [gabriele.letta@unicatt.it](mailto:gabriele.letta@unicatt.it)
 
 Università Cattolica del Sacro Cuore, Via Lodovico Necchi 5, 20123 Milan (Italy)
+Universitat de Barcelona, Faculty of Economics and Business, Office 309, C. de JM Keynes 1-11, 08034, Barcelona
 
 [Twitter (X)](https://x.com/gabriele_letta) - [LinkedIn](https://www.linkedin.com/in/gabriele-letta-b0796a1b6/)
 
