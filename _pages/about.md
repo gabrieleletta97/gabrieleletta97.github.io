@@ -21,7 +21,7 @@ Contacts
 
 Università Cattolica del Sacro Cuore, Via Lodovico Necchi 5, 20123 Milan (Italy)
 
-Universitat de Barcelona, Faculty of Economics and Business, Office 309, C. de JM Keynes 1-11, 08034, Barcelona
+Universitat de Barcelona, Faculty of Economics and Business, Office 309, C. de JM Keynes 1-11, 08034, Barcelona (Spain)
 
 [Twitter (X)](https://x.com/gabriele_letta) - [LinkedIn](https://www.linkedin.com/in/gabriele-letta-b0796a1b6/)
 
