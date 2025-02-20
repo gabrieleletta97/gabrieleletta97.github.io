@@ -1,5 +1,5 @@
 ---
-title: "Management by objective and health care research: financial incentives to physicians’ publications."
+title: "Monetary incentives versus public funding in healthcare research: what matters the most?"
 collection: publications
 authors:
   - name: "Gabriele Letta"
