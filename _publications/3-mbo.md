@@ -14,7 +14,7 @@ excerpt: ''
 date: 2024-01-01
 venue: ""
 paperurl:
-image: "https://gabrieleletta97.github.io/images/ES_inactive_OLS_nolab.png"  # Path to your image
+image: "https://gabrieleletta97.github.io/images/Avg_ts.png"  # Path to your image
 ---
 **Keywords**: Healthcare management, medical research, financial incentives, physicians, publications.
 
