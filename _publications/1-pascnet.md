@@ -9,21 +9,12 @@ authors:
   - name: "Daria Vigani"
     url: "https://scholar.google.it/citations?user=Epsb6CIAAAAJ&hl=it"
   - name: "Luca Cavalieri d’Oro"
-    url:
-  - name: "Claudio Lucifora"
-    url: 
   - name: "Anna Clara Fanetti"
-    url:
   - name: "Giovanni Maifredi"
-    url:
   - name: "Pietro Perotti"
-    url: 
   - name: "Marco Villa"
-    url:
   - name: "Alberto Zucchi"
-    url:
   - name: "Antonio Russo"
-    url: 
 category: working_papers
 permalink: /publication/1-pascnet
 excerpt: ''
