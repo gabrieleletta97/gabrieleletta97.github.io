@@ -20,7 +20,7 @@ permalink: /publication/1-pascnet
 excerpt: ''
 date: 2025-01-01
 venue: "Working Paper n. 1-2025"
-paperurl:"https://centridiricerca.unicatt.it/crilda-Pascnet_WP_1_2025.pdf"
+paperurl: "https://centridiricerca.unicatt.it/crilda-Pascnet_WP_1_2025.pdf"
 image: "https://gabrieleletta97.github.io/images/pascnet_graph.png" 
 ---
 Nel presente studio vengono analizzati gli effetti indiretti della diffusione dell’epidemia da
