@@ -13,7 +13,7 @@ authors:
 category: work_in_progress
 permalink: /publication/2-stroke-units
 excerpt: ''
-date: 2024-01-01
+date: 
 venue: ""
 paperurl:
 image: "https://gabrieleletta97.github.io/images/su_ita.png"  # Path to your image
