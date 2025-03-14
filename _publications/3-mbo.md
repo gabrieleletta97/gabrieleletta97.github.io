@@ -11,7 +11,7 @@ authors:
 category: work_in_progress
 permalink: /publication/3-mbo
 excerpt: ''
-date: 2024-01-01
+date: 
 venue: ""
 paperurl:
 image: "https://gabrieleletta97.github.io/images/Avg_ts.png"  # Path to your image
