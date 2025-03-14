@@ -35,4 +35,5 @@ We investigate the effect of an Italian job suspension policy aimed at counterac
 * *PhD & Post-Doc UniMi Brown Bag Seminars* (Department of Economics, Management and Quantitative Methods, University of Milan, Italy - Dec 2024)
 * *Fourth Winter Symposium in Economics and Finance* (Deparment of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy - Dec 2024)
 * *UB School of Economics PhD Seminars* (School of Economics, University of Barcelona, Barcelona, Spain - Feb 2025)
+* *1st Workshop IdEP in Sustainable Economics* (Institute of Economics, Università della Svizzera italiana (USI), Airolo, Switzerland - Mar 2025)
 
