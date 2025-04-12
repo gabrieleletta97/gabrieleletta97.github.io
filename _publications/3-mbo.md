@@ -13,7 +13,7 @@ permalink: /publication/3-mbo
 excerpt: ''
 venue: ""
 paperurl:
-image: "https://gabrieleletta97.github.io/images/Avg_ts.png"  # Path to your image
+image: "https://gabrieleletta97.github.io/images/ES_pub2018_IRCCS2.png"  # Path to your image
 ---
 **Keywords**: Healthcare management, medical research, financial incentives, physicians, publications.
 
