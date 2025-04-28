@@ -17,7 +17,7 @@ paperurl: "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.gith
 image: "https://gabrieleletta97.github.io/images/ES_inactive_OLS_nolab.png"  # Path to your image
 ---
 
-[[Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/WP_IVG_Letta_Salmasi_Turati.pdf)]
+[[Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/WP_IVG_Letta_Salmasi_Turati_new.pdf)]
 
 
 We investigate the effect of an Italian job suspension policy aimed at counteracting the spread of Covid-19 on the fertility patterns of Italian women, with a focus on abortions (VPTs). In March 2020, the government forbade a set of “non-essential” activities; hence, we exploit the variability in the share of suspended workers across Italian municipalities to assess the impact of closures on abortion rates (AR), and pregnancy rates turning into live births 9 months later. Relying on outstanding administrative data on VPTs and births, we find that, the overall drops in abortions due to social distancing notwithstanding, municipalities in the fourth quartile of the suspended workers’ distribution saw a positive effect on quarterly ARs (between 10-13% the average pre-pandemic rate), compared to those belonging to the lower tail; the impact is mostly driven by industrial suspensions. A non-significant effect is retrieved on births. We employ socio-economic information to inquire about potential mechanisms. Plus, for the first time in the research with the same data, we exploit information on past reproductive behavior of the aborting women. The effect on abortions is driven mostly by married women, not in professional condition. Plus, and more interestingly, by those who previously had pregnancies (1 or 2 children). By contrast, the occupational sector of the aborting women is independent on the sector of the job suspension share, while the industrial sector-driven effect linked to married women OLF hints that, for those who seek for abortion, male partners’ work trajectories matter more than theirs in the context of such decision-making process, thus revealing potential mechanisms for the exposure of gender imbalances within the impacted couples. 
@@ -36,4 +36,5 @@ We investigate the effect of an Italian job suspension policy aimed at counterac
 * *Fourth Winter Symposium in Economics and Finance* (Deparment of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy - Dec 2024)
 * *UB School of Economics PhD Seminars* (School of Economics, University of Barcelona, Barcelona, Spain - Feb 2025)
 * *1st Workshop IdEP in Sustainable Economics* (Institute of Economics, Università della Svizzera italiana (USI), Airolo, Switzerland - Mar 2025)
-
+* *2nd Verona Early Career Workshop in Economics* (Department of Economics - University of Verona, Verona, Italy - Accepted - May 2025)
+* *BSE PhD Jamboree 2025* (Barcelona School of Economics - UPF and UAB - Barcelona, Spain - Accepted - May 2025)
