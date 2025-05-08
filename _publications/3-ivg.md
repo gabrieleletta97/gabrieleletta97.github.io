@@ -13,7 +13,7 @@ permalink: /publication/3-ivg
 excerpt: 'Working Paper'
 date: 2025-01-01
 venue: ""
-paperurl: "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/WP_IVG_Letta_Salmasi_Turati.pdf"
+paperurl: "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/WP_IVG_Letta_Salmasi_Turati_new.pdf"
 image: "https://gabrieleletta97.github.io/images/ES_inactive_OLS_nolab.png"  # Path to your image
 ---
 
