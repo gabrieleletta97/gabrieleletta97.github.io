@@ -15,6 +15,6 @@ venue: ""
 paperurl:
 image: "https://gabrieleletta97.github.io/images/ES_IRCCS2_various.png"  # Path to your image
 ---
-**Keywords**: Healthcare management, Medical research, Financial incentives, Management-By-Objective, Public funding to research.
+**Keywords**: Healthcare management, Medical research, Monetary incentives, Management-By-Objective, Public funding to research.
 
 **JEL Classification**: I10, I23.
