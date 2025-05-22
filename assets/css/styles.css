@@ -107,13 +107,13 @@ a:hover {
 /* Usa questo blocco per ridurre il font in /publications/ */
 body.publications-page .archive,
 body.publications-page .archive * {
-    font-size: 11px !important;
+  font-size: 13px !important;
 }
 
 body.publications-page .archive {
-    max-width: 1400px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 
