@@ -166,3 +166,43 @@ body.publications-page h2:not(.archive__item-title) + hr {
   max-width: 700px;
   height: auto;
 }
+
+/* ---------- Teaching Page Specific ---------- */
+body.teaching-page .archive,
+body.teaching-page .archive * {
+  font-size: 16px !important;
+}
+
+body.teaching-page .archive {
+  max-width: 1700px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 260px;
+  padding-right: 10px;
+}
+
+/* Titolo principale della pagina */
+body.teaching-page h1.page__title {
+  font-size: 25px !important;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Eventuali sottosezioni nella pagina teaching */
+body.teaching-page h2:not(.archive__item-title) {
+  font-size: 20px !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+body.teaching-page h2:not(.archive__item-title) + hr {
+  border: none;
+  border-top: 3px solid #000;
+  margin-bottom: 30px;
+}
+
