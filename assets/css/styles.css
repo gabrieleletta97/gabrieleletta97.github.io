@@ -1,23 +1,37 @@
-/* styles.css */
+/* ---------- Base Typography ---------- */
 
-/* Set a smaller font size for the entire website */
 body {
     font-size: 18px;
     line-height: 1.6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
+/* ---------- Link Styling ---------- */
 
+a {
+    color: black !important;
+    text-decoration: none;
+}
 
-/* Example: Adjust avatar size for mobile responsiveness */
+a:hover {
+    color: darkgray;
+}
 
+/* ---------- Avatar Image (responsive) ---------- */
+
+.avatar {
+    width: 250px;
+    height: auto;
+}
 
 @media (max-width: 600px) {
     .avatar {
-        width: 300px !important; /* Increase the size for mobile */
-        height: auto; /* Maintain aspect ratio */
+        width: 300px !important;
+        height: auto;
     }
 }
+
+/* ---------- Centering Utilities ---------- */
 
 .content-center {
     display: flex;
@@ -26,50 +40,72 @@ body {
     text-align: center;
 }
 
-
 .quote-container {
-    text-align: center !important; /* Center text in the quote container */
+    text-align: center !important;
 }
 
+/* ---------- Inline Images (general) ---------- */
 
-
-/* Reduce image size */
 .image-container img {
-    max-width: 80%; /* Set a max width, adjust as needed */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 80%;
+    height: auto;
+}
+
+/* ---------- Publication Layout (side-by-side image) ---------- */
+
+.archive__item--side-by-side {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.archive__item-content {
+    flex: 1;
+    min-width: 250px;
+}
+
+.archive__item-image {
+    flex: 0 0 200px;
+    max-width: 200px;
+}
+
+.archive__item-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* ---------- Responsive: stack image below on small screens ---------- */
+
+@media (max-width: 768px) {
+    .archive__item--side-by-side {
+        flex-direction: column;
+    }
+
+    .archive__item-image {
+        max-width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
+
+/* ---------- Full Publication Page Layout ---------- */
+
+.publication {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .publication-image {
-    text-align: center; /* Center the image */
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .publication-image img {
-    max-width: 400px; /* Responsive width */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 400px;
+    height: auto;
 }
-
-/* Change the color of all links to black */
-a {
-    color: black !important; /* Set link color to black */
-    text-decoration: none; /* Optional: remove underline from links */
-}
-
-a:hover {
-    color: darkgray; /* Optional: change color on hover */
-}
-
-.publication {
-    max-width: 800px; /* Change this value as needed */
-    margin: 0 auto; /* Centers the publication entries */
-    padding: 20px; /* Add some padding for better spacing */
-}
-
-
-
-
-
-
-
-
-
-
