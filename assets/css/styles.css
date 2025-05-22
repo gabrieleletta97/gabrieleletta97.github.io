@@ -62,27 +62,28 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 30px;
+    gap: 50px;
     margin-bottom: 2rem;
     flex-wrap: wrap;
 }
 
 .archive__item-content {
-    flex: 1 1 58%;
+    flex: 1 1 60%;
     min-width: 250px;
 }
 
 .archive__item-image {
-    flex: 1 1 90%;
-    padding-left: 40px;
+    flex: 1 1 35%;
+    padding-left: 20px;
 }
 
 .archive__item-image img {
-    width: 200%;
+    width: 100%; /* usa tutto lo spazio disponibile */
     height: auto;
     border-radius: 4px;
     display: block;
 }
+
 
 /* ---------- Responsive: stack image below on small screens ---------- */
 @media (max-width: 768px) {
@@ -118,3 +119,11 @@ a:hover {
     max-width: 700px;
     height: auto;
 }
+
+body.page-publications .page__content {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px; /* leggermente ridotto come richiesto */
+}
+
