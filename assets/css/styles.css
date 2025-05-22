@@ -97,9 +97,10 @@ a:hover {
     padding: 20px;
 }
 
-.page__content.publications {
+.page {
     max-width: 1200px;
 }
+
 
 .publication-image {
     text-align: center;
