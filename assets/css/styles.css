@@ -104,12 +104,14 @@ a:hover {
     padding: 20px;
 }
 
-.page__content.publications {
-    font-size: 12px;
+/* Usa questo blocco per ridurre il font in /publications/ */
+body.page-publications .archive {
+    font-size: 11px;
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
+
 
 .publication-image {
     text-align: center;
