@@ -7,13 +7,13 @@ body {
 
 /* ---------- Page Width ---------- */
 .page {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 /* ---------- Font ridotto solo per pagina pubblicazioni ---------- */
 body.page-publications .page__content {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 /* ---------- Link Styling ---------- */
@@ -28,7 +28,7 @@ a:hover {
 
 /* ---------- Avatar Image (responsive) ---------- */
 .avatar {
-    width: 250px;
+    width: 300px;
     height: auto;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 
 /* ---------- Generic Inline Images ---------- */
 .image-container img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -62,7 +62,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 20px;
+    gap: 30px;
     margin-bottom: 2rem;
     flex-wrap: wrap;
 }
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .archive__item-image {
-    flex: 1 1 70%;
+    flex: 1 1 90%;
     padding-left: 40px;
 }
 
