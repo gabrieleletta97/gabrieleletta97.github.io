@@ -14,11 +14,16 @@ main:
   - title: "Presentations"
     url: /presentations/
 
+  - title: "Milan PhD Workshop"
+    url: /workshop/
+
   - title: "Teaching"
-    url: /teaching/ 
+    url: /teaching/
 
   - title: "Other"
     url: /other/ 
+
+  
 
   # - title: "Guide"
   #   url: /markdown/ 
