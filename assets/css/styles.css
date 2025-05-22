@@ -123,8 +123,8 @@ body.publications-page .archive {
 }
 
 /* ---------- Titoli sezioni (Working Papers, ecc.) ---------- */
-.publications-page h2 {
-  font-size: 24px;
+.publications-page h2, {
+  font-size: 30px !important;
   font-weight: 700;
   letter-spacing: 0.5px;
   margin-top: 40px;
