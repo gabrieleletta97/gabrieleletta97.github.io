@@ -15,8 +15,9 @@ and the the 3rd edition ([2025](https://sites.google.com/d/1gpePywgspacInEXpqUsC
 ### 🔗 Milan PhD Economics Workshop - 3rd Edition <br>
 25th June 2025 - Università Cattolica del Sacro Cuore, Milan
 
-<div style="margin-top: 20px; text-align: center;">
-  <a href="https://sites.google.com/view/milanphdeconworkshop/home" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #000; color: #fff; font-weight: bold; border-radius: 8px; text-decoration: none;">
-    Go to 2025 Workshop Website →
-  </a>
-</div>
+<a href="https://sites.google.com/view/milanphdeconworkshop/home"
+   target="_blank"
+   class="button-link">
+   Go to Workshop Website →
+</a>
+
