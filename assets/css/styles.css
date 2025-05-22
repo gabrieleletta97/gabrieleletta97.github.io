@@ -13,7 +13,7 @@ body {
   width: 100%;
   margin: 0 auto;
   padding-left: 260px;       /* ← rimosso lo spostamento globale */
-  padding-right:20px;
+  padding-right:0;
 }
 
 /* ---------- Link Styling ---------- */
