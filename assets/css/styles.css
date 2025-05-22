@@ -254,3 +254,9 @@ body.presentations-page h3 {
   font-weight: bold;
 }
 
+a.button-link,
+a[style*="background-color"] {
+  color: white !important;
+}
+
+
