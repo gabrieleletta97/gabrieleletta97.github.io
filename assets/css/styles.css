@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    padding-left: 280px; /* Sposta verso destra per evitare la sidebar */
+    padding-left: 400px; /* Sposta verso destra per evitare la sidebar */
 }
 
 /* ---------- Page Width ---------- */
@@ -110,7 +110,7 @@ a:hover {
 /* Usa questo blocco per ridurre il font in /publications/ */
 body.publications-page .archive,
 body.publications-page .archive * {
-  font-size: 13px !important;
+  font-size: 14px !important;
 }
 
 body.publications-page .archive {
