@@ -1,0 +1,62 @@
+---
+layout: archive
+title: "Presentations"
+permalink: /presentations/
+author_profile: true
+classes: presentations-page
+---
+
+### 2025
+
+**UPF Student Seminar Series (Upcoming)** <br>
+Universitat Pompeu Fabra - Department of Economics and Business, Barcelona, Spain <br>
+*May 2025*
+
+**BSE PhD Jamboree 2025** <br>
+Barcelona School of Economics - Universitat Pompeu Fabra and Universitat Autonoma de Barcelona, Barcelona, Spain <br>
+*May 2025*
+
+**2nd Verona Early Career Workshop in Economics** <br>
+Department of Economics - University of Verona, Italy  <br>
+*May 2025*
+
+**1st Workshop IdEP in Sustainable Economics (WISE)** <br>
+Institute of Economics, Università della Svizzera italiana (USI), Airolo, Switzerland <br>
+*Mar 2025*
+
+**UB School of Economics PhD Seminars** <br>
+School of Economics, University of Barcelona, Spain  <br>
+*Feb 2025*
+
+---
+
+### 2024
+
+**4th Winter Symposium in Economics and Finance** <br>
+Deparment of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
+*Dec 2024*
+
+**PhD & Post-Doc UniMi Brown Bag Seminars** <br>
+Department of Economics, Management and Quantitative Methods, University of Milan, Italy <br>
+*Dec 2024*
+
+**17th UniTO-Collegio Carlo Alberto Ph.D. Workshop in Economics (Poster Session)** <br>
+Collegio Carlo Alberto – University of Turin, Turin, Italy <br>
+*Nov 2024*
+
+**Internal seminar of the 3rd year PhD Students in Economics and Finance (DEFAP)** <br>
+Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
+*Oct 2024*
+
+**XXXVI SIEP Conference 2024 - Reimagining Welfare: Sustainable Paths in Public Finance** <br>
+Italian Society of Public Economics - Università degli Studi di Cagliari, Italy <br>
+*Sep 2024*
+
+**2nd PhD Conference in Social Sciences and Economics** <br>
+Department of Social Science and Economics, Sapienza University of Rome, Italy <br>
+*Sep 2024*
+
+**Internal seminar of the 2nd year PhD Students in Economics and Finance (DEFAP)** <br>
+Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
+*Jan 2024*
+
