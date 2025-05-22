@@ -73,10 +73,11 @@ a:hover {
 
 /* Testo del paper */
 .archive__item-content {
-  flex: 1 1 90%;
-  min-width: 700px;
-  max-width: 1500px;
+  flex: 1 1 82%;
+  min-width: 480px;
+  max-width: 1000px;
 }
+
 
 /* Immagine del paper accanto al testo */
 .archive__item-image {
