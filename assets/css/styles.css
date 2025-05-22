@@ -2,8 +2,12 @@
 
 /* Set a smaller font size for the entire website */
 body {
-    font-size: 1em; /* Adjust this value as needed */
+    font-size: 1em;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
 }
+
 
 /* Example: Adjust avatar size for mobile responsiveness */
 
