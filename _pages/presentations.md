@@ -49,7 +49,7 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 *Oct 2024*
 
 **XXXVI SIEP Conference 2024 - Reimagining Welfare: Sustainable Paths in Public Finance** <br>
-Università degli Studi di Cagliari, Italy <br>
+Italian Society of Public Economics - Università degli Studi di Cagliari, Italy <br>
 *Sep 2024*
 
 **2nd PhD Conference in Social Sciences and Economics** <br>
