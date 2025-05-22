@@ -123,6 +123,16 @@ body.publications-page .archive {
 }
 
 /* ---------- Titolo principale della pagina ("Research") ---------- */
+body.publications-page .archive__title {
+  font-size: 30px !important;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
 body.publications-page h1.archive__title {
   font-size: 30px !important;
   font-weight: 800;
