@@ -207,3 +207,7 @@ body.teaching-page h2:not(.archive__item-title) + hr {
   margin-bottom: 30px;
 }
 
+.teaching-page .archive__item-content {
+  max-width: 1200px;
+}
+
