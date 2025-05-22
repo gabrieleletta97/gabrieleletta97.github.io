@@ -152,7 +152,7 @@ body.publications-page .archive {
   max-width: 1700px;  /* o anche 1600px */
   width: 100%;
   margin: 0 auto;
-  padding-left: 260px;
+  padding-left: 300px;
   padding-right: 10px;
 }
 
@@ -205,7 +205,7 @@ body.teaching-page .archive {
   max-width: 1700px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 260px;
+  padding-left: 300px;
   padding-right: 10px;
 }
 
@@ -243,7 +243,7 @@ body.presentations-page .archive {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 260px;
+  padding-left: 300px;
   padding-right: 30px;
 }
 
