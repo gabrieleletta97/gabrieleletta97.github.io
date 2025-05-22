@@ -132,7 +132,7 @@ body.publications-page .archive {
 
 /* ---------- Titolo principale della pagina ("Research") ---------- */
 body.publications-page h1.page__title {
-  font-size: 28px !important;
+  font-size: 25px !important;
   font-weight: 800;
   letter-spacing: 0.5px;
   line-height: 1.2;
