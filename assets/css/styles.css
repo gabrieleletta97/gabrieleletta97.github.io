@@ -53,7 +53,6 @@ a:hover {
   margin-top: 5px;
 }
 
-
 /* ---------- Mobile responsive ---------- */
 @media (max-width: 600px) {
   .sidebar {
@@ -85,7 +84,6 @@ a:hover {
 }
 
 /* ---------- Publication List Layout: Side-by-side ---------- */
-/* ---------- Publication List Layout: testo a sinistra, immagine a destra ---------- */
 .archive__item--side-by-side {
   display: flex;
   flex-direction: row;
@@ -98,14 +96,11 @@ a:hover {
   flex-wrap: nowrap;
 }
 
-/* Testo del paper */
 .archive__item-content {
   flex: 1 1 82%;
   min-width: 480px;
 }
 
-
-/* Immagine del paper accanto al testo */
 .archive__item-image {
   flex: 0 0 400px;
   max-width: 400px;
@@ -122,8 +117,6 @@ a:hover {
   display: block;
 }
 
-
-/* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .archive__item--side-by-side {
     flex-direction: column;
@@ -141,85 +134,33 @@ a:hover {
   }
 }
 
-/* ---------- Publication Page Specific ---------- */
+/* ---------- Page-Specific Layouts ---------- */
+body.publications-page .archive,
 body.teaching-page .archive,
-body.teaching-page .archive * {
-  font-size: 16px !important;
-  line-height: 1.5;
-}
-
-body.publications-page .archive {
-  max-width: 1700px;  /* o anche 1600px */
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 300px;
-  padding-right: 10px;
-}
-
-
-/* ---------- Titolo principale della pagina ("Research") ---------- */
-body.publications-page h1.page__title {
-  font-size: 25px !important;
-  font-weight: 800;
-  letter-spacing: 0.5px;
-  line-height: 1.2;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-
-
-/* ---------- Titoli sezioni ("Working Papers", ecc.) ---------- */
-body.publications-page h2:not(.archive__item-title) {
-  font-size: 20px !important;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-
-body.publications-page h2:not(.archive__item-title) + hr {
-  border: none;
-  border-top: 3px solid #000;
-  margin-bottom: 30px;
-}
-
-/* ---------- Full Publication Image ---------- */
-.publication-image {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.publication-image img {
-  max-width: 700px;
-  height: auto;
-}
-
-/* ---------- Teaching Page Specific ---------- */
-body.teaching-page .archive,
-body.teaching-page .archive * {
-  font-size: 16px !important;
-}
-
-body.teaching-page .archive {
+body.presentations-page .archive {
   max-width: 1700px;
   width: 100%;
   margin: 0 auto;
   padding-left: 300px;
-  padding-right: 10px;
+  padding-right: 30px;
 }
 
-/* Titolo principale della pagina */
-body.teaching-page h1.page__title {
-  font-size: 25px !important;
+body.publications-page .archive *,
+body.teaching-page .archive *,
+body.presentations-page .archive * {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body.publications-page h1.page__title,
+body.teaching-page h1.page__title,
+body.presentations-page h1.page__title {
+  font-size: 28px;
   font-weight: 800;
-  letter-spacing: 0.5px;
-  line-height: 1.2;
-  margin-top: 20px;
   margin-bottom: 40px;
 }
 
-/* Eventuali sottosezioni nella pagina teaching */
+body.publications-page h2:not(.archive__item-title),
 body.teaching-page h2:not(.archive__item-title) {
   font-size: 20px !important;
   font-weight: 700;
@@ -228,34 +169,11 @@ body.teaching-page h2:not(.archive__item-title) {
   margin-bottom: 10px;
 }
 
+body.publications-page h2:not(.archive__item-title) + hr,
 body.teaching-page h2:not(.archive__item-title) + hr {
   border: none;
   border-top: 3px solid #000;
   margin-bottom: 30px;
-}
-
-.teaching-page .archive__item-content {
-  max-width: 1200px;
-}
-
-/* ---------- Presentations Page Layout ---------- */
-body.presentations-page .archive {
-  max-width: 1400px;
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 300px;
-  padding-right: 30px;
-}
-
-body.presentations-page .archive * {
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-body.presentations-page h1.page__title {
-  font-size: 28px;
-  font-weight: 800;
-  margin-bottom: 40px;
 }
 
 body.presentations-page h3 {
@@ -265,22 +183,14 @@ body.presentations-page h3 {
   padding-bottom: 5px;
 }
 
-/* Workshop page custom */
+/* ---------- Workshop page custom ---------- */
 .workshop-page h1.page__title {
   font-size: 30px;
   font-weight: 800;
   margin-bottom: 20px;
 }
 
-.workshop-page a.button-link {
-  padding: 12px 24px;
-  background-color: #000;
-  color: #fff !important;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
+.workshop-page a.button-link,
 a.button-link {
   display: inline-block;
   padding: 12px 24px;
@@ -290,6 +200,3 @@ a.button-link {
   border-radius: 8px;
   text-decoration: none;
 }
-
-
-
