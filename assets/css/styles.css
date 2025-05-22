@@ -62,9 +62,10 @@ a:hover {
 }
 
 .archive__item-image {
-    flex: 1 1 35%;
-    max-width: 35%;
+    flex: 1 1 45%;
+    max-width: 500px;
 }
+
 
 .archive__item-image img {
     width: 100%;
