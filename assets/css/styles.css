@@ -115,7 +115,7 @@ a:hover {
 /* ---------- Publication Page Specific ---------- */
 body.publications-page .archive,
 body.publications-page .archive * {
-  font-size: 16px !important;
+  font-size: 15px !important;
 }
 
 body.publications-page .archive {
