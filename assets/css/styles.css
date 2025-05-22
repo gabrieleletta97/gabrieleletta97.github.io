@@ -123,11 +123,12 @@ body.publications-page .archive {
 }
 
 /* ---------- Titoli sezioni (Working Papers, ecc.) ---------- */
-.publications-page .page__title {
+.publications-page .archive__title {
   font-size: 42px !important;
   font-weight: 700;
   margin-bottom: 30px;
 }
+
 
 .publications-page h2 {
   font-size: 30px !important;
