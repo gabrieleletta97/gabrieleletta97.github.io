@@ -7,9 +7,6 @@ body {
 
 /* Example: Adjust avatar size for mobile responsiveness */
 
-.avatar {
-    width: 250px !important; /* Increase avatar size */
-}
 
 @media (max-width: 600px) {
     .avatar {
