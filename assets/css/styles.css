@@ -60,13 +60,14 @@ a:hover {
 }
 
 .archive__item-content {
-    flex: 1 1 50%;
+    flex: 1 1 65%;
     min-width: 250px;
 }
 
 .archive__item-image {
-    flex: 1 1 50%;
-    max-width: none;
+    flex: 1 1 40%;
+    max-width: 300px;
+    padding-left: 10px;
 }
 
 .archive__item-image img {
@@ -75,6 +76,7 @@ a:hover {
     border-radius: 4px;
     display: block;
 }
+
 
 /* ---------- Responsive: stack image below on small screens ---------- */
 @media (max-width: 768px) {
