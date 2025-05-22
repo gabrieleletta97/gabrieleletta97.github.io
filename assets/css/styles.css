@@ -53,7 +53,7 @@ a:hover {
 
 /* ---------- Generic Inline Images ---------- */
 .image-container img {
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
 }
 
@@ -81,8 +81,8 @@ a:hover {
 
 /* Immagine del paper accanto al testo */
 .archive__item-image {
-  flex: 0 0 250px;
-  max-width: 250px;
+  flex: 0 0 300px;
+  max-width: 300px;
   align-self: center;
   padding-left: 0;
   margin-top: 0;
