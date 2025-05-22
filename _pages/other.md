@@ -19,6 +19,6 @@ author_profile: true
 
 
   <div class="image-container">
-    <img src="https://gabrieleletta97.github.io/images/idiotic.jpeg" alt="[Friend's Name] photo or a symbolic image" style="max-width: 50%; height: auto;">
+    <img src="https://gabrieleletta97.github.io/images/idiotic.jpeg" alt="[Friend's Name] photo or a symbolic image" style="max-width: 75%; height: auto;">
   </div>
 </div>
