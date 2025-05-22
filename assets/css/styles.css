@@ -26,32 +26,33 @@ a:hover {
   color: darkgray;
 }
 
-/* ---/* ---------- Sidebar Avatar migliorato ---------- */
-.sidebar {
-  max-width: 400px;
-  width: 100%;
-}
-
-.author__avatar img.avatar {
-  max-width: 400px;
-  width: 100%;
+/* ---------- Sidebar Avatar + Info (Fix + Resize) ---------- */
+.author__avatar img {
+  max-width: 320px !important;
+  width: 100% !important;
   height: auto;
   display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  margin: 0 auto 10px auto;
+  border-radius: 6px;
 }
 
-/* ---------- Testo sotto avatar (bio, location ecc.) ---------- */
+.author__name {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.author__pronouns,
 .author__bio,
 .author__location,
-.author__employer,
-.author__pronouns {
+.author__employer {
   font-size: 16px;
   line-height: 1.5;
-  text-align: left;
-  margin-top: 10px;
+  text-align: left !important;
+  margin-top: 5px;
 }
+
 
 /* ---------- Mobile responsive ---------- */
 @media (max-width: 600px) {
