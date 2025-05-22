@@ -122,11 +122,13 @@ body.publications-page .archive * {
 }
 
 body.publications-page .archive {
-  max-width: 100%;
+  max-width: 1400px;  /* o anche 1600px */
   width: 100%;
   margin: 0 auto;
   padding-left: 260px;
+  padding-right: 10px;
 }
+
 
 /* ---------- Titolo principale della pagina ("Research") ---------- */
 body.publications-page h1.page__title {
