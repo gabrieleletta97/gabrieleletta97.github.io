@@ -10,8 +10,8 @@ body {
   max-width: 1800px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 250px;  /* spazio per sidebar */
-  padding-right: 40px;  /* margine a destra */
+  padding-left: 0;       /* ← rimosso lo spostamento globale */
+  padding-right: 40px;
 }
 
 /* ---------- Link Styling ---------- */
@@ -117,12 +117,14 @@ body.publications-page .archive {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
+  padding-left: 260px;  /* ← questo sposta tutta la pagina a destra */
 }
 
 /* ---------- Titoli sezioni (Working Papers, ecc.) ---------- */
 .publications-page h2 {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   margin-top: 40px;
   margin-bottom: 10px;
 }
