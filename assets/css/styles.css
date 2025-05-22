@@ -11,9 +11,12 @@ body {
     margin: 0 auto;
 }
 
-/* ---------- Font ridotto solo per pagina pubblicazioni ---------- */
+/* ---------- Custom styling for publications page ---------- */
 body.page-publications .page__content {
-    font-size: 13px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
 }
 
 /* ---------- Link Styling ---------- */
@@ -78,12 +81,11 @@ a:hover {
 }
 
 .archive__item-image img {
-    width: 100%; /* usa tutto lo spazio disponibile */
+    width: 100%;
     height: auto;
     border-radius: 4px;
     display: block;
 }
-
 
 /* ---------- Responsive: stack image below on small screens ---------- */
 @media (max-width: 768px) {
@@ -119,11 +121,3 @@ a:hover {
     max-width: 700px;
     height: auto;
 }
-
-body.page-publications .page__content {
-    max-width: 1400px;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 14px; /* leggermente ridotto come richiesto */
-}
-
