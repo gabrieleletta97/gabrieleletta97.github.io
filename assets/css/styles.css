@@ -89,12 +89,14 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 30px;
-  margin-bottom: 2rem;
+  gap: 20px; /* ridotto da 30px */
+  margin-top: 1rem; /* opzionale, puoi anche rimuoverlo del tutto */
+  margin-bottom: 1.5rem; /* ridotto da 2rem */
   border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
+  padding-bottom: 10px; /* ridotto da 20px */
   flex-wrap: nowrap;
 }
+
 
 .archive__item-content {
   flex: 1 1 82%;
