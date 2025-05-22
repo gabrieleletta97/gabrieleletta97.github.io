@@ -1,5 +1,4 @@
 /* ---------- Base Typography ---------- */
-
 body {
     font-size: 18px;
     line-height: 1.6;
@@ -7,7 +6,6 @@ body {
 }
 
 /* ---------- Link Styling ---------- */
-
 a {
     color: black !important;
     text-decoration: none;
@@ -18,7 +16,6 @@ a:hover {
 }
 
 /* ---------- Avatar Image (responsive) ---------- */
-
 .avatar {
     width: 250px;
     height: auto;
@@ -32,7 +29,6 @@ a:hover {
 }
 
 /* ---------- Centering Utilities ---------- */
-
 .content-center {
     display: flex;
     flex-direction: column;
@@ -44,15 +40,13 @@ a:hover {
     text-align: center !important;
 }
 
-/* ---------- Inline Images (general) ---------- */
-
+/* ---------- Inline Images (general containers) ---------- */
 .image-container img {
     max-width: 80%;
     height: auto;
 }
 
-/* ---------- Publication Layout (side-by-side image) ---------- */
-
+/* ---------- Publication List Layout (side-by-side) ---------- */
 .archive__item--side-by-side {
     display: flex;
     flex-direction: row;
@@ -63,23 +57,23 @@ a:hover {
 }
 
 .archive__item-content {
-    flex: 1;
+    flex: 1 1 60%;
     min-width: 250px;
 }
 
 .archive__item-image {
-    flex: 0 0 200px;
-    max-width: 200px;
+    flex: 1 1 35%;
+    max-width: 35%;
 }
 
 .archive__item-image img {
     width: 100%;
     height: auto;
     border-radius: 4px;
+    display: block;
 }
 
-/* ---------- Responsive: stack image below on small screens ---------- */
-
+/* ---------- Responsive: stack image below content on small screens ---------- */
 @media (max-width: 768px) {
     .archive__item--side-by-side {
         flex-direction: column;
@@ -87,13 +81,16 @@ a:hover {
 
     .archive__item-image {
         max-width: 100%;
-        margin-top: 1rem;
         text-align: center;
+        margin-top: 1rem;
+    }
+
+    .archive__item-image img {
+        max-width: 80%;
     }
 }
 
 /* ---------- Full Publication Page Layout ---------- */
-
 .publication {
     max-width: 800px;
     margin: 0 auto;
@@ -106,6 +103,6 @@ a:hover {
 }
 
 .publication-image img {
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
 }
