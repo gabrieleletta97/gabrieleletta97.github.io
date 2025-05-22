@@ -238,4 +238,19 @@ body.presentations-page h3 {
   padding-bottom: 5px;
 }
 
+/* Workshop page custom */
+.workshop-page h1.page__title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.workshop-page a.button-link {
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff !important;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
