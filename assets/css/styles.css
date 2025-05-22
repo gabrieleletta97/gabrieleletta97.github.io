@@ -105,12 +105,17 @@ a:hover {
 }
 
 /* Usa questo blocco per ridurre il font in /publications/ */
-body.page-publications .archive {
+body.page-publications .archive,
+body.page-publications .archive * {
     font-size: 11px;
+}
+
+body.page-publications .archive {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
+
 
 
 .publication-image {
