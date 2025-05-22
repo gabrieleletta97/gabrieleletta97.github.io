@@ -12,7 +12,7 @@ authors:
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
 category: work_in_progress
 permalink: /publication/2-stroke-units
-excerpt: ''
+excerpt: 'Work In Progress'
 venue: ""
 paperurl:
 image: "https://gabrieleletta97.github.io/images/SU_Map.png"  # Path to your image
