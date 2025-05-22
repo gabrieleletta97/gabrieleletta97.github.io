@@ -7,32 +7,35 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
 <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-    <meta name="google-site-verification" content="2I7it8xIaAcIBgcuqCDs9ydZ3fp3F5z2teCq3_NLCZw" />
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+  {% include head.html %}
+  {% include head/custom.html %}
+  <meta name="google-site-verification" content="2I7it8xIaAcIBgcuqCDs9ydZ3fp3F5z2teCq3_NLCZw" />
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
 </head>
 
+<body class="
+  {% if page.permalink == '/publications/' %}publications-page
+  {% elsif page.permalink == '/teaching/' or page.collection == 'teaching' %}teaching-page
+  {% elsif page.permalink == '/presentations/' %}presentations-page
+  {% elsif page.permalink == '/workshop/' %}workshop-page
+  {% elsif page.permalink == '/about/' or page.url == '/' %}about-page
+  {% endif %}
+">
 
-<body class="{% if page.permalink == '/publications/' %}publications-page{% elsif page.collection == 'teaching' %}teaching-page{% elsif page.permalink == '/other/' %}other-page{% elsif page.permalink == '/about/' %}about-page{% endif %}">
+  <div class="profile-info">
+    <p>{{ page.pronouns }}</p>
+    <p>{{ page.bio }}</p>
+    <p>{{ page.location }}</p>
+    <p>{{ page.employer }}</p>
+    <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+  </div>
 
-    
-    <div class="profile-info">
-        <p>{{ page.pronouns }}</p>
-        <p>{{ page.bio }}</p>
-        <p>{{ page.location }}</p>
-        <p>{{ page.employer }}</p>
-        <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-    </div>
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+  {{ content }}
 
-    {{ content }}
-
-
-
-    {% include scripts.html %}
+  {% include scripts.html %}
 
 </body>
 </html>
