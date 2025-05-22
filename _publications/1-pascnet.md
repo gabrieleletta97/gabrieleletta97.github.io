@@ -21,7 +21,7 @@ excerpt: ''
 date: 2025-01-01
 venue: "CRILDA Working Paper n. 1-2025"
 paperurl: "https://centridiricerca.unicatt.it/crilda-Pascnet_WP_1_2025.pdf"
-image: "https://gabrieleletta97.github.io/images/pascnet_graph.png" 
+image: "https://gabrieleletta97.github.io/images/pascnet_graph.png.png" 
 ---
 [[Download Paper](https://centridiricerca.unicatt.it/crilda-Pascnet_WP_1_2025.pdf)]
 
