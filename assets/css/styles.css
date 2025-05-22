@@ -53,7 +53,7 @@ a:hover {
 
 /* ---------- Generic Inline Images ---------- */
 .image-container img {
-  max-width: 200%;
+  max-width: 300%;
   height: auto;
 }
 
@@ -81,8 +81,8 @@ a:hover {
 
 /* Immagine del paper accanto al testo */
 .archive__item-image {
-  flex: 0 0 300px;
-  max-width: 300px;
+  flex: 0 0 400px;
+  max-width: 400px;
   align-self: center;
   padding-left: 0;
   margin-top: 0;
@@ -122,7 +122,7 @@ body.publications-page .archive * {
 }
 
 body.publications-page .archive {
-  max-width: 1400px;  /* o anche 1600px */
+  max-width: 1700px;  /* o anche 1600px */
   width: 100%;
   margin: 0 auto;
   padding-left: 260px;
