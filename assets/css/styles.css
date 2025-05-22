@@ -211,3 +211,31 @@ body.teaching-page h2:not(.archive__item-title) + hr {
   max-width: 1200px;
 }
 
+/* ---------- Presentations Page Layout ---------- */
+body.presentations-page .archive {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 260px;
+  padding-right: 30px;
+}
+
+body.presentations-page .archive * {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body.presentations-page h1.page__title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+body.presentations-page h3 {
+  font-size: 20px;
+  margin-top: 40px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+
