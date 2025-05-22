@@ -95,17 +95,22 @@ a:hover {
     flex-direction: column;
   }
 
-  .archive__item-image {
-    max-width: 80%;
-    text-align: center;
-    margin-top: 1rem;
-    padding-left: 0;
-  }
-
-  .archive__item-image img {
-    max-width: 80%;
-  }
+.archive__item-image {
+  flex: 0 0 35%;
+  max-width: 400px;
+  margin-left: auto; /* questo le spinge all'estrema destra */
+  margin-top: 6px;
+  padding-left: 40px;
+  align-self: flex-start;
 }
+
+.archive__item-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
 
 /* ---------- Publication Page Specific ---------- */
 body.publications-page .archive,
@@ -119,6 +124,13 @@ body.publications-page .archive {
   margin: 0 auto;
   padding-left: 260px;  /* ← questo sposta tutta la pagina a destra */
 }
+
+body.publications-page .page__title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 
 /* ---------- Titoli sezioni (Working Papers, ecc.) ---------- */
 .publications-page h2 {
