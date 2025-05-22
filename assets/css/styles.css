@@ -26,28 +26,41 @@ a:hover {
   color: darkgray;
 }
 
-/* ---------- Avatar Image (responsive) ---------- */
+/* ---/* ---------- Sidebar Avatar migliorato ---------- */
 .sidebar {
   max-width: 320px;
   width: 100%;
 }
 
-.avatar {
+.author__avatar img.avatar {
+  max-width: 320px;
   width: 100%;
-  max-width: 300px;
   height: auto;
   display: block;
   margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
 
+/* ---------- Testo sotto avatar (bio, location ecc.) ---------- */
+.author__bio,
+.author__location,
+.author__employer,
+.author__pronouns {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 10px;
+}
 
+/* ---------- Mobile responsive ---------- */
 @media (max-width: 600px) {
   .sidebar {
     max-width: 100%;
     padding: 20px;
   }
 
-  .avatar {
+  .author__avatar img.avatar {
     max-width: 240px;
   }
 }
