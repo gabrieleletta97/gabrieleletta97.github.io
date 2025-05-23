@@ -4,18 +4,40 @@
 
 {% include seo.html %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<!-- Feed -->
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" 
+      type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
+<!-- Mobile Viewport Meta -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Enable JS indicator -->
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
 <!-- Load CSS files -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css"> <!-- Main CSS file -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/styles.css"> <!-- Additional CSS file -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/styles.css"> <!-- Custom styles -->
 
+<!-- Optional: Custom font-awesome (if used for icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Optional: Custom JS for mobile nav -->
+<script defer>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.site-nav');
+
+    if (toggle && nav) {
+      toggle.addEventListener('click', function () {
+        nav.classList.toggle('active');
+      });
+    }
+  });
+</script>
+
+<!-- Improve text rendering on some browsers -->
 <meta http-equiv="cleartype" content="on">
