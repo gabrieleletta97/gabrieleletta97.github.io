@@ -56,7 +56,10 @@ a:hover {
 /* ---------- Mobile responsive ---------- */
 @media (max-width: 768px) {
   /* Sidebar avatar shown only in about-page */
-  body:not(.about-page) .author__avatar {
+  body.publications-page .author__avatar,
+  body.teaching-page .author__avatar,
+  body.presentations-page .author__avatar,
+  body.workshop-page .author__avatar {
     display: none;
   }
 
@@ -67,7 +70,9 @@ a:hover {
   }
 
   body.about-page .author__avatar img {
-    max-width: 240px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
   }
 
@@ -89,7 +94,7 @@ a:hover {
   .archive__item-image {
     display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 10px 0;
     text-align: center;
