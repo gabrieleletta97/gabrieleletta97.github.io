@@ -3,11 +3,9 @@ body {
   font-size: 17px;
   line-height: 1.4;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  padding-left: 100px;
-  padding-right: 0;
 }
 
-/* ---------- Page Width (tutto il sito) ---------- */
+/* ---------- Page Width (desktop) ---------- */
 .page {
   max-width: 1800px;
   width: 100%;
@@ -21,7 +19,6 @@ a {
   color: black !important;
   text-decoration: none;
 }
-
 a:hover {
   color: darkgray;
 }
@@ -35,14 +32,12 @@ a:hover {
   margin: 0 auto 10px auto;
   border-radius: 6px;
 }
-
 .author__name {
   font-size: 20px;
   font-weight: 700;
   text-align: left;
   margin-bottom: 5px;
 }
-
 .author__pronouns,
 .author__bio,
 .author__location,
@@ -53,110 +48,6 @@ a:hover {
   margin-top: 5px;
 }
 
-/* ---------- Mobile Responsive ---------- */
-@media (max-width: 768px) {
-  body:not(.about-page) .sidebar {
-    display: none;
-  }
-
-  body.about-page .sidebar {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  body.about-page {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  body.about-page .page {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
-  .author__avatar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .author__avatar img {
-    max-width: 280px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-
-  /* Uniform layout for all content areas */
-  .page,
-  .archive {
-    max-width: 100% !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    box-sizing: border-box;
-  }
-
-  /* Publication layout for mobile */
-  .archive__item--side-by-side {
-    flex-direction: column;
-    gap: 12px;
-    padding-bottom: 10px;
-    margin-bottom: 1.5rem;
-  }
-
-  .archive__item-image {
-    text-align: center;
-    max-width: 100%;
-    padding: 0;
-    margin: 0 auto;
-  }
-
-  .archive__item-image img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Mobile navigation */
-  .mobile-nav {
-    display: block;
-    background: #fff;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 20px;
-  }
-
-  .hamburger {
-    background: #000;
-    color: #fff;
-    font-size: 18px;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  .mobile-links {
-    display: none;
-    flex-direction: column;
-    margin-top: 10px;
-  }
-
-  .mobile-links a {
-    padding: 8px 0;
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-  }
-
-  .mobile-links.show {
-    display: flex;
-  }
-
-  .masthead,
-  .site-nav {
-    display: none !important;
-  }
-}
-
 /* ---------- Centering Utilities ---------- */
 .content-center {
   display: flex;
@@ -164,7 +55,6 @@ a:hover {
   align-items: center;
   text-align: center;
 }
-
 .quote-container {
   text-align: center !important;
 }
@@ -175,7 +65,7 @@ a:hover {
   height: auto;
 }
 
-/* ---------- Publication List Layout: Side-by-side ---------- */
+/* ---------- Publication List Layout (desktop) ---------- */
 .archive__item--side-by-side {
   display: flex;
   flex-direction: row;
@@ -188,12 +78,10 @@ a:hover {
   padding-bottom: 10px;
   flex-wrap: nowrap;
 }
-
 .archive__item-content {
   flex: 1 1 82%;
   min-width: 480px;
 }
-
 .archive__item-image {
   flex: 0 0 400px;
   max-width: 400px;
@@ -202,7 +90,6 @@ a:hover {
   margin-top: 0;
   text-align: right;
 }
-
 .archive__item-image img {
   width: 100%;
   height: auto;
@@ -210,7 +97,7 @@ a:hover {
   display: block;
 }
 
-/* ---------- Page-Specific Layouts ---------- */
+/* ---------- Page-Specific Layouts (desktop) ---------- */
 body.publications-page .archive,
 body.teaching-page .archive,
 body.presentations-page .archive,
@@ -221,7 +108,6 @@ body.workshop-page .archive {
   padding-left: 300px;
   padding-right: 30px;
 }
-
 body.publications-page .archive *,
 body.teaching-page .archive *,
 body.presentations-page .archive *,
@@ -229,7 +115,6 @@ body.workshop-page .archive * {
   font-size: 16px;
   line-height: 1.5;
 }
-
 body.publications-page h1.page__title,
 body.teaching-page h1.page__title,
 body.presentations-page h1.page__title,
@@ -238,7 +123,6 @@ body.workshop-page h1.page__title {
   font-weight: 800;
   margin-bottom: 40px;
 }
-
 body.publications-page h2:not(.archive__item-title),
 body.teaching-page h2:not(.archive__item-title) {
   font-size: 20px !important;
@@ -247,28 +131,23 @@ body.teaching-page h2:not(.archive__item-title) {
   margin-top: 40px;
   margin-bottom: 10px;
 }
-
 body.publications-page h2:not(.archive__item-title) + hr,
 body.teaching-page h2:not(.archive__item-title) + hr {
   border: none;
   border-top: 3px solid #000;
   margin-bottom: 30px;
 }
-
 body.presentations-page h3 {
   font-size: 20px;
   margin-top: 40px;
   border-bottom: 2px solid #ccc;
   padding-bottom: 5px;
 }
-
-/* ---------- Workshop page custom ---------- */
 .workshop-page h1.page__title {
   font-size: 30px;
   font-weight: 800;
   margin-bottom: 20px;
 }
-
 .workshop-page a.button-link,
 a.button-link {
   display: inline-block;
@@ -278,4 +157,97 @@ a.button-link {
   font-weight: bold;
   border-radius: 8px;
   text-decoration: none;
+}
+
+/* ---------- Mobile Responsive ---------- */
+@media (max-width: 768px) {
+  /* Sidebar visibile solo su About */
+  body:not(.about-page) .sidebar {
+    display: none;
+  }
+  body.about-page .sidebar {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Avatar centrato */
+  .author__avatar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .author__avatar img {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Rimuovi padding orizzontale dal body su mobile */
+  body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Contenuto centrato su mobile */
+  .page,
+  .archive {
+    max-width: 100% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box;
+  }
+
+  /* Pubblicazioni layout mobile */
+  .archive__item--side-by-side {
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 1.5rem;
+  }
+  .archive__item-image {
+    text-align: center;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .archive__item-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Mobile navigation */
+  .mobile-nav {
+    display: block;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+  }
+  .hamburger {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .mobile-links {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .mobile-links a {
+    padding: 8px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+  .mobile-links.show {
+    display: flex;
+  }
+  .masthead,
+  .site-nav {
+    display: none !important;
+  }
 }
