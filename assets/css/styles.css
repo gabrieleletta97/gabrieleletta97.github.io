@@ -55,69 +55,56 @@ a:hover {
 
 /* ---------- Mobile responsive ---------- */
 @media (max-width: 768px) {
-  /* ✅ Nascondi sidebar su tutte le pagine tranne "about" */
+  /* Nascondi sidebar su tutte le pagine tranne About */
   body:not(.about-page) .sidebar {
     display: none;
   }
 
-  /* ✅ Mostra sidebar sopra al testo su "about" */
+  /* Mostra sidebar su About */
   body.about-page .sidebar {
     display: block;
     width: 100%;
     margin-bottom: 20px;
   }
 
-  /* ✅ Avatar solo su pagina About */
-  body:not(.about-page) .author__avatar {
-    display: none;
-  }
-
-  body.about-page .author__avatar {
-    display: block;
+  /* Avatar al centro su About */
+  .author__avatar {
     text-align: center;
     margin-bottom: 20px;
   }
 
-  body.about-page .author__avatar img {
-    max-width: 300px;
+  .author__avatar img {
+    max-width: 280px;
     width: 100%;
     height: auto;
     margin: 0 auto;
   }
 
-  /* ✅ Spaziatura e larghezza testo su tutte le pagine principali */
-  body.about-page .page,
-  body.teaching-page .page,
-  body.presentations-page .page,
-  body.workshop-page .page {
-    max-width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+  /* Padding uniforme su tutte le pagine */
+  .page {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     box-sizing: border-box;
   }
 
-  /* ✅ Layout pubblicazioni su mobile */
+  /* Layout delle pubblicazioni: colonna */
   .archive__item--side-by-side {
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     padding-bottom: 10px;
     margin-bottom: 1.5rem;
   }
 
   .archive__item-image {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 10px 0;
     text-align: center;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
   }
 
   .archive__item-image img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
   }
 }
 
