@@ -54,21 +54,20 @@ a:hover {
 }
 
 /* ---------- Mobile responsive ---------- */
-/* ---------- Mobile responsive ---------- */
 @media (max-width: 768px) {
-  /* ✅ Hide sidebar on all pages except About */
+  /* ✅ Nascondi sidebar su tutte le pagine tranne "about" */
   body:not(.about-page) .sidebar {
     display: none;
   }
 
-  /* ✅ Ensure sidebar shows and stacks properly on About */
+  /* ✅ Mostra sidebar sopra al testo su "about" */
   body.about-page .sidebar {
     display: block;
     width: 100%;
     margin-bottom: 20px;
   }
 
-  /* ✅ Sidebar avatar only in About */
+  /* ✅ Avatar solo su pagina About */
   body:not(.about-page) .author__avatar {
     display: none;
   }
@@ -86,14 +85,17 @@ a:hover {
     margin: 0 auto;
   }
 
-  /* ✅ Adjust text container on About for better spacing */
-  body.about-page .page {
+  /* ✅ Spaziatura e larghezza testo su tutte le pagine principali */
+  body.about-page .page,
+  body.teaching-page .page,
+  body.presentations-page .page,
+  body.workshop-page .page {
     max-width: 100%;
     padding: 20px;
     box-sizing: border-box;
   }
 
-  /* ✅ Publication layout fixes for mobile */
+  /* ✅ Layout pubblicazioni su mobile */
   .archive__item--side-by-side {
     flex-direction: column;
     gap: 10px;
@@ -117,6 +119,7 @@ a:hover {
     margin: 0 auto;
   }
 }
+
 
 
 /* ---------- Centering Utilities ---------- */
