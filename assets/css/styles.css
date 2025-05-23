@@ -55,19 +55,16 @@ a:hover {
 
 /* ---------- Mobile responsive ---------- */
 @media (max-width: 768px) {
-  /* Nascondi sidebar su tutte le pagine tranne About */
   body:not(.about-page) .sidebar {
     display: none;
   }
 
-  /* Mostra sidebar su About */
   body.about-page .sidebar {
     display: block;
     width: 100%;
     margin-bottom: 20px;
   }
 
-  /* Avatar al centro su About */
   .author__avatar {
     text-align: center;
     margin-bottom: 20px;
@@ -80,14 +77,15 @@ a:hover {
     margin: 0 auto;
   }
 
-  /* Padding uniforme su tutte le pagine */
-  .page {
+  /* ✅ Uniform layout for all content areas */
+  .archive {
+    max-width: 100% !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
     box-sizing: border-box;
   }
 
-  /* Layout delle pubblicazioni: colonna */
+  /* ✅ Publication layout fixes for mobile */
   .archive__item--side-by-side {
     flex-direction: column;
     gap: 12px;
@@ -107,8 +105,6 @@ a:hover {
     height: auto;
   }
 }
-
-
 
 /* ---------- Centering Utilities ---------- */
 .content-center {
@@ -166,7 +162,8 @@ a:hover {
 /* ---------- Page-Specific Layouts ---------- */
 body.publications-page .archive,
 body.teaching-page .archive,
-body.presentations-page .archive {
+body.presentations-page .archive,
+body.workshop-page .archive {
   max-width: 1700px;
   width: 100%;
   margin: 0 auto;
@@ -176,14 +173,16 @@ body.presentations-page .archive {
 
 body.publications-page .archive *,
 body.teaching-page .archive *,
-body.presentations-page .archive * {
+body.presentations-page .archive *,
+body.workshop-page .archive * {
   font-size: 16px;
   line-height: 1.5;
 }
 
 body.publications-page h1.page__title,
 body.teaching-page h1.page__title,
-body.presentations-page h1.page__title {
+body.presentations-page h1.page__title,
+body.workshop-page h1.page__title {
   font-size: 28px;
   font-weight: 800;
   margin-bottom: 40px;
