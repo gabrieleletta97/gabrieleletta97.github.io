@@ -106,6 +106,27 @@ a:hover {
     display: block;
     margin: 0 auto;
   }
+
+  @media (max-width: 768px) {
+  /* ✅ Hide sidebar on all pages except About */
+  body:not(.about-page) .sidebar {
+    display: none;
+  }
+
+  /* ✅ Ensure sidebar shows and stacks properly on About */
+  body.about-page .sidebar {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* ✅ Adjust text container on About for better spacing */
+  body.about-page .page {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+
 }
 
 /* ---------- Centering Utilities ---------- */
