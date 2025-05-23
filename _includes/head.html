@@ -1,31 +1,92 @@
-{% include base_path %}
+<!-- Masthead with responsive navigation toggle -->
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <!-- Site title or logo -->
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 
-<meta charset="utf-8">
+    <!-- Hamburger button (mobile only) -->
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
 
-{% include seo.html %}
+    <!-- Navigation links -->
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
+        <li><a href="{{ '/presentations/' | relative_url }}">Presentations</a></li>
+        <li><a href="{{ '/workshop/' | relative_url }}">Workshop</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-<!-- Feed -->
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" 
-      type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<!-- CSS (Add to styles.css) -->
+<style>
+.site-header {
+  background: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
 
-<!-- Mobile Viewport Meta -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
 
-<!-- Enable JS indicator -->
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
-<!-- Load CSS files -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css"> <!-- Main CSS file -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/styles.css"> <!-- Custom styles -->
+.site-nav {
+  display: flex;
+  gap: 20px;
+}
 
-<!-- Optional: Custom font-awesome (if used for icons) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
 
-<!-- Optional: Custom JS for mobile nav -->
+.nav-list li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .site-nav.active {
+    display: flex;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+</style>
+
+<!-- JavaScript (already included in your head.html) -->
 <script defer>
   document.addEventListener('DOMContentLoaded', function () {
     const toggle = document.querySelector('.menu-toggle');
@@ -38,6 +99,3 @@
     }
   });
 </script>
-
-<!-- Improve text rendering on some browsers -->
-<meta http-equiv="cleartype" content="on">
