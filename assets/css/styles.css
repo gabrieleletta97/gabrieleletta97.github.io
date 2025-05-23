@@ -54,14 +54,52 @@ a:hover {
 }
 
 /* ---------- Mobile responsive ---------- */
-@media (max-width: 600px) {
-  .sidebar {
-    max-width: 100%;
-    padding: 20px;
+@media (max-width: 768px) {
+  /* Sidebar avatar shown only in about-page */
+  body:not(.about-page) .author__avatar {
+    display: none;
   }
 
-  .author__avatar img.avatar {
+  body.about-page .author__avatar {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  body.about-page .author__avatar img {
     max-width: 240px;
+    margin: 0 auto;
+  }
+
+  /* About text spacing */
+  body.about-page .page {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  /* Publication layout fixes */
+  .archive__item--side-by-side {
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 1.5rem;
+  }
+
+  .archive__item-image {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .archive__item-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -89,14 +127,13 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 20px; /* ridotto da 30px */
-  margin-top: 1rem; /* opzionale, puoi anche rimuoverlo del tutto */
-  margin-bottom: 1.5rem; /* ridotto da 2rem */
+  gap: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 10px; /* ridotto da 20px */
+  padding-bottom: 10px;
   flex-wrap: nowrap;
 }
-
 
 .archive__item-content {
   flex: 1 1 82%;
@@ -117,23 +154,6 @@ a:hover {
   height: auto;
   border-radius: 4px;
   display: block;
-}
-
-@media (max-width: 768px) {
-  .archive__item--side-by-side {
-    flex-direction: column;
-  }
-
-  .archive__item-image {
-    max-width: 80%;
-    text-align: center;
-    margin-top: 1rem;
-    padding-left: 0;
-  }
-
-  .archive__item-image img {
-    max-width: 80%;
-  }
 }
 
 /* ---------- Page-Specific Layouts ---------- */
