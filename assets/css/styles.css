@@ -54,12 +54,22 @@ a:hover {
 }
 
 /* ---------- Mobile responsive ---------- */
+/* ---------- Mobile responsive ---------- */
 @media (max-width: 768px) {
-  /* Sidebar avatar shown only in about-page */
-  body.publications-page .author__avatar,
-  body.teaching-page .author__avatar,
-  body.presentations-page .author__avatar,
-  body.workshop-page .author__avatar {
+  /* ✅ Hide sidebar on all pages except About */
+  body:not(.about-page) .sidebar {
+    display: none;
+  }
+
+  /* ✅ Ensure sidebar shows and stacks properly on About */
+  body.about-page .sidebar {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* ✅ Sidebar avatar only in About */
+  body:not(.about-page) .author__avatar {
     display: none;
   }
 
@@ -76,14 +86,14 @@ a:hover {
     margin: 0 auto;
   }
 
-  /* About text spacing */
+  /* ✅ Adjust text container on About for better spacing */
   body.about-page .page {
     max-width: 100%;
     padding: 20px;
     box-sizing: border-box;
   }
 
-  /* Publication layout fixes */
+  /* ✅ Publication layout fixes for mobile */
   .archive__item--side-by-side {
     flex-direction: column;
     gap: 10px;
@@ -106,28 +116,8 @@ a:hover {
     display: block;
     margin: 0 auto;
   }
-
-  @media (max-width: 768px) {
-  /* ✅ Hide sidebar on all pages except About */
-  body:not(.about-page) .sidebar {
-    display: none;
-  }
-
-  /* ✅ Ensure sidebar shows and stacks properly on About */
-  body.about-page .sidebar {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  /* ✅ Adjust text container on About for better spacing */
-  body.about-page .page {
-    padding: 20px;
-    box-sizing: border-box;
-  }
 }
 
-}
 
 /* ---------- Centering Utilities ---------- */
 .content-center {
