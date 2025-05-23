@@ -7,8 +7,6 @@ body {
   padding-right: 0;
 }
 
-
-
 /* ---------- Page Width (tutto il sito) ---------- */
 .page {
   max-width: 1800px;
@@ -67,7 +65,7 @@ a:hover {
     margin-bottom: 20px;
   }
 
-    body.about-page {
+  body.about-page {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -76,7 +74,6 @@ a:hover {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
-}
 
   .author__avatar {
     text-align: center;
@@ -98,8 +95,66 @@ a:hover {
     padding-right: 20px !important;
     box-sizing: border-box;
   }
-}
 
+  /* ✅ Publication layout fixes for mobile */
+  .archive__item--side-by-side {
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 1.5rem;
+  }
+
+  .archive__item-image {
+    text-align: center;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .archive__item-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ✅ Mobile navigation */
+  .mobile-nav {
+    display: block;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+  }
+
+  .hamburger {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .mobile-links {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .mobile-links a {
+    padding: 8px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+
+  .mobile-links.show {
+    display: flex;
+  }
+
+  .masthead, .site-nav {
+    display: none !important;
+  }
+}
 
 /* ---------- Centering Utilities ---------- */
 .content-center {
@@ -223,49 +278,3 @@ a.button-link {
   border-radius: 8px;
   text-decoration: none;
 }
-
-/* Mobile Navigation Menu */
-.mobile-nav {
-  display: none;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 20px;
-}
-
-.hamburger {
-  background: #000;
-  color: #fff;
-  font-size: 18px;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.mobile-links {
-  display: none;
-  flex-direction: column;
-  margin-top: 10px;
-}
-
-.mobile-links a {
-  padding: 8px 0;
-  text-decoration: none;
-  color: #000;
-  font-weight: 500;
-}
-
-.mobile-links.show {
-  display: flex;
-}
-
-/* Show only on mobile */
-@media (max-width: 768px) {
-  .mobile-nav {
-    display: block;
-  }
-  .masthead, .site-nav {
-    display: none !important;
-  }
-}
-
