@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<meta http-equiv="refresh" content="0; url=/" />
 
 **PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** <br> (Department of Economics and Finance). <br> Currently visiting student at **UB - Universitat de Barcelona**, since 01/02/2025. <br> Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
