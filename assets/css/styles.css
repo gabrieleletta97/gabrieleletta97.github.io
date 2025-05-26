@@ -25,11 +25,10 @@ body {
 
 .page {
   flex-grow: 1;
-  padding: 20px 30px 20px 290px; /* left padding to avoid overlap with sidebar */
+  padding: 20px 30px;
   box-sizing: border-box;
-  max-width: 1500px;
-  margin: 0 auto;
 }
+
 
 .author__avatar img {
   max-width: 100%;
