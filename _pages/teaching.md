@@ -3,7 +3,7 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-collection: teaching-page
+classes: teaching-page
 ---
 **Policy Evaluation - Macroeconometrics Tutorial** <br>
 MsC in Economics  <br>
