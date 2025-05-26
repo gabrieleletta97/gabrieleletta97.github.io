@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  {% include head.html %}
-</head>
+    {% include head.html %}
+  </head>
   <body>
     <header class="site-header" role="banner">
       <div class="wrapper" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
@@ -21,17 +21,18 @@
     </header>
 
     <div class="container">
-      <aside class="sidebar">
-        <img src="{{ site.author.avatar | relative_url }}" alt="Profile picture">
-        <h2>{{ site.author.name }}</h2>
-        <p>{{ site.author.bio }}</p>
-        <p>{{ site.author.location }}</p>
-        <p>{{ site.author.employer }}</p>
-      </aside>
-
-      <main class="page">
-        {{ content }}
-      </main>
+      <div class="layout">
+        <aside class="sidebar">
+          <img src="{{ site.author.avatar | relative_url }}" alt="Profile picture">
+          <h2>{{ site.author.name }}</h2>
+          <p>{{ site.author.bio }}</p>
+          <p>{{ site.author.location }}</p>
+          <p>{{ site.author.employer }}</p>
+        </aside>
+        <main class="page">
+          {{ content }}
+        </main>
+      </div>
     </div>
   </body>
 </html>
