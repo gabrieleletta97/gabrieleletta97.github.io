@@ -100,27 +100,19 @@ body.workshop-page .archive * {
   line-height: 1.5;
 }
 
-/* ---------- Mobile Layout ---------- */
+/* ---------- Responsive / Mobile Layout ---------- */
 @media (max-width: 768px) {
-  body:not(.about-page) .sidebar {
-    display: none;
+  .container {
+    flex-direction: column;
   }
 
-  body.about-page .sidebar {
-    position: static;
-    width: 100%;
-    padding: 0 20px;
-    margin-bottom: 20px;
-    text-align: center;
+  .sidebar {
+    display: none;
   }
 
   .author__avatar img {
     max-width: 260px;
     margin: 0 auto;
-  }
-
-  .container {
-    flex-direction: column;
   }
 
   .page,
