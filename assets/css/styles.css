@@ -2,12 +2,23 @@ html {
   overflow-y: scroll;
 }
 
-
-/* ---------- Base Typography ---------- */
+/* ---------- Base Typography & Colors ---------- */
 body {
   font-size: 17px;
-  line-height: 1.4;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #222;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* ---------- Desktop Layout ---------- */
@@ -30,11 +41,12 @@ body {
 
 .page {
   flex-grow: 1;
-  padding: 20px 30px;
+  padding: 30px 40px;
   box-sizing: border-box;
+  background-color: #fff;
 }
 
-
+/* ---------- Author Section ---------- */
 .author__avatar img {
   max-width: 100%;
   height: auto;
@@ -55,19 +67,19 @@ body {
 .author__location,
 .author__employer {
   font-size: 16px;
-  line-height: 1.5;
   text-align: left;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-/* ---------- Page Content Styling ---------- */
+/* ---------- Archive Layout ---------- */
 .archive__item--side-by-side {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .archive__item-content {
@@ -75,7 +87,7 @@ body {
 }
 
 .archive__item-image {
-  flex: 0 0 300px;
+  flex: 0 0 200px;
   text-align: right;
 }
 
@@ -83,9 +95,10 @@ body {
   width: 100%;
   height: auto;
   border-radius: 4px;
+  object-fit: cover;
 }
 
-/* ---------- Page-Specific Layout ---------- */
+/* ---------- Page-Specific Styling ---------- */
 body.publications-page .archive,
 body.teaching-page .archive,
 body.presentations-page .archive,
@@ -95,57 +108,12 @@ body.workshop-page .archive {
   padding-right: 30px;
 }
 
-
 body.publications-page .archive *,
 body.teaching-page .archive *,
 body.presentations-page .archive *,
 body.workshop-page .archive * {
   font-size: 16px;
-  line-height: 1.5;
-}
-
-/* ---------- Responsive / Mobile Layout ---------- */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    display: none;
-  }
-
-  .author__avatar img {
-    max-width: 260px;
-    margin: 0 auto;
-  }
-
-  .page,
-  .archive {
-    padding: 0 20px !important;
-    max-width: 100% !important;
-    box-sizing: border-box;
-  }
-
-  .archive__item--side-by-side {
-    flex-direction: column;
-    text-align: left;
-    gap: 12px;
-  }
-
-  .archive__item-image {
-    text-align: center;
-    max-width: 100%;
-    margin: 10px auto 0;
-  }
-
-  .archive__item-image img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .masthead {
-    display: none !important;
-  }
+  line-height: 1.6;
 }
 
 /* ---------- Navigation Header ---------- */
@@ -192,7 +160,60 @@ body.workshop-page .archive * {
   font-weight: 600;
 }
 
+/* ---------- Responsive Layout ---------- */
 @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  body.about-page .sidebar {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .author__avatar img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .page,
+  .archive {
+    padding: 0 24px !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+
+  .archive__item--side-by-side {
+    flex-direction: column;
+    text-align: left;
+    gap: 12px;
+  }
+
+  .archive__item-image {
+    text-align: center;
+    max-width: 100%;
+    margin: 10px auto 0;
+  }
+
+  .archive__item-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .masthead {
+    display: none !important;
+  }
+
   .menu-toggle {
     display: block;
   }
