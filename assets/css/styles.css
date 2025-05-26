@@ -25,7 +25,7 @@ body {
 
 .page {
   flex-grow: 1;
-  padding: 20px 30px;
+  padding: 20px 30px 20px 290px; /* left padding to avoid overlap with sidebar */
   box-sizing: border-box;
   max-width: 1500px;
   margin: 0 auto;
@@ -88,7 +88,7 @@ body.presentations-page .archive,
 body.workshop-page .archive {
   max-width: 1700px;
   margin: 0 auto;
-  padding-left: 0;
+  padding-left: 290px;
   padding-right: 30px;
 }
 
