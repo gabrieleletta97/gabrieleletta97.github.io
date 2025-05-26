@@ -14,7 +14,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<div id="main" role="main" class="container">
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -124,6 +124,7 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+</div>
 
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
