@@ -6,27 +6,29 @@ body {
 }
 
 /* ---------- Desktop Layout ---------- */
-.page {
-  max-width: 1800px;
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 300px;
-  padding-right: 30px;
-  box-sizing: border-box;
+.container {
+  display: flex;
 }
 
-/* ---------- Sidebar Styling (Desktop) ---------- */
 .sidebar {
-  max-width: 300px;
-  width: 300px;
-  position: fixed;
+  width: 260px;
+  flex-shrink: 0;
+  position: sticky;
   top: 0;
-  left: 0;
   height: 100vh;
   padding: 30px 20px;
   overflow-y: auto;
   background-color: #fff;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.page {
+  flex-grow: 1;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .author__avatar img {
@@ -115,6 +117,10 @@ body.workshop-page .archive * {
   .author__avatar img {
     max-width: 260px;
     margin: 0 auto;
+  }
+
+  .container {
+    flex-direction: column;
   }
 
   .page,
@@ -210,4 +216,3 @@ body.workshop-page .archive * {
     gap: 10px;
   }
 }
-
