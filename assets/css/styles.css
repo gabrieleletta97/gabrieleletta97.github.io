@@ -5,7 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* ---------- Page Width (desktop) ---------- */
+/* ---------- Desktop Layout ---------- */
 .page {
   max-width: 1800px;
   width: 100%;
@@ -14,100 +14,77 @@ body {
   padding-right: 0;
 }
 
-/* ---------- Link Styling ---------- */
-a {
-  color: black !important;
-  text-decoration: none;
-}
-a:hover {
-  color: darkgray;
+/* ---------- Sidebar Styling (Desktop) ---------- */
+.sidebar {
+  max-width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 20px;
 }
 
-/* ---------- Sidebar Avatar + Info ---------- */
 .author__avatar img {
-  max-width: 400px !important;
-  width: 100% !important;
+  max-width: 300px;
+  width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto 10px auto;
   border-radius: 6px;
+  display: block;
+  margin: 0 auto 10px;
 }
+
 .author__name {
   font-size: 20px;
   font-weight: 700;
   text-align: left;
   margin-bottom: 5px;
 }
+
 .author__pronouns,
 .author__bio,
 .author__location,
 .author__employer {
   font-size: 16px;
   line-height: 1.5;
-  text-align: left !important;
+  text-align: left;
   margin-top: 5px;
 }
 
-/* ---------- Centering Utilities ---------- */
-.content-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.quote-container {
-  text-align: center !important;
-}
-
-/* ---------- Generic Inline Images ---------- */
-.image-container img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ---------- Publication List Layout (desktop) ---------- */
+/* ---------- Page Content Styling ---------- */
 .archive__item--side-by-side {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
   gap: 20px;
-  margin-top: 1rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
-  flex-wrap: nowrap;
 }
+
 .archive__item-content {
-  flex: 1 1 82%;
-  min-width: 480px;
+  flex: 1 1 70%;
 }
+
 .archive__item-image {
-  flex: 0 0 400px;
-  max-width: 400px;
-  align-self: center;
-  padding-left: 0;
-  margin-top: 0;
+  flex: 0 0 300px;
   text-align: right;
 }
+
 .archive__item-image img {
   width: 100%;
   height: auto;
   border-radius: 4px;
-  display: block;
 }
 
-/* ---------- Page-Specific Layouts (desktop) ---------- */
+/* ---------- Page-Specific Layout ---------- */
 body.publications-page .archive,
 body.teaching-page .archive,
 body.presentations-page .archive,
 body.workshop-page .archive {
   max-width: 1700px;
-  width: 100%;
   margin: 0 auto;
   padding-left: 300px;
   padding-right: 30px;
 }
+
 body.publications-page .archive *,
 body.teaching-page .archive *,
 body.presentations-page .archive *,
@@ -115,114 +92,59 @@ body.workshop-page .archive * {
   font-size: 16px;
   line-height: 1.5;
 }
-body.publications-page h1.page__title,
-body.teaching-page h1.page__title,
-body.presentations-page h1.page__title,
-body.workshop-page h1.page__title {
-  font-size: 28px;
-  font-weight: 800;
-  margin-bottom: 40px;
-}
-body.publications-page h2:not(.archive__item-title),
-body.teaching-page h2:not(.archive__item-title) {
-  font-size: 20px !important;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-body.publications-page h2:not(.archive__item-title) + hr,
-body.teaching-page h2:not(.archive__item-title) + hr {
-  border: none;
-  border-top: 3px solid #000;
-  margin-bottom: 30px;
-}
-body.presentations-page h3 {
-  font-size: 20px;
-  margin-top: 40px;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 5px;
-}
-.workshop-page h1.page__title {
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 20px;
-}
-.workshop-page a.button-link,
-a.button-link {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #000;
-  color: #fff !important;
-  font-weight: bold;
-  border-radius: 8px;
-  text-decoration: none;
-}
 
-/* ---------- Mobile Responsive ---------- */
+/* ---------- Mobile Layout ---------- */
 @media (max-width: 768px) {
-  /* Sidebar visibile solo su About */
+  /* Rimuovi sidebar ovunque tranne che in About */
   body:not(.about-page) .sidebar {
     display: none;
   }
+
   body.about-page .sidebar {
-    display: block;
+    position: static;
     width: 100%;
+    padding: 0;
     margin-bottom: 20px;
   }
 
-  /* Avatar centrato */
-  .author__avatar {
-    text-align: center;
-    margin-bottom: 20px;
-  }
   .author__avatar img {
-    max-width: 280px;
-    width: 100%;
-    height: auto;
+    max-width: 260px;
     margin: 0 auto;
   }
 
-  /* Rimuovi padding orizzontale dal body su mobile */
-  body {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  /* Contenuto centrato su mobile */
   .page,
   .archive {
+    padding: 0 20px !important;
     max-width: 100% !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
     box-sizing: border-box;
   }
 
-  /* Pubblicazioni layout mobile */
+  /* Layout delle pubblicazioni verticale */
   .archive__item--side-by-side {
     flex-direction: column;
+    text-align: left;
     gap: 12px;
-    padding-bottom: 10px;
-    margin-bottom: 1.5rem;
   }
+
   .archive__item-image {
     text-align: center;
     max-width: 100%;
-    padding: 0;
-    margin: 0 auto;
+    margin: 10px auto 0;
   }
+
   .archive__item-image img {
     max-width: 100%;
     height: auto;
   }
 
-  /* Mobile navigation */
+  /* Mobile Navigation Menu */
   .mobile-nav {
     display: block;
     background: #fff;
     border-bottom: 1px solid #ccc;
     padding: 10px 20px;
   }
+
   .hamburger {
     background: #000;
     color: #fff;
@@ -232,20 +154,24 @@ a.button-link {
     border-radius: 4px;
     cursor: pointer;
   }
+
   .mobile-links {
     display: none;
     flex-direction: column;
     margin-top: 10px;
   }
+
   .mobile-links a {
     padding: 8px 0;
     text-decoration: none;
     color: #000;
     font-weight: 500;
   }
+
   .mobile-links.show {
     display: flex;
   }
+
   .masthead,
   .site-nav {
     display: none !important;
