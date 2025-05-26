@@ -11,21 +11,26 @@ body {
   width: 100%;
   margin: 0 auto;
   padding-left: 300px;
-  padding-right: 0;
+  padding-right: 30px;
+  box-sizing: border-box;
 }
 
 /* ---------- Sidebar Styling (Desktop) ---------- */
 .sidebar {
   max-width: 300px;
+  width: 300px;
   position: fixed;
   top: 0;
   left: 0;
+  height: 100vh;
   padding: 30px 20px;
+  overflow-y: auto;
+  background-color: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .author__avatar img {
-  max-width: 300px;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 6px;
   display: block;
@@ -81,7 +86,7 @@ body.presentations-page .archive,
 body.workshop-page .archive {
   max-width: 1700px;
   margin: 0 auto;
-  padding-left: 300px;
+  padding-left: 0;
   padding-right: 30px;
 }
 
@@ -95,7 +100,6 @@ body.workshop-page .archive * {
 
 /* ---------- Mobile Layout ---------- */
 @media (max-width: 768px) {
-  /* Rimuovi sidebar ovunque tranne che in About */
   body:not(.about-page) .sidebar {
     display: none;
   }
@@ -103,8 +107,9 @@ body.workshop-page .archive * {
   body.about-page .sidebar {
     position: static;
     width: 100%;
-    padding: 0;
+    padding: 0 20px;
     margin-bottom: 20px;
+    text-align: center;
   }
 
   .author__avatar img {
@@ -119,7 +124,6 @@ body.workshop-page .archive * {
     box-sizing: border-box;
   }
 
-  /* Layout delle pubblicazioni verticale */
   .archive__item--side-by-side {
     flex-direction: column;
     text-align: left;
@@ -137,43 +141,72 @@ body.workshop-page .archive * {
     height: auto;
   }
 
-  /* Mobile Navigation Menu */
-  .mobile-nav {
+  .masthead {
+    display: none !important;
+  }
+}
+
+/* ---------- Navigation Header ---------- */
+.site-header {
+  background: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.site-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
     display: block;
-    background: #fff;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 20px;
   }
 
-  .hamburger {
-    background: #000;
-    color: #fff;
-    font-size: 18px;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  .mobile-links {
+  .site-nav {
     display: none;
     flex-direction: column;
-    margin-top: 10px;
+    padding-top: 10px;
   }
 
-  .mobile-links a {
-    padding: 8px 0;
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-  }
-
-  .mobile-links.show {
+  .site-nav.active {
     display: flex;
   }
 
-  .masthead,
-  .site-nav {
-    display: none !important;
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
   }
 }
