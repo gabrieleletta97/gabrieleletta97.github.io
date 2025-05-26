@@ -1,28 +1,15 @@
-<!-- Masthead with responsive navigation toggle -->
-<header class="site-header" role="banner">
-  <div class="wrapper">
-    <!-- Site title or logo -->
-    <a class="site-title" href="/">Gabriele Letta</a>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ site.description | default: site.title }}">
+<title>{{ page.title }} | {{ site.title }}</title>
 
-    <!-- Hamburger button (mobile only) -->
-    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+<!-- Favicon (opzionale) -->
+<link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 
-    <!-- Navigation links -->
-    <nav class="site-nav">
-      <ul class="nav-list">
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        ù<li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-        <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
-        <li><a href="{{ '/presentations/' | relative_url }}">Presentations</a></li>
-        <li><a href="{{ '/workshop/' | relative_url }}">Workshop</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<!-- CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-
-
-<!-- JavaScript (already included in your head.html) -->
+<!-- JS: Menu hamburger toggle -->
 <script defer>
   document.addEventListener('DOMContentLoaded', function () {
     const toggle = document.querySelector('.menu-toggle');
