@@ -32,7 +32,7 @@ h1, h2, h3 {
 }
 
 .sidebar {
-  width: 260px;
+  width: 220px;
   flex-shrink: 0;
   position: sticky;
   top: 0;
