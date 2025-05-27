@@ -79,12 +79,12 @@ h1, h2, h3 {
 
 /* ---------- Page Content Styling ---------- */
 .archive__item--side-by-side {
-  padding: 20px;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
-}
+    flex-direction: column;
+    border: 1px solid #eee;
+    text-align: left;
+    background-color: #fff;
+    gap: 12px;
+  }
 .archive__item-content {
   flex: 1 1 70%;
 }
