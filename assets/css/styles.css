@@ -63,7 +63,7 @@ h1, h2, h3 {
 
 
 .author__avatar img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   border-radius: 40px;
   display: block;
