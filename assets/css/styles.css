@@ -17,6 +17,13 @@ main {
   padding: 2rem 1rem;
 }
 
+h1, h2, h3 {
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  color: #111;
+}
+
+
 
 /* ---------- Desktop Layout ---------- */
 .container {
@@ -70,14 +77,12 @@ main {
 
 /* ---------- Page Content Styling ---------- */
 .archive__item--side-by-side {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  margin-bottom: 1.5rem;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
-
 .archive__item-content {
   flex: 1 1 70%;
 }
@@ -186,19 +191,14 @@ body.workshop-page .archive * {
   gap: 20px;
 }
 
-.nav-list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 20px;
+.nav-list li a {
+  transition: color 0.2s ease;
 }
 
-.nav-list li a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 600;
+.nav-list li a:hover {
+  color: #007acc;
 }
+
 
 @media (max-width: 768px) {
   .menu-toggle {
