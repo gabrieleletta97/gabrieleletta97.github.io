@@ -28,24 +28,23 @@ a:hover {
 .layout {
   display: flex;
   width: 100%;
-  max-width: 100%;
+  gap: 40px;
 }
 
 /* ==== SIDEBAR ==== */
 .sidebar {
-  max-width: 260px;
+  width: 240px;
   flex-shrink: 0;
   padding: 30px 20px;
   background-color: #fff;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  height: 100%;
-  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
+  align-self: flex-start;
 }
 
 .sidebar img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 6px;
   display: block;
@@ -53,14 +52,8 @@ a:hover {
 }
 
 /* ==== PAGE CONTENT ==== */
-.page {
-  flex-grow: 1;
-  padding: 30px 0;
-  box-sizing: border-box;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto;
 }
-
 
 /* ==== HEADER & NAVIGATION ==== */
 .site-header {
@@ -117,19 +110,19 @@ a:hover {
 }
 
 .archive__item-image {
-  flex: 0 0 160px;
+  flex: 0 0 140px;
   text-align: right;
 }
 
 .archive__item-image img {
-  max-width: 160px;
+  max-width: 140px;
   height: auto;
   border-radius: 4px;
   object-fit: contain;
 }
 
 .archive__item-content {
-  flex: 1 1 70%;
+  flex: 1 1 auto;
   max-width: 100%;
 }
 
@@ -187,6 +180,6 @@ a:hover {
 
   .page {
     max-width: 100%;
-    padding: 20px;
+    padding: 20px 0;
   }
 }
