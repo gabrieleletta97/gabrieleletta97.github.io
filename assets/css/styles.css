@@ -104,6 +104,12 @@ h1, h2, h3 {
   border-radius: 4px;
 }
 
+.archive__item-image img:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
+
+
 /* ---------- Page-Specific Layout ---------- */
 body.publications-page .archive,
 body.teaching-page .archive,
