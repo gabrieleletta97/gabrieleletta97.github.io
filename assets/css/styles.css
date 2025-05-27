@@ -1,8 +1,4 @@
 /* ---------- Base Typography ---------- */
-html {
-  overflow-y: scroll;
-}
-
 body {
   font-size: 17px;
   line-height: 1.4;
@@ -10,33 +6,26 @@ body {
 }
 
 /* ---------- Desktop Layout ---------- */
-.container {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-}
-
-.sidebar {
-  flex: 0 0 260px;
-  margin: 0 0 30px 0;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  font-size: 16px;
-  line-height: 1.6;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  position: relative;
-}
-
 .page {
-  flex-grow: 1;
-  padding: 20px 30px;
-  box-sizing: border-box;
+  max-width: 1800px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 300px;
+  padding-right: 0;
+}
+
+/* ---------- Sidebar Styling (Desktop) ---------- */
+.sidebar {
+  max-width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 20px;
 }
 
 .author__avatar img {
-  max-width: 100%;
+  max-width: 300px;
+  width: 100%;
   height: auto;
   border-radius: 6px;
   display: block;
@@ -90,8 +79,9 @@ body.publications-page .archive,
 body.teaching-page .archive,
 body.presentations-page .archive,
 body.workshop-page .archive {
-  max-width: none;
-  padding-left: 0;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding-left: 300px;
   padding-right: 30px;
 }
 
@@ -103,17 +93,18 @@ body.workshop-page .archive * {
   line-height: 1.5;
 }
 
-/* ---------- Responsive / Mobile Layout ---------- */
+/* ---------- Mobile Layout ---------- */
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
+  /* Rimuovi sidebar ovunque tranne che in About */
+  body:not(.about-page) .sidebar {
+    display: none;
   }
 
-  .sidebar {
-    display: block;
+  body.about-page .sidebar {
+    position: static;
     width: 100%;
+    padding: 0;
     margin-bottom: 20px;
-    padding: 20px;
   }
 
   .author__avatar img {
@@ -128,6 +119,7 @@ body.workshop-page .archive * {
     box-sizing: border-box;
   }
 
+  /* Layout delle pubblicazioni verticale */
   .archive__item--side-by-side {
     flex-direction: column;
     text-align: left;
@@ -145,72 +137,43 @@ body.workshop-page .archive * {
     height: auto;
   }
 
-  .masthead {
-    display: none !important;
-  }
-}
-
-/* ---------- Navigation Header ---------- */
-.site-header {
-  background: #fff;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ccc;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.site-title {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #000;
-}
-
-.menu-toggle {
-  display: none;
-  font-size: 26px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.site-nav {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 20px;
-}
-
-.nav-list li a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 600;
-}
-
-@media (max-width: 768px) {
-  .menu-toggle {
+  /* Mobile Navigation Menu */
+  .mobile-nav {
     display: block;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
   }
 
-  .site-nav {
+  .hamburger {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .mobile-links {
     display: none;
     flex-direction: column;
-    padding-top: 10px;
+    margin-top: 10px;
   }
 
-  .site-nav.active {
+  .mobile-links a {
+    padding: 8px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+
+  .mobile-links.show {
     display: flex;
   }
 
-  .nav-list {
-    flex-direction: column;
-    gap: 10px;
+  .masthead,
+  .site-nav {
+    display: none !important;
   }
 }
