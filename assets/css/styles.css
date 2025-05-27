@@ -71,8 +71,8 @@ h1, h2, h3 {
 .author__bio,
 .author__location,
 .author__employer {
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.2;
   text-align: left;
   margin-top: 5px;
 }
