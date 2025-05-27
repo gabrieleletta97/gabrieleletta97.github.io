@@ -1,38 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    <header class="site-header" role="banner">
-      <div class="wrapper" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-        <a class="site-title" href="/">Gabriele Letta</a>
-        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
-        <nav class="site-nav">
-          <ul class="nav-list">
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-            <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
-            <li><a href="{{ '/presentations/' | relative_url }}">Presentations</a></li>
-            <li><a href="{{ '/workshop/' | relative_url }}">Workshop</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+---
+layout: compress
+---
 
-    <div class="container">
-      <div class="layout">
-        <aside class="sidebar">
-          <img src="{{ site.author.avatar | relative_url }}" alt="Profile picture">
-          <h2>{{ site.author.name }}</h2>
-          <p>{{ site.author.bio }}</p>
-          <p>{{ site.author.location }}</p>
-          <p>{{ site.author.employer }}</p>
-        </aside>
-        <main class="page">
-          {{ content }}
-        </main>
-      </div>
-    </div>
-  </body>
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+  <meta name="google-site-verification" content="2I7it8xIaAcIBgcuqCDs9ydZ3fp3F5z2teCq3_NLCZw" />
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+</head>
+
+<body class="
+  {% if page.permalink == '/publications/' %}publications-page
+  {% elsif page.permalink == '/teaching/' or page.collection == 'teaching' %}teaching-page
+  {% elsif page.permalink == '/presentations/' %}presentations-page
+  {% elsif page.permalink == '/workshop/' %}workshop-page
+  {% elsif page.permalink == '/about/' or page.url == '/' %}about-page
+  {% endif %}
+">
+
+  <div class="profile-info">
+    <p>{{ page.pronouns }}</p>
+    <p>{{ page.bio }}</p>
+    <p>{{ page.location }}</p>
+    <p>{{ page.employer }}</p>
+    <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+  </div>
+
+  {% include browser-upgrade.html %}
+
+  {{ content }}
+
+  {% include scripts.html %}
+
+</body>
 </html>
