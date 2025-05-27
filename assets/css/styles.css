@@ -102,12 +102,12 @@ h1, h2, h3 {
 }
 
 .archive__item-image {
-  flex: 0 0 250px;
+  flex: 0 0 300px;
   text-align: right;
 }
 
 .archive__item-image img {
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
