@@ -1,9 +1,8 @@
+/* ---------- Base Typography ---------- */
 html {
   overflow-y: scroll;
 }
 
-
-/* ---------- Base Typography ---------- */
 body {
   font-size: 17px;
   line-height: 1.4;
@@ -13,19 +12,22 @@ body {
 /* ---------- Desktop Layout ---------- */
 .container {
   display: flex;
+  gap: 40px;
+  align-items: flex-start;
 }
 
 .sidebar {
-  width: 260px;
-  flex-shrink: 0;
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  padding: 30px 20px;
-  overflow-y: auto;
-  background-color: #fff;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  z-index: 999;
+  width: 100%;
+  max-width: 260px;
+  margin: 0 0 30px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: relative;
 }
 
 .page {
@@ -33,7 +35,6 @@ body {
   padding: 20px 30px;
   box-sizing: border-box;
 }
-
 
 .author__avatar img {
   max-width: 100%;
@@ -95,7 +96,6 @@ body.workshop-page .archive {
   padding-right: 30px;
 }
 
-
 body.publications-page .archive *,
 body.teaching-page .archive *,
 body.presentations-page .archive *,
@@ -111,7 +111,10 @@ body.workshop-page .archive * {
   }
 
   .sidebar {
-    display: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
   }
 
   .author__avatar img {
