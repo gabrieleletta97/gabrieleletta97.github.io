@@ -8,7 +8,11 @@ classes: presentations-page
 
 ### 2025
 
-**UPF Student Seminar Series (Upcoming)** <br>
+**IEB Internal Work-in-Progress (IWIP)** <br>
+IEB - Istitut d'Economia de Barcelona - Faculty of Business and Economics - Universitat de Barcelona, Spain <br>
+*May 2025*
+
+**UPF Student Seminar Series** <br>
 Universitat Pompeu Fabra - Department of Economics and Business, Barcelona, Spain <br>
 *May 2025*
 
