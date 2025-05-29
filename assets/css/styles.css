@@ -1,9 +1,7 @@
-
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
-
 
 /* ---------- Base Typography ---------- */
 body {
@@ -16,7 +14,6 @@ body {
   transform: translateY(10px);
   transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
 }
-
 
 body.loaded {
   opacity: 1;
@@ -35,8 +32,6 @@ h1, h2, h3 {
   color: #0a0a0a;
   line-height: 1.25;
 }
-
-
 
 /* ---------- Desktop Layout ---------- */
 .container {
@@ -57,13 +52,11 @@ h1, h2, h3 {
   z-index: 999;
 }
 
-
 .page {
   flex-grow: 1;
   padding: 30px 40px;
   box-sizing: border-box;
 }
-
 
 .author__avatar img {
   max-width: 100%;
@@ -110,7 +103,6 @@ h1, h2, h3 {
   text-align: right;
 }
 
-
 .archive__item-image img {
   width: 100%;
   height: auto;
@@ -120,68 +112,45 @@ h1, h2, h3 {
 
 .archive__item-image img:hover {
   transform: scale(1.02);
-  transition: transform 0.2s ease;
 }
 
-
 /* ---------- Page-Specific Layout ---------- */
-body.publications-page .archive,
-body.teaching-page .archive,
-body.presentations-page .archive,
-body.workshop-page .archive {
+body.publications-page .archive {
   max-width: none;
   padding-left: 0;
   padding-right: 30px;
 }
 
-
-body.publications-page .archive *,
-body.teaching-page .archive *,
-body.presentations-page .archive *,
-body.workshop-page .archive * {
-  font-size: 13px;
-  line-height: 1.5;
-}
-
-/* Font più grande per il titolo della pubblicazione (prima del clic) */
-body.publications-page .archive__item-title h3 {
-  font-size: 15px;
+body.publications-page .archive__item-title {
+  font-size: 17px;
   font-weight: 600;
-  margin-bottom: 4px;
-  color: #111;
-  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  color: #0a0a0a;
 }
 
-
-body.publications-page .archive__item-title p {
-  font-size: 13px !important;
-  line-height: 1.4;
+body.publications-page .archive__item-title a {
+  font-size: 17px;
+  font-weight: 600;
+  color: #0a0a0a;
 }
 
-
-
-/* ---------- Custom styling for publications page ---------- */
-
-/* Font più piccolo per gli autori */
-body.publications-page .archive__item-content {
+body.publications-page .archive__item-content p {
   font-size: 13px;
   line-height: 1.4;
+  margin: 0.3em 0;
 }
 
-/* Font più grande per le intestazioni di sezione (h2) */
 body.publications-page h2 {
   font-size: 18px;
   margin-top: 3rem;
   padding-bottom: 6px;
 }
 
-/* Font più grande per il titolo principale "Research" */
 body.publications-page h1 {
   font-size: 24px;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-
 
 /* ---------- Responsive / Mobile Layout ---------- */
 @media (max-width: 768px) {
@@ -270,7 +239,6 @@ a:hover, .nav-list li a:hover {
   color: #000;
   background-color: #f0f0f0;
 }
-
 
 @media (max-width: 768px) {
   .menu-toggle {
