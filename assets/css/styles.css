@@ -215,7 +215,7 @@ body.workshop-page .archive * {
 /* ---------- Enhanced Link Styling ---------- */
 a, .nav-list li a {
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 500;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
