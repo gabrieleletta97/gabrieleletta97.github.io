@@ -139,11 +139,20 @@ body.publications-page .archive *,
 body.teaching-page .archive *,
 body.presentations-page .archive *,
 body.workshop-page .archive * {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.5;
 }
 
-/* Font più piccolo per gli autori visibili prima del clic */
+/* Font più grande per il titolo della pubblicazione (prima del clic) */
+body.publications-page .archive__item-title h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #111;
+  line-height: 1.4;
+}
+
+
 body.publications-page .archive__item-title p {
   font-size: 13px !important;
   line-height: 1.4;
