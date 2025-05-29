@@ -22,6 +22,7 @@ layout: compress
   {% endif %}
 ">
 
+  {%- comment -%}
   <div class="profile-info">
     <p>{{ page.pronouns }}</p>
     <p>{{ page.bio }}</p>
@@ -29,12 +30,23 @@ layout: compress
     <p>{{ page.employer }}</p>
     <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
   </div>
+  {%- endcomment -%}
 
   {% include browser-upgrade.html %}
 
   {{ content }}
 
   {% include scripts.html %}
+
+  <!-- Fade-in & JS check -->
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+
+    window.addEventListener('DOMContentLoaded', () => {
+      document.body.classList.add('loaded');
+    });
+  </script>
 
 </body>
 </html>
