@@ -143,6 +143,30 @@ body.workshop-page .archive * {
   line-height: 1.5;
 }
 
+/* ---------- Custom styling for publications page ---------- */
+
+/* Font più piccolo per gli autori */
+body.publications-page .archive__item-content {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Font più grande per le intestazioni di sezione (h2) */
+body.publications-page h2 {
+  font-size: 22px;
+  margin-top: 3rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 6px;
+}
+
+/* Font più grande per il titolo principale "Research" */
+body.publications-page h1 {
+  font-size: 32px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+
 /* ---------- Responsive / Mobile Layout ---------- */
 @media (max-width: 768px) {
   .container {
