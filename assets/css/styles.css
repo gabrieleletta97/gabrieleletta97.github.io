@@ -147,7 +147,7 @@ body.workshop-page .archive * {
 
 /* Font più piccolo per gli autori */
 body.publications-page .archive__item-content {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.4;
 }
 
@@ -155,7 +155,6 @@ body.publications-page .archive__item-content {
 body.publications-page h2 {
   font-size: 22px;
   margin-top: 3rem;
-  border-bottom: 1px solid #ddd;
   padding-bottom: 6px;
 }
 
