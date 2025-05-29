@@ -162,37 +162,100 @@ body.publications-page h1 {
     display: none;
   }
 
-  .author__avatar img {
-    max-width: 260px;
-    margin: 0 auto;
-  }
-
   .page,
   .archive {
-    padding: 0 20px !important;
+    padding: 20px !important;
     max-width: 100% !important;
     box-sizing: border-box;
   }
 
   .archive__item--side-by-side {
     flex-direction: column;
+    gap: 16px;
     text-align: left;
-    gap: 12px;
+    padding-bottom: 16px;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .archive__item-title a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #111;
+  }
+
+  .archive__item-content p {
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .archive__item-image {
     text-align: center;
     max-width: 100%;
-    margin: 10px auto 0;
+    margin: 0 auto;
   }
 
   .archive__item-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
+  }
+
+  .author__avatar img {
+    max-width: 200px;
+    margin: 20px auto 10px;
   }
 
   .masthead {
     display: none !important;
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 1.5rem;
+  }
+
+  .nav-list li a {
+    font-size: 16px;
+    padding: 6px 0;
+  }
+
+  .site-header {
+    padding: 10px 16px;
+  }
+
+  .site-title {
+    font-size: 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .site-nav {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .site-nav.active {
+    display: flex;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
   }
 }
 
@@ -240,23 +303,3 @@ a:hover, .nav-list li a:hover {
   background-color: #f0f0f0;
 }
 
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .site-nav {
-    display: none;
-    flex-direction: column;
-    padding-top: 10px;
-  }
-
-  .site-nav.active {
-    display: flex;
-  }
-
-  .nav-list {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
