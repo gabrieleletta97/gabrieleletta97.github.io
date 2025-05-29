@@ -143,6 +143,13 @@ body.workshop-page .archive * {
   line-height: 1.5;
 }
 
+/* Font più piccolo per gli autori visibili prima del clic */
+body.publications-page .archive__item-title p {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+
 /* ---------- Custom styling for publications page ---------- */
 
 /* Font più piccolo per gli autori */
