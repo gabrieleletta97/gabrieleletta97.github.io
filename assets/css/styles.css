@@ -139,15 +139,16 @@ body.publications-page .archive *,
 body.teaching-page .archive *,
 body.presentations-page .archive *,
 body.workshop-page .archive * {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
 }
 
 /* Font più piccolo per gli autori visibili prima del clic */
 body.publications-page .archive__item-title p {
-  font-size: 12px;
+  font-size: 13px !important;
   line-height: 1.4;
 }
+
 
 
 /* ---------- Custom styling for publications page ---------- */
