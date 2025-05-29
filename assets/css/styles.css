@@ -153,14 +153,14 @@ body.publications-page .archive__item-content {
 
 /* Font più grande per le intestazioni di sezione (h2) */
 body.publications-page h2 {
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 3rem;
   padding-bottom: 6px;
 }
 
 /* Font più grande per il titolo principale "Research" */
 body.publications-page h1 {
-  font-size: 32px;
+  font-size: 24px;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
