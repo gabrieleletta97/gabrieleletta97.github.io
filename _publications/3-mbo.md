@@ -10,7 +10,7 @@ authors:
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
 category: working_papers
 permalink: /publication/3-mbo
-excerpt: 'Working Paper'
+excerpt: 'Preliminary Draft'
 date: 2025-01-01
 venue: ""
 paperurl: "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_Salmasi_Turati.pdf"
