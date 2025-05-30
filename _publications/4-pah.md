@@ -11,7 +11,7 @@ permalink: /publication/4-pah
 excerpt: 'Work In Progress'
 venue: ""
 paperurl:
-image: "https://github.com/gabrieleletta97.github.io/images/Bargraph_hosp.png"
+image: "https://gabrieleletta97.github.io/images/Bargraph_hosp.png"
 ---
 
 
