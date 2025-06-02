@@ -251,40 +251,47 @@ body.publications-page h1 {
     font-size: 20px;
   }
 
-  .menu-toggle {
-    display: block;
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
+ .menu-toggle {
+  display: none !important;
+ }
 
-  .site-nav {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    padding-top: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  }
+ .site-nav {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px 0;
+  justify-content: center;
+  background: none;
+  box-shadow: none;
+ }
 
-  .site-nav.active {
+ .site-nav.active {
     display: flex;
   }
 
-  .nav-list {
-    flex-direction: column;
-    gap: 8px;
-    margin: 0;
-    padding: 10px 0;
-  }
+ .nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
 
-  .nav-list li a {
-    font-size: 16px;
-    padding: 6px 0;
-    display: block;
-    color: #000;
-  }
+ .nav-list li a {
+  font-size: 15px;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #000;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+ }
+
+.nav-list li a:hover {
+  background-color: #f0f0f0;
+}
 
   .masthead {
     display: none !important;
