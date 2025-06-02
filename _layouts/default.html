@@ -69,6 +69,16 @@ layout: compress
         padding: 6px 10px;
       }
     }
+
+    /* ✅ Fade-in contenuto leggero (evita scatti) */
+    main {
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+
+    body.loaded main {
+      opacity: 1;
+    }
   </style>
 
   <!-- ✅ Preload del CSS principale -->
@@ -108,13 +118,18 @@ layout: compress
 
   {% include scripts.html %}
 
-  <!-- Fade-in solo sui contenuti -->
+  <!-- ✅ JS ottimizzato per applicare .loaded prima -->
   <script>
     document.documentElement.classList.remove('no-js');
     document.documentElement.classList.add('js');
-    window.addEventListener('DOMContentLoaded', () => {
+
+    if (document.readyState === 'interactive' || document.readyState === 'complete') {
       document.body.classList.add('loaded');
-    });
+    } else {
+      document.addEventListener('DOMContentLoaded', function () {
+        document.body.classList.add('loaded');
+      });
+    }
   </script>
 
 </body>
