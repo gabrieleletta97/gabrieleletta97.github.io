@@ -156,15 +156,20 @@ body.publications-page h1 {
 @media (max-width: 768px) {
   html, body {
     overflow-x: hidden;
+    font-size: 14px;
   }
 
   .container {
     flex-direction: column;
-    width: 100%;
   }
 
   .sidebar {
-    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    box-shadow: none;
+    padding: 10px 20px;
   }
 
   .page,
@@ -225,7 +230,7 @@ body.publications-page h1 {
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 2rem;
     margin-bottom: 1rem;
     line-height: 1.3;
