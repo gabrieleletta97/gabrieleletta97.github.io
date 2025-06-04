@@ -69,6 +69,19 @@ body.loaded .sidebar {
   box-sizing: border-box;
 }
 
+.page,
+.archive {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+body.loaded .page,
+body.loaded .archive {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .author__avatar img {
   max-width: 100%;
   height: auto;
