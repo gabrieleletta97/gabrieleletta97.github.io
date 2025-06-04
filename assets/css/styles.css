@@ -367,9 +367,9 @@ a, .nav-list li a {
 }
 
 .nav-list li a {
-  font-size: 13.5px;
-  padding: 1.5px 3.5px;
-  border-radius: 6px;
+  font-size: 13px;
+  padding: 1px 3px;
+  border-radius: 3px;
 }
 
 a:hover, .nav-list li a:hover {
