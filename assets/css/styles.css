@@ -62,6 +62,12 @@ h1, h2, h3 {
   margin-right: 6px;
 }
 
+.author__urls li.author__desktop {
+  font-size: 13px;
+  color: #444;
+}
+
+
 body.loaded .sidebar {
   opacity: 1;
   transform: translateX(0);
