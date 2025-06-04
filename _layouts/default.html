@@ -147,18 +147,35 @@ layout: compress
   {% include scripts.html %}
 
   <!-- ✅ JS per applicare .loaded -->
-  <script>
-    document.documentElement.classList.remove('no-js');
-    document.documentElement.classList.add('js');
+ <script>
+  document.documentElement.classList.remove('no-js');
+  document.documentElement.classList.add('js');
 
-    if (document.readyState === 'interactive' || document.readyState === 'complete') {
-      document.body.classList.add('loaded');
-    } else {
-      document.addEventListener('DOMContentLoaded', function () {
-        document.body.classList.add('loaded');
-      });
-    }
-  </script>
+  function onLoaded() {
+    document.body.classList.add('loaded');
+  }
+
+  if (document.readyState === 'interactive' || document.readyState === 'complete') {
+    onLoaded();
+  } else {
+    document.addEventListener('DOMContentLoaded', onLoaded);
+  }
+
+  // ✅ Evita il flash tra pagine
+  document.querySelectorAll('a[href]').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      const target = link.getAttribute('href');
+      const isInternal = target &&
+                         !target.startsWith('http') &&
+                         !target.startsWith('#') &&
+                         !link.hasAttribute('target');
+
+      if (isInternal) {
+        document.documentElement.classList.add('is-navigating');
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
