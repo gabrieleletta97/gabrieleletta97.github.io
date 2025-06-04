@@ -6,11 +6,15 @@ html {
 html.is-navigating .page,
 html.is-navigating .archive,
 html.is-navigating main,
-html.is-navigating .sidebar {
+html.is-navigating .sidebar,
+html.is-navigating .site-header,
+html.is-navigating .site-nav,
+html.is-navigating .nav-list {
   transition: none !important;
   opacity: 1 !important;
   transform: none !important;
 }
+
 
 
 /* ---------- Base Typography ---------- */
