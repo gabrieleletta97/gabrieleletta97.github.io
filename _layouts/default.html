@@ -14,6 +14,14 @@ layout: compress
 
   <!-- 🔒 CSS CRITICO INLINE per evitare FOUC nel menu -->
   <style>
+
+     body:not(.loaded) .sidebar,
+     body:not(.loaded) .page,
+     body:not(.loaded) .archive {
+    opacity: 0;
+    transform: translateY(0);
+   }
+    
     .site-header, .site-header * {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
