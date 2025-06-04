@@ -58,6 +58,10 @@ h1, h2, h3 {
   transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
+.icon-pad-right {
+  margin-right: 6px;
+}
+
 body.loaded .sidebar {
   opacity: 1;
   transform: translateX(0);
