@@ -12,6 +12,14 @@ layout: compress
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="2I7it8xIaAcIBgcuqCDs9ydZ3fp3F5z2teCq3_NLCZw" />
 
+  <title>
+  {% if page.title %}
+    {{ page.title }} | GL
+  {% else %}
+    GL
+  {% endif %}
+ </title>
+
   <!-- 🔒 CSS CRITICO INLINE per evitare FOUC e applicare effetto fade-in -->
   <style>
     /* Nascondi tutto inizialmente per evitare flash */
