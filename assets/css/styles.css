@@ -3,6 +3,16 @@ html {
   scroll-behavior: smooth;
 }
 
+html.is-navigating .page,
+html.is-navigating .archive,
+html.is-navigating main,
+html.is-navigating .sidebar {
+  transition: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+
 /* ---------- Base Typography ---------- */
 body {
   line-height: 1.6;
@@ -91,6 +101,7 @@ body.loaded .archive {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 .author__avatar img {
   max-width: 100%;
