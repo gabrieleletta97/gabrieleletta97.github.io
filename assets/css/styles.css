@@ -18,7 +18,7 @@ main {
   margin: 0 auto;
   padding: 3rem 2rem;
 
-  opacity: 0;
+  opacity: 1;
   transform: translateY(10px);
   transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
@@ -64,7 +64,7 @@ h1, h2, h3 {
 .author__avatar img {
   max-width: 100%;
   height: auto;
-  border-radius: 75px;
+  border-radius: 95px;
   display: block;
   margin: 0 auto 10px;
 }
