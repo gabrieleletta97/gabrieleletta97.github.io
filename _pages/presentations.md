@@ -9,7 +9,7 @@ classes: presentations-page
 ### 2025
 
 **Workshop on Intellectual Property Rights, Science and Innovation: Implications for Drug Discovery and the Health Sector (forthcoming)** <br>
-Department of Economic Policy - Univesità Cattolica del Sacro Cuore, Milan, Italy
+Department of Economic Policy - Univesità Cattolica del Sacro Cuore, Milan, Italy <br>
 *Sep 2025*
 
 **IEB Internal Work-in-Progress (IWIP)** <br>
