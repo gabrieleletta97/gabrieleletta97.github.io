@@ -17,7 +17,7 @@ IEB - Istitut d'Economia de Barcelona - Faculty of Business and Economics - Univ
 *May 2025*
 
 **UPF Student Seminar Series** <br>
-Universitat Pompeu Fabra - Department of Economics and Business, Barcelona, Spain <br>
+Department of Economics and Business - Universitat Pompeu Fabra, Barcelona, Spain <br>
 *May 2025*
 
 **BSE PhD Jamboree 2025** <br>
