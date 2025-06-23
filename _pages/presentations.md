@@ -7,7 +7,7 @@ classes: presentations-page
 ---
 
 ### 2025
-**XXXVII SIEP Conference 2024 - Public Policy Governance and Access to Services Opportunities (forthcoming)** <br>
+**XXXVII SIEP Conference 2025 - Public Policy Governance and Access to Services Opportunities (forthcoming)** <br>
 University of Napoli Federico II, Naples, Italy <br>
 *Sep 2025*
 
