@@ -7,6 +7,9 @@ classes: presentations-page
 ---
 
 ### 2025
+**XXXVII SIEP Conference 2024 - Public Policy Governance and Access to Services Opportunities (forthcoming)** <br>
+University of Napoli Federico II, Naples, Italy <br>
+*Sep 2025*
 
 **Workshop on Intellectual Property Rights, Science and Innovation: Implications for Drug Discovery and the Health Sector (forthcoming)** <br>
 Department of Economic Policy - Univesità Cattolica del Sacro Cuore, Milan, Italy <br>
