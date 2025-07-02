@@ -67,7 +67,14 @@ Italian Society of Public Economics - Università degli Studi di Cagliari, Italy
 Department of Social Science and Economics, Sapienza University of Rome, Italy <br>
 *Sep 2024*
 
-**Internal seminar of the 2nd year PhD Students in Economics and Finance (DEFAP)** <br>
+**Second Internal seminar of the 2nd year PhD Students in Economics and Finance (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Jan 2024*
 
+---
+
+### 2023
+
+**First Internal seminar of the 2nd year PhD Students in Economics and Finance (DEFAP)** <br>
+Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
+*May 2023*
