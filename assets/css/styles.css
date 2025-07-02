@@ -205,6 +205,16 @@ body.publications-page h1 {
   margin-bottom: 1rem;
 }
 
+body.presentations-page {
+  font-size: 14px;
+}
+
+body.presentations-page p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
 /* ---------- Responsive / Mobile Layout ---------- */
 @media (max-width: 768px) {
   html, body {
