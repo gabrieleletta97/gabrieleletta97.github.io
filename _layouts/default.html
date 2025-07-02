@@ -170,18 +170,20 @@ document.querySelectorAll('a[href]').forEach(function(link) {
                        !target.startsWith('#') &&
                        !link.hasAttribute('target');
 
+    console.log('Clicked:', target, 'Is internal:', isInternal); // 👈 debug qui
+
     if (isInternal) {
-      e.preventDefault(); // blocca la navigazione
-      document.body.classList.remove('loaded'); // innesca fade-out
+      e.preventDefault();
+      document.body.classList.remove('loaded');
       document.documentElement.classList.add('is-navigating');
 
-      // Aspetta 300ms (matcha la tua transizione CSS)
       setTimeout(function() {
         window.location.href = target;
       }, 300);
     }
   });
 });
+
 
 </script>
 
