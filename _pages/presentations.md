@@ -15,6 +15,10 @@ Italian Society of Public Economics- University of Napoli Federico II, Naples, I
 Department of Economic Policy - Univesità Cattolica del Sacro Cuore, Milan, Italy <br>
 *Sep 2025*
 
+**III Sapienza Ph.D. Conference in Social Sciences and Economics  (forthcoming)** <br>
+Department of Social Science and Economics, Sapienza University of Rome, Italy <br>
+*Sep 2025*
+
 **IEB Internal Work-in-Progress (IWIP)** <br>
 IEB - Istitut d'Economia de Barcelona - Faculty of Business and Economics - Universitat de Barcelona, Spain <br>
 *May 2025*
