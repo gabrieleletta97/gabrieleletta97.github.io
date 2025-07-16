@@ -15,6 +15,10 @@ Italian Society of Public Economics- University of Napoli Federico II, Naples, I
 Department of Economic Policy - Univesità Cattolica del Sacro Cuore, Milan, Italy <br>
 *Sep 2025*
 
+**APHEC 4th Workshop - Healthcare Sustainability and Challenges (forthcoming)** <br>
+Advanced Pharmaco & Health Economics - Department of Economics and Business Studies - Univesity of Genoa, Italy <br>
+*Sep 2025*
+
 **III Sapienza Ph.D. Conference in Social Sciences and Economics  (forthcoming)** <br>
 Department of Social Science and Economics, Sapienza University of Rome, Italy <br>
 *Sep 2025*
