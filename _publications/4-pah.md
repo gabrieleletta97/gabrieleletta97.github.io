@@ -10,7 +10,7 @@ category: work_in_progress
 permalink: /publication/4-pah
 excerpt: 'Work In Progress'
 venue: ""
-presented_at: "Presented at: *IEB IWIP (IEB, UB, Spain)*"
+presented_at: "Presented at: IEB IWIP (IEB, UB, Spain)"
 paperurl:
 image: "https://gabrieleletta97.github.io/images/Bargraph_hosp.png"
 ---
