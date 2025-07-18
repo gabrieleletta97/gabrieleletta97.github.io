@@ -13,6 +13,7 @@ permalink: /publication/3-ivg
 excerpt: 'Working Paper'
 date: 2025-01-01
 venue: ""
+presented_at: "Presented at 1st and 2nd Internal Seminar of 2nd year PhD Students (DEFAP, Unicatt, Milan), 2nd PhD Conference in Social Sciences and Economics (DISSE, Sapienza, Rome), XXXVI SIEP 2024 (UniCg, Cagliari), Internal Seminar of 3rd year PhD Students (DEFAP, Unicatt, Milan), 17th UniTO-CCA VPDE Workshop (Poster Session, UniTo-CCA, Turin), PhD & Post-Doc UniMi Brown Bag Seminars (DEMM, UniMi, Milan), 4th Winter Symposium (DEF, Unicatt, Milan), UB School of Economics PhD Seminars (UB, Barcelona), 1st WISE (IdeP, USI, Airolo), 2nd Verona ECWE (DE, UniVr, Verona), BSE PhD Jamboree 2024 (BSE, Barcelona)"
 paperurl: "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/WP_IVG_Letta_Salmasi_Turati_new.pdf"
 image: "https://gabrieleletta97.github.io/images/ES_inactive_OLS_nolab.png"  # Path to your image
 ---
