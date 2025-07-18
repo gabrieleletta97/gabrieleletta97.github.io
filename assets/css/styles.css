@@ -175,20 +175,20 @@ body.publications-page .archive {
 }
 
 body.publications-page .archive__item-title {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: #0a0a0a;
 }
 
 body.publications-page .archive__item-title a {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   color: #0a0a0a;
 }
 
 body.publications-page .archive__item-content p {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4;
   margin: 0.3em 0;
 }
