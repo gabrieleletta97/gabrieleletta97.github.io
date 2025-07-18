@@ -12,11 +12,11 @@ Italian Society of Public Economics- University of Napoli Federico II, Naples, I
 *Sep 2025*
 
 **Workshop on Intellectual Property Rights, Science and Innovation: Implications for Drug Discovery and the Health Sector (forthcoming)** <br>
-Department of Economic Policy - Univesità Cattolica del Sacro Cuore, Milan, Italy <br>
+Department of Economic Policy, Univesità Cattolica del Sacro Cuore, Milan, Italy <br>
 *Sep 2025*
 
 **APHEC 4th Workshop - Healthcare Sustainability and Challenges (forthcoming)** <br>
-Advanced Pharmaco & Health Economics - Department of Economics and Business Studies - Univesity of Genoa, Italy <br>
+Advanced Pharmaco & Health Economics - Department of Economics and Business Studies, Univesity of Genoa, Italy <br>
 *Sep 2025*
 
 **III Sapienza Ph.D. Conference in Social Sciences and Economics  (forthcoming)** <br>
@@ -24,11 +24,11 @@ Department of Social Science and Economics, Sapienza University of Rome, Italy <
 *Sep 2025*
 
 **IEB Internal Work-in-Progress (IWIP)** <br>
-IEB - Istitut d'Economia de Barcelona - Faculty of Business and Economics - Universitat de Barcelona, Spain <br>
+IEB - Istitut d'Economia de Barcelona - Faculty of Business and Economics, University of Barcelona, Spain <br>
 *May 2025*
 
 **UPF Student Seminar Series** <br>
-Department of Economics and Business - Universitat Pompeu Fabra, Barcelona, Spain <br>
+Department of Economics and Business, Universitat Pompeu Fabra, Barcelona, Spain <br>
 *May 2025*
 
 **BSE PhD Jamboree 2025** <br>
@@ -36,7 +36,7 @@ Barcelona School of Economics - Universitat Pompeu Fabra and Universitat Autonom
 *May 2025*
 
 **2nd Verona Early Career Workshop in Economics** <br>
-Department of Economics - University of Verona, Italy  <br>
+Department of Economics, University of Verona, Italy  <br>
 *May 2025*
 
 **1st Workshop IdEP in Sustainable Economics (WISE)** <br>
@@ -68,7 +68,7 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 *Oct 2024*
 
 **XXXVI SIEP Conference 2024 - Reimagining Welfare: Sustainable Paths in Public Finance** <br>
-Italian Society of Public Economics - Università degli Studi di Cagliari, Italy <br>
+Italian Society of Public Economics - University of Cagliari, Italy <br>
 *Sep 2024*
 
 **2nd PhD Conference in Social Sciences and Economics** <br>
