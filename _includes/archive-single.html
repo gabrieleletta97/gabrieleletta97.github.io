@@ -33,6 +33,10 @@
         <p><em>{{ post.venue }}</em></p>
       {% endif %}
 
+      {% if post.presented_at %}
+       <p><strong>{{ post.presented_at }}</strong></p>
+      {% endif %}
+
       {% if post.date %}
         <p class="page__date">
           <strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i></strong>
@@ -47,6 +51,8 @@
       {% if post.paperurl %}
         <p><a href="{{ post.paperurl }}">Download Paper</a></p>
       {% endif %}
+
+
 
     </div>
 
