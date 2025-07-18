@@ -1,5 +1,5 @@
 ---
-title: "Panic at the Hospital: An Economic Appraisal of Violence Against Italian Healthcare Workers."
+title: "Panic at the Hospital: An Economic Appraisal of Violence Against Italian Healthcare Workers. [JMP]"
 collection: publications
 authors:
   - name: "Matteo Ferraro"
