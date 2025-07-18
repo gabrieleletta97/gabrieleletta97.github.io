@@ -13,7 +13,8 @@ permalink: /publication/3-mbo
 excerpt: 'Preliminary Draft'
 date: 2025-01-01
 venue: ""
-presented_at: "Presented at: *UPF Student Seminar Series (DEB, UPF, Barcelona), XXXVII SIEP Conference 2025 (**forthcoming**, UniNa, Naples), Workshop on IPR, Science and Innovation (**forthcoming**, DEP, Unicatt, Milan), APHEC 4th Workshop (**forthcoming**, DEBS, UniGe, Genoa), III Sapienza Ph.D. Conference in Social Sciences and Economics (**forthcoming**, DISSE, Sapienza, Rome)*"
+presented_at: "Presented at: UPF Student Seminar Series (DEB, UPF, Barcelona).
+Accepted at: III Sapienza Ph.D. Conference in Social Sciences and Economics (DISSE, Sapienza, Rome), APHEC 4th Workshop (forthcoming, DEBS, UniGe, Genoa), Workshop on IPR, Science and Innovation (DEP, Unicatt, Milan), XXXVII SIEP Conference 2025 (UniNa, Naples), XX TEPP Conference 2025 (INRAE, Rennes)"
 paperurl: "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_Salmasi_Turati.pdf"
 image: "https://gabrieleletta97.github.io/images/honest_did_avg_IRCCS_BV.png"  # Path to your image
 ---
