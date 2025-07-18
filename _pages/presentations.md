@@ -16,7 +16,7 @@ Department of Economic Policy, Univesità Cattolica del Sacro Cuore, Milan, Ital
 *Sep 2025*
 
 **APHEC 4th Workshop - Healthcare Sustainability and Challenges (forthcoming)** <br>
-Advanced Pharmaco & Health Economics - Department of Economics and Business Studies, Univesity of Genoa, Italy <br>
+Advanced Pharmaco & Health Economics Research Center - Department of Economics and Business Studies, Univesity of Genoa, Italy <br>
 *Sep 2025*
 
 **III Sapienza Ph.D. Conference in Social Sciences and Economics  (forthcoming)** <br>
