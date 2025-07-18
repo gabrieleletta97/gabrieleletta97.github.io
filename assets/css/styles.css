@@ -193,6 +193,13 @@ body.publications-page .archive__item-content p {
   margin: 0.3em 0;
 }
 
+body.publications-page .archive__item-content p.presented-at {
+  font-size: 10px;
+  font-weight: normal;
+  color: #555;
+  margin-top: 0.2em;
+}
+
 body.publications-page h2 {
   font-size: 18px;
   margin-top: 3rem;
