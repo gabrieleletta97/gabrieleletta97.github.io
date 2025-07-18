@@ -34,8 +34,13 @@
       {% endif %}
 
       {% if post.presented_at %}
-        <p class="presented-at">{{ post.presented_at }}</p>
+       <p class="presented-at">{{ post.presented_at }}</p>
+       {% if post.presented_at contains "*" %}
+        <p style="font-size: 0.75em; color: #666; margin-top: -0.5em;">
+         <em>* presented by coauthor</em>
+        </p>
       {% endif %}
+     {% endif %}
 
       {% if post.date %}
         <p class="page__date">
