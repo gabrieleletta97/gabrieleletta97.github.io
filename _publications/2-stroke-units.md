@@ -14,7 +14,7 @@ category: work_in_progress
 permalink: /publication/2-stroke-units
 excerpt: 'Work In Progress'
 venue: ""
-presented_at: "Presented at: XXXVI SIEP Conference 2024 (By co-author, UniCg, Cagliari)"
+presented_at: "**Presented at**: XXXVI SIEP Conference 2024 (**By co-author**, UniCg, Cagliari)"
 paperurl:
 image: "https://gabrieleletta97.github.io/images/SU_Map.png"  # Path to your image
 ---
