@@ -14,7 +14,7 @@ category: work_in_progress
 permalink: /publication/5-csec
 excerpt: 'Work In Progress'
 venue: ""
-presented_at: ""
+presented_at:
 paperurl:
 image: "https://gabrieleletta97.github.io/images/Big_Tab_Graph_Logit.png"
 ---
