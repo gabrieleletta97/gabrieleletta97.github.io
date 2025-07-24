@@ -6,8 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div class="home-content">
-
 **PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** (Department of Economics and Finance), under the supervision of proff. Gilberto Turati and Luca Salmasi. <br> Currently visiting prof. Judit Vall Castellò at **UB - Universitat de Barcelona**, since 01/02/2025. <br> Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
 **Interests**: Policy Evaluation, Health and Public Economics.
