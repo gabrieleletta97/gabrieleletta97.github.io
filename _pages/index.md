@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** (Department of Economics and Finance), <br> under the supervision of proff. Gilberto Turati and Luca Salmasi. 
+**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** (DEF), <br> under the supervision of proff. Gilberto Turati and Luca Salmasi. 
 
 Currently visiting prof. Judit Vall Castellò at **UB - Universitat de Barcelona**. 
 
