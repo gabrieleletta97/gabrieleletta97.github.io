@@ -13,7 +13,6 @@ author_profile: true
        "It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all." - FD
       </p>
      </blockquote>
-
     </div>
   </div>  
 
