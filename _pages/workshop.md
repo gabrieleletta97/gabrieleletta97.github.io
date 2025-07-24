@@ -23,6 +23,6 @@ and the the 3rd edition ([2025](https://sites.google.com/view/milanphdeconworksh
 
 <div class="content-center">
   <div class="image-container">
-    <img src="https://gabrieleletta97.github.io/images/depero.jpg" alt="Simultaneità Metropolitane" style="max-width: 40%; height: auto;">
+    <img src="https://gabrieleletta97.github.io/images/depero.jpg" alt="Simultaneità Metropolitane" style="max-width: 30%; height: auto;">
   </div>
  </div>
