@@ -7,7 +7,7 @@ classes: presentations-page
 ---
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 2rem;">
   <h1 style="margin: 0; font-size: 1.5rem;">Presentations</h1>
-  <img src="/images/repin.jpg" alt="Teaching banner" style="height: 75px; width: 550px; object-fit: cover;">
+  <img src="/images/repin.jpg" alt="Teaching banner" style="height: 75px; width: 350px; object-fit: cover;">
 </div>
 
 ### 2025
