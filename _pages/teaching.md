@@ -7,7 +7,7 @@ classes: teaching-page
 ---
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 2rem;">
   <h1 style="margin: 0; font-size: 1.5rem;">Teaching</h1>
-  <img src="/images/segantini.jpg" alt="Teaching banner" style="height: 75px; width: 550px; object-fit: cover;">
+  <img src="/images/segantini.jpg" alt="Teaching banner" style="height: 75px; width: 50px; object-fit: cover;">
 </div>
 
 **Policy Evaluation - Macroeconometrics Tutorial** <br>
