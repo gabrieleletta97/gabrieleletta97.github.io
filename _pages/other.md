@@ -9,12 +9,13 @@ author_profile: true
   <div class="quote-container">
     <div class="quote">
      <blockquote>
-      <p style="font-size: 1.3rem;">
+      <p style="font-size: 1.5rem;">
        "It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all." - FD
       </p>
      </blockquote>
     </div>
-  </div>  
+  </div> 
+</div>
 
 
 <div class="content-center">
