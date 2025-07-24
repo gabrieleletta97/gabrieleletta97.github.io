@@ -418,20 +418,4 @@ a:hover, .nav-list li a:hover {
   max-width: 100%;
 }
 
-/* ---------- Final ---------- */
-
-.home-content {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
-  font-size: 15px;
-  line-height: 1.7;
-}
-
-@media (max-width: 768px) {
-  .home-content {
-    padding: 1.5rem 1rem;
-    font-size: 14px;
-  }
-}
 
