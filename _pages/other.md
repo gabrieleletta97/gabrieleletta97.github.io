@@ -23,4 +23,3 @@ author_profile: true
     <img src="https://gabrieleletta97.github.io/images/idiotic.jpeg" alt="[Friend's Name] photo or a symbolic image" style="max-width: 40%; height: auto;">
   </div>
  </div>
-</div>  
