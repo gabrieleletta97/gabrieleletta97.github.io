@@ -20,7 +20,11 @@
         <p><strong>Authors:</strong>
           {% for author in post.authors %}
             {% if author.url %}
-              <a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+              {% if author.url contains 'http' %}
+                <a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+              {% else %}
+                <a href="{{ site.baseurl }}{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+              {% endif %}
             {% else %}
               {{ author.name }}
             {% endif %}
@@ -58,8 +62,6 @@
       {% if post.paperurl %}
         <p><a href="{{ post.paperurl }}">Download Paper</a></p>
       {% endif %}
-
-
 
     </div>
 
