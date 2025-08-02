@@ -5,7 +5,7 @@ authors:
   - name: "Antonio Giulio de Belvis"
     url: "https://docenti.unicatt.it/ppd2/it/docenti/16334/antonio-de-belvis/profilo"
   - name: "Gabriele Letta"
-    url: "https://gabrieleletta97.github.io/gabriele_letta.github.io/"
+    url: "https://gabrieleletta97.github.io/"
   - name: "Luca Salmasi"
     url: "https://sites.google.com/view/luca-salmasi/home-page"
   - name: "Gilberto Turati"
