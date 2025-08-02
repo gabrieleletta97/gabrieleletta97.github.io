@@ -3,7 +3,7 @@ title: "Monetary incentives versus public funding in healthcare research: what m
 collection: publications
 authors:
   - name: "Gabriele Letta"
-    url: "https://gabrieleletta97.github.io/gabriele_letta.github.io//"
+    url: "https://gabrieleletta97.github.io/"
   - name: "Luca Salmasi"
     url: "https://sites.google.com/view/luca-salmasi/home-page"
   - name: "Gilberto Turati"
