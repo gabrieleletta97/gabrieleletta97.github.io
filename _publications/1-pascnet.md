@@ -3,7 +3,7 @@ title: "Valutazione degli effetti indiretti dell’epidemia da Covid-19 sul sist
 collection: publications
 authors:
   - name: "Gabriele Letta"
-    url: "https://gabrieleletta97.github.io/gabriele_letta.github.io/"
+    url: "https://gabrieleletta97.github.io/"
   - name: "Claudio Lucifora"
     url: "https://docenti.unicatt.it/ppd2/en/docenti/02980/claudio-lucifora/profilo"
   - name: "Daria Vigani"
