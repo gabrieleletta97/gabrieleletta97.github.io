@@ -10,7 +10,7 @@ category: work_in_progress
 permalink: /publication/4-pah
 excerpt: 'Work In Progress'
 venue: ""
-presented_at: "IEB Internal Working Progress - IWIP (IEB, UB, Spain). ACCEPTED AT: 19th CNES - Portuguese Health Economics Conference (UPorto, Porto)"
+presented_at: "IEB Internal Working Progress - IWIP (IEB, UB, Spain). ACCEPTED AT: 1st Workshop on Economics and Primary Care (Istitut Català de la Salut, Barcelona, Spain); 19th CNES - Portuguese Health Economics Conference (UPorto, Porto)"
 paperurl:
 image: "https://gabrieleletta97.github.io/images/Bargraph_hosp.png"
 ---
