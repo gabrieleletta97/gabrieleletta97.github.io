@@ -15,7 +15,7 @@ classes: presentations-page
 Italian Society of Public Economics- University of Napoli Federico II, Naples, Italy <br>
 *Sep 2025*
 
-**Workshop on Intellectual Property Rights, Science and Innovation: Implications for Drug Discovery and the Health Sector (forthcoming)** <br>
+**Workshop on Intellectual Property Rights, Science and Innovation: Implications for Drug Discovery and the Health Sector** <br>
 Department of Economic Policy, Univesità Cattolica del Sacro Cuore, Milan, Italy <br>
 *Sep 2025*
 
