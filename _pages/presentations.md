@@ -12,7 +12,7 @@ classes: presentations-page
 
 ### 2025
 **1st Workshop on Economics and Primary Care (Forthcoming)** <br>
-Istitut Català de la Salut - ICS - Barcelona, Spain <br>
+Institut Català de la Salut - ICS - Barcelona, Spain <br>
 *Oct 2025*
 
 **XXXVII SIEP Conference 2025 - Public Policy Governance and Access to Services Opportunities** <br>
