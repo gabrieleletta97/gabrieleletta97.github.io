@@ -1,5 +1,5 @@
 ---
-title: "Suspended workers, abortions and fertility."
+title: "Furloughed workers, abortions and fertility."
 collection: publications
 authors:
   - name: "Gabriele Letta"
@@ -21,8 +21,8 @@ image: "https://gabrieleletta97.github.io/images/ES_inactive_OLS_nolab.png"  # P
 [[Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/WP_IVG_Letta_Salmasi_Turati_new.pdf)]
 
 
-We investigate the effect of an Italian job suspension policy aimed at counteracting the spread of Covid-19 on the fertility patterns of Italian women, with a focus on abortions (VPTs). In March 2020, the government forbade a set of “non-essential” activities; hence, we exploit the variability in the share of suspended workers across Italian municipalities to assess the impact of closures on abortion rates (AR), and pregnancy rates turning into live births 9 months later. Relying on outstanding administrative data on VPTs and births, we find that, the overall drops in abortions due to social distancing notwithstanding, municipalities in the fourth quartile of the suspended workers’ distribution saw a positive effect on quarterly ARs (between 10-13% the average pre-pandemic rate), compared to those belonging to the lower tail; the impact is mostly driven by industrial suspensions. A non-significant effect is retrieved on births. We employ socio-economic information to inquire about potential mechanisms. Plus, for the first time in the research with the same data, we exploit information on past reproductive behavior of the aborting women. The effect on abortions is driven mostly by married women, not in professional condition. Plus, and more interestingly, by those who previously had pregnancies (1 or 2 children). By contrast, the occupational sector of the aborting women is independent on the sector of the job suspension share, while the industrial sector-driven effect linked to married women OLF hints that, for those who seek for abortion, male partners’ work trajectories matter more than theirs in the context of such decision-making process, thus revealing potential mechanisms for the exposure of gender imbalances within the impacted couples. 
+We investigate the effect of a COVID-related policy that mandated temporary work suspensions in specific industries on Voluntary Pregnancy Terminations (VPTs) and fertility decisions within households. We exploit the variability in the share of furloughed workers across Italian municipalities to estimate in a DiD framework the impact of closures on abortion rates and pregnancy rates. Relying on administrative data on VPTs and births, we find that—although social distancing caused an overall drop in abortions—municipalities in the 4th quartile of the furloughed workers’ distribution experienced a positive differential in quarterly ARs (10-13% relative to the mean prepandemic rate), compared to those in the lower tail of the distribution. The effect is mostly driven by married, non-working women in households with 1-2 children. We also find that the result holds for furloughed workers in the industrial sector. This suggests that economic insecurity during the first months of the pandemic in households with children, where the sole earner is the man, is the likely driver of the effect on VPTs. In line with this nterpretation, we do not find any effects on births. 
 
-**Keywords**: Abortion, Covid-19, Essential sectors, Live births, Work suspension.
+**Keywords**: Furloughed workers, Abortion, Fertility, Covid-19.
 
 **JEL Classification**: I12, I18, J13, J16.
