@@ -6,6 +6,11 @@ author_profile: true
 classes: presentations-page
 ---
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 2rem;">
+  <h1 style="margin: 0; font-size: 1.5rem;">Presentations and Discussions</h1>
+  <img src="/images/repin.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
+</div>
+
+<div style="display: flex; align-items: center; gap: 21px; margin-bottom: 2rem;">
   <h1 style="margin: 0; font-size: 1.5rem;">Presentations</h1>
   <img src="/images/repin.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
 </div>
@@ -68,7 +73,7 @@ School of Economics, University of Barcelona, Spain  <br>
 ### 2024
 
 **4th Winter Symposium in Economics and Finance** <br>
-Deparment of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
+Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Dec 2024*
 
 **PhD & Post-Doc UniMi Brown Bag Seminars** <br>
@@ -102,3 +107,35 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 **First Internal seminar of the 2nd year PhD Students in Economics and Finance (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *May 2023*
+
+---
+<div style="display: flex; align-items: center; gap: 21px; margin-bottom: 2rem;">
+  <h1 style="margin: 0; font-size: 1.5rem;">Discussions</h1>
+  <img src="/images/repin.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
+</div>
+
+*Do Hospital Mergers Reduce Waiting Times? Theory and Evidence from the English NHS* <br>
+By Vanessa Cirulli (Sapienza University of Rome), **Giorgia Marini** (Sapienza University of Rome), Marco A. Marini (Sapienza University of Rome), and Odd Rune Straume (University of Minho) <br>
+XXXVII SIEP Conference 2025, University of Napoli Federico II, Naples, Italy <br>
+*Sep 2025*
+
+*Sustainable hospital regulation: On the welfare implications of digital treatments* <br>
+By **Burkhard Hehenkamp** (Paderborn University) and Oddvar M. Kaarboe (University of Bergen) <br>
+APHEC 4th Workshop, University of Genoa, Italy <br>
+*Sep 2025*
+
+*Are cash reallocations effective amid multiple shocks? A double selection approach* <br>
+By **Ellestina Jumbe** (University of Rome Tor Vergata) <br>
+III Sapienza Ph.D. Conference in Social Sciences and Economics, Sapienza University of Rome, Italy <br>
+*Sep 2025*
+
+*The Nursery School Puzzle: How Childcare Quality and Availability Shape Mothers' Employment* <br>
+By **Anna Chesa Llorens** (University of Barcelona) <br>
+BSE PhD Jamboree 2025, Barcelona School of Economics, Barcelona, Spain <br>
+*May 2025*
+
+*Does taxation improve government effectiveness and accountability? Tax revenue and governance dividends in Sub-Saharan Africa (1996-2019)* <br>
+By **Jacopo Resti** (Central European University) <br>
+2nd PhD Conference in Social Sciences and Economics, Sapienza University of Rome, Italy <br>
+*Sep 2024*
+
