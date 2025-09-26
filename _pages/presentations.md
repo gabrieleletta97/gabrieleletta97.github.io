@@ -113,26 +113,25 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 
 *Do Hospital Mergers Reduce Waiting Times? Theory and Evidence from the English NHS* <br>
 By Vanessa Cirulli (Sapienza), **Giorgia Marini (Sapienza)**, Marco A. Marini (Sapienza), and Odd Rune Straume (UMinho) <br>
-XXXVII SIEP Conference 2025, University of Napoli Federico II, Naples, Italy <br>
-*Sep 2025*
+XXXVII SIEP Conference 2025, University of Napoli Federico II, Naples, Italy - *Sep 2025*
+
 
 *Sustainable hospital regulation: On the welfare implications of digital treatments* <br>
 By **Burkhard Hehenkamp (Paderborn)** and Oddvar M. Kaarboe (UiB) <br>
-APHEC 4th Workshop, University of Genoa, Italy <br>
-*Sep 2025*
+APHEC 4th Workshop, University of Genoa, Italy - *Sep 2025*
+
 
 *Are cash reallocations effective amid multiple shocks? A double selection approach* <br>
 By **Ellestina Jumbe (Tor Vergata)** <br>
-III Sapienza Ph.D. Conference in Social Sciences and Economics, Sapienza University of Rome, Italy <br>
-*Sep 2025*
+III Sapienza Ph.D. Conference in Social Sciences and Economics, Sapienza University of Rome, Italy - *Sep 2025*
 
 *The Nursery School Puzzle: How Childcare Quality and Availability Shape Mothers' Employment* <br>
 By **Anna Chesa Llorens (UB)** <br>
-BSE PhD Jamboree 2025, Barcelona School of Economics, Barcelona, Spain <br>
-*May 2025*
+BSE PhD Jamboree 2025, Barcelona School of Economics, Barcelona, Spain - *May 2025* <br>
+
 
 *Does taxation improve government effectiveness and accountability? Tax revenue and governance dividends in Sub-Saharan Africa (1996-2019)* <br>
 By **Jacopo Resti (CEU)** <br>
-2nd PhD Conference in Social Sciences and Economics, Sapienza University of Rome, Italy <br>
-*Sep 2024*
+2nd PhD Conference in Social Sciences and Economics, Sapienza University of Rome, Italy - *Sep 2024*<br>
+
 
