@@ -112,6 +112,7 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 </div>
 
 *Do Hospital Mergers Reduce Waiting Times? Theory and Evidence from the English NHS* <br>
+<hr style="border:0; border-top:1px solid #ccc; margin:6px 0;">
 By Vanessa Cirulli (Sapienza University of Rome), **Giorgia Marini** (Sapienza University of Rome), Marco A. Marini (Sapienza University of Rome), and Odd Rune Straume (University of Minho) <br>
 XXXVII SIEP Conference 2025, University of Napoli Federico II, Naples, Italy <br>
 *Sep 2025*
