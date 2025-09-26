@@ -9,7 +9,7 @@ classes: presentations-page
   <h1 style="margin: 0; font-size: 1.5rem;">Presentations and Discussions</h1>
   <img src="/images/repin.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
 </div>
-
+---
 <div style="display: flex; align-items: center; gap: 21px; margin-bottom: 2rem;">
   <h1 style="margin: 0; font-size: 1.5rem;">Presentations</h1>
 </div>
@@ -67,7 +67,6 @@ Institute of Economics, Università della Svizzera italiana (USI), Airolo, Switz
 School of Economics, University of Barcelona, Spain  <br>
 *Feb 2025*
 
----
 
 ### 2024
 
@@ -99,7 +98,6 @@ Department of Social Science and Economics, Sapienza University of Rome, Italy <
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Jan 2024*
 
----
 
 ### 2023
 
