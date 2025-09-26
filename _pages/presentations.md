@@ -12,7 +12,6 @@ classes: presentations-page
 
 <div style="display: flex; align-items: center; gap: 21px; margin-bottom: 2rem;">
   <h1 style="margin: 0; font-size: 1.5rem;">Presentations</h1>
-  <img src="/images/repin.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
 </div>
 
 ### 2025
@@ -111,7 +110,6 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 ---
 <div style="display: flex; align-items: center; gap: 21px; margin-bottom: 2rem;">
   <h1 style="margin: 0; font-size: 1.5rem;">Discussions</h1>
-  <img src="/images/repin.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
 </div>
 
 *Do Hospital Mergers Reduce Waiting Times? Theory and Evidence from the English NHS* <br>
