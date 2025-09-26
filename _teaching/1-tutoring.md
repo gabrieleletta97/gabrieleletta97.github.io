@@ -6,6 +6,6 @@ course_type: "Undergraduate course"  # Changed from 'type'
 language: "Italian"
 permalink: /teaching/1-tutoring
 venue: "Sapienza University of Rome, Italy - Department of Economics and Law"
-date: Spring/Fall 2021
+date: 2021
 location: "Rome, Italy"
 ---
