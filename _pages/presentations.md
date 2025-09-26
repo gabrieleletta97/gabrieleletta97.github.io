@@ -127,11 +127,11 @@ III Sapienza Ph.D. Conference in Social Sciences and Economics, Sapienza Univers
 
 *The Nursery School Puzzle: How Childcare Quality and Availability Shape Mothers' Employment* <br>
 By **Anna Chesa Llorens (UB)** <br>
-BSE PhD Jamboree 2025, Barcelona School of Economics, Barcelona, Spain - *May 2025* <br>
+BSE PhD Jamboree 2025, Barcelona School of Economics, Barcelona, Spain - *May 2025* 
 
 
 *Does taxation improve government effectiveness and accountability? Tax revenue and governance dividends in Sub-Saharan Africa (1996-2019)* <br>
 By **Jacopo Resti (CEU)** <br>
-2nd PhD Conference in Social Sciences and Economics, Sapienza University of Rome, Italy - *Sep 2024*<br>
+2nd PhD Conference in Social Sciences and Economics, Sapienza University of Rome, Italy - *Sep 2024*
 
 
