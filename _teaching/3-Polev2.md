@@ -5,7 +5,7 @@ course_type: "Master's degree course"  # Changed from 'type'
 language: "English"
 permalink: /teaching/3-Polev2
 venue: "Università Cattolica del Sacro Cuore, Milan, Italy - Department of Economics and Finance"
-date: 2023-01-01
+date: Fall 2023
 location: "Milan, Italy"
 ---
 
