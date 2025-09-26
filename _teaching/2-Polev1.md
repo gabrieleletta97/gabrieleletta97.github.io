@@ -1,5 +1,5 @@
 ---
-title: "Policy Evaluation - Macroeconometrics Tutorial<br>(MSc in Economics)"
+title: "Policy Evaluation - Macroeconometrics Tutorial<br>(Msc in Economics)"
 collection: teaching
 course_type: "Master's degree course"  # Changed from 'type'
 language: "English"
