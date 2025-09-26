@@ -20,7 +20,7 @@ classes: presentations-page
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Nov 2025*
 
-**19ª Conferência Nacional de Economia da Saúde (CNES) | 19th Portuguese Health Economics Conference (Forthcoming)** <br>
+**19th Portuguese Health Economics Conference - CNES (Forthcoming)** <br>
 Faculty of Economics, University of Porto, Porto, Portugal <br>
 *Oct 2025*
 
