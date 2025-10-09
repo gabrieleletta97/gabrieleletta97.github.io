@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan**, under the supervision of [**Gilberto Turati**](https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati) and [**Luca Salmasi**](https://sites.google.com/view/luca-salmasi/home-page).
+**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan**, supervised by [**Gilberto Turati**](https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati) and [**Luca Salmasi**](https://sites.google.com/view/luca-salmasi/home-page).
 I visited [**Judit Vall Castellò**](https://www.juditvall.com/) at **UB - Universitat de Barcelona**, from February to July 2025. <br>
 Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
