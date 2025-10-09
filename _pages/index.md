@@ -6,10 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** (DEF), under the supervision of **Gilberto Turati** and **Luca Salmasi**. 
-
-I visited **Judit Vall Castellò** at **UB - Universitat de Barcelona**, from February to July 2025. 
-
+**PhD Student in Economics** at **Università Cattolica del Sacro Cuore, Milan** (DEF), under the supervision of **Gilberto Turati** and **Luca Salmasi**. <br>
+I visited **Judit Vall Castellò** at **UB - Universitat de Barcelona**, from February to July 2025. <br>
 Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
 **Interests**: Policy Evaluation, Health and Public Economics.
