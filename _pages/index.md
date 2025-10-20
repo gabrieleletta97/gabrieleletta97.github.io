@@ -22,5 +22,5 @@ Contacts
 
 
 <div class="image-container">
-  <img src="https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/images/built-to-spill-etsy.jpg" alt="Description of the image" style="max-width: 35%; height: auto;">
+  <img src="https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/images/built-to-spill-etsy.jpg" alt="Description of the image" style="max-width: 50%; max-height: 50%;">
 </div>
