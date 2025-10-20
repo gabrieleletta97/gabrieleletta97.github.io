@@ -24,7 +24,7 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 Faculty of Economics, University of Porto, Porto, Portugal <br>
 *Oct 2025*
 
-**1st Workshop on Economics and Primary Care (Forthcoming)** <br>
+**1st Workshop on Economics and Primary Care** <br>
 Institut Català de la Salut - ICS - Barcelona, Spain <br>
 *Oct 2025*
 
