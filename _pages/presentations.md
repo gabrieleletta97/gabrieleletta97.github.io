@@ -16,11 +16,11 @@ classes: presentations-page
 </div>
 
 ### 2025
-**Final internal seminar of the 4th year PhD Students in Economics and Finance (DEFAP) (Forthcoming)** <br>
+**Final internal seminar of the 4th year PhD Students in Economics and Finance (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Nov 2025*
 
-**19th Portuguese Health Economics Conference - CNES (Forthcoming)** <br>
+**19th Portuguese Health Economics Conference - CNES** <br>
 Faculty of Economics, University of Porto, Porto, Portugal <br>
 *Oct 2025*
 
