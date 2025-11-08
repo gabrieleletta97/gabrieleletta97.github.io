@@ -16,6 +16,10 @@ classes: presentations-page
 </div>
 
 ### 2025
+**XXX AIES National Conference (Forthcoming)** <br>
+Italian Association of Health Economics, University of Verona, Verona, Italy <br>
+*Dec 2025*
+
 **Final internal seminar of the 4th year PhD Students in Economics and Finance (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Nov 2025*
