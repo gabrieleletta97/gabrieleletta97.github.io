@@ -1,5 +1,5 @@
 ---
-title: "Informed Decision-Making for Vaginal Birth After C-Section and Repeated Cesarean Section. Does counselling matter?"
+title: "Informed Decision-Making for Vaginal Birth After C-Section and Repeated Cesarean Section. Does counselling make a difference?"
 collection: publications
 authors:
   - name: "Antonio Giulio de Belvis"
