@@ -37,11 +37,11 @@ Italian Society of Public Economics - University of Napoli Federico II, Naples, 
 *Sep 2025*
 
 **Workshop on Intellectual Property Rights, Science and Innovation: Implications for Drug Discovery and the Health Sector** <br>
-Department of Economic Policy, Univesità Cattolica del Sacro Cuore, Milan, Italy <br>
+Department of Economic Policy, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Sep 2025*
 
 **APHEC 4th Workshop - Healthcare Sustainability and Challenges** <br>
-Advanced Pharmaco & Health Economics Research Center - Department of Economics and Business Studies, Univesity of Genoa, Italy <br>
+Advanced Pharmaco & Health Economics Research Center - Department of Economics and Business Studies, University of Genoa, Italy <br>
 *Sep 2025*
 
 **III Sapienza Ph.D. Conference in Social Sciences and Economics** <br>
