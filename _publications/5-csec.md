@@ -10,9 +10,9 @@ authors:
     url: "https://sites.google.com/view/luca-salmasi/home-page"
   - name: "Gilberto Turati"
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
-category: work_in_progress
+category: working_papers
 permalink: /publication/5-csec
-excerpt: 'Work In Progress'
+excerpt: 'Working Paper'
 venue: ""
 presented_at:
 paperurl:
