@@ -152,15 +152,15 @@ body.loaded .archive {
 }
 
 .archive__item-image {
-  flex: 0 0 200px;
+  flex: 0 0 150px;
   text-align: right;
 }
 
 .archive__item-image img {
   width: 100%;
+  max-height: 200px;   /* adatta a seconda del layout */
   height: auto;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: contain;  /* o cover se vuoi riempire */
 }
 
 .archive__item-image img:hover {
