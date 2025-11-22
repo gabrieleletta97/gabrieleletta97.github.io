@@ -152,7 +152,7 @@ body.loaded .archive {
 }
 
 .archive__item-image {
-  flex: 0 0 300px;
+  flex: 0 0 200px;
   text-align: right;
 }
 
