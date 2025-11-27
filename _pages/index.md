@@ -15,7 +15,7 @@ You can find my [CV](https://raw.githubusercontent.com/gabrieleletta97/gabriele_
 
 Contacts
 ------
-gabriele.letta@unicatt.it
+gabriele.letta[at]unicatt.it
 <!-- (mailto:gabriele.letta@unicatt.it) -->
 
 [Twitter (X)](https://x.com/gabriele_letta) - [LinkedIn](https://www.linkedin.com/in/gabriele-letta-b0796a1b6/)
