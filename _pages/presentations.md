@@ -6,17 +6,14 @@ author_profile: true
 classes: presentations-page
 ---
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 2rem;">
-  <h1 style="margin: 0; font-size: 1.5rem;">Presentations and Discussions</h1>
+  <h1 style="margin: 0; font-size: 1.5rem;">Presentations</h1>
   <img src="/images/repin.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
 </div>
 
 ---
-<div style="display: flex; align-items: center; gap: 21px; margin-bottom: 2rem;">
-  <h1 style="margin: 0; font-size: 1.5rem;">Presentations</h1>
-</div>
 
 ### 2025
-**XXX AIES National Conference (Forthcoming)** <br>
+**XXX AIES National Conference** <br>
 Italian Association of Health Economics, University of Verona, Verona, Italy <br>
 *Dec 2025*
 
@@ -109,33 +106,3 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 **First Internal seminar of the 2nd year PhD Students in Economics and Finance (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *May 2023*
-
----
-<div style="display: flex; align-items: center; gap: 21px; margin-bottom: 2rem;">
-  <h1 style="margin: 0; font-size: 1.5rem;">Discussions</h1>
-</div>
-
-*Do Hospital Mergers Reduce Waiting Times? Theory and Evidence from the English NHS* <br>
-By Vanessa Cirulli (Sapienza), **Giorgia Marini (Sapienza)**, Marco A. Marini (Sapienza), and Odd Rune Straume (UMinho) <br>
-XXXVII SIEP Conference 2025, University of Napoli Federico II, Naples, Italy - *Sep 2025*
-
-
-*Sustainable hospital regulation: On the welfare implications of digital treatments* <br>
-By **Burkhard Hehenkamp (Paderborn)** and Oddvar M. Kaarboe (UiB) <br>
-APHEC 4th Workshop, University of Genoa, Italy - *Sep 2025*
-
-
-*Are cash reallocations effective amid multiple shocks? A double selection approach* <br>
-By **Ellestina Jumbe (Tor Vergata)** <br>
-III Sapienza Ph.D. Conference in Social Sciences and Economics, Sapienza University of Rome, Italy - *Sep 2025*
-
-*The Nursery School Puzzle: How Childcare Quality and Availability Shape Mothers' Employment* <br>
-By **Anna Chesa Llorens (UB)** <br>
-BSE PhD Jamboree 2025, Barcelona School of Economics, Barcelona, Spain - *May 2025* 
-
-
-*Does taxation improve government effectiveness and accountability? Tax revenue and governance dividends in Sub-Saharan Africa (1996-2019)* <br>
-By **Jacopo Resti (CEU)** <br>
-2nd PhD Conference in Social Sciences and Economics, Sapienza University of Rome, Italy - *Sep 2024*
-
-
