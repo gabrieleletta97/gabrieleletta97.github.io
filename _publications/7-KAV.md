@@ -1,5 +1,5 @@
 ---
-title: "emperature anomalies, rainfall and binge drinking: Evidence from High-Frequency Micro-Data in the UK"
+title: "Temperature anomalies, rainfall and binge drinking: Evidence from High-Frequency Micro-Data in the UK"
 collection: publications
 authors:
   - name: "Georgios Chrysanthou"
