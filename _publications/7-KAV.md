@@ -18,7 +18,7 @@ excerpt: 'Work In Progress'
 venue: ""
 presented_at: 
 paperurl:
-image: ""
+image: 
 ---
 <!-- https://gabrieleletta97.github.io/images/.png -->
 
