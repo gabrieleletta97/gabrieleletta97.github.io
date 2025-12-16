@@ -16,7 +16,7 @@ category: work_in_progress
 permalink: /publication/7-KAV
 excerpt: 'Work In Progress'
 venue: ""
-presented_at: ""
+presented_at: 
 paperurl:
 image: ""
 ---
