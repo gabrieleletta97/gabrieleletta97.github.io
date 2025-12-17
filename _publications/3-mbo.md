@@ -14,12 +14,12 @@ excerpt: 'Preliminary Draft'
 date: 2025-01-01
 venue: ""
 presented_at: "UPF Student Seminar Series (DEB, UPF, Barcelona), III Sapienza Ph.D. Conference in Social Sciences and Economics (DISSE, Sapienza, Rome), APHEC 4th Workshop (DEI, UniGe, Genoa), Workshop on IPR, Science and Innovation (DEP, Unicatt, Milan), XXXVII SIEP 2025 (UniNa, Naples), Final Internal Seminar of DEFAP PhD Students (DEF, Unicatt, Milan)"
-paperurl: "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_et_al.pdf"
+paperurl: 
 image: "https://gabrieleletta97.github.io/images/honest_did_avg_IRCCS_BV.png"  # Path to your image
 ---
 <!-- [[Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_Salmasi_Turati.pdf)]
  -->
-
+<!-- "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_et_al.pdf" -->
 This paper studies the impact of two policy interventions on scientific research productivity in a major private Italian hospital. The first is a performance-based monetary incentive program (a Management-By-Objectives, or MBO, bonus) introduced by the hospital management to reward non-academic physicians for publishing research. The second is the hospital’s recognition as a *Scientific Institute for Recovery and Research* (IRCCS), which allowed its academic medical researchers to access dedicated public research funding. Using detailed panel data on physicians’ publications from 2012 to 2022, we employ several difference-in-differences strategies to evaluate each policy’s effect. We find that the introduction of monetary incentives did not lead to any significant impact on research output of the previously less research-active (non-academic) physicians, unless they were both treated by the MBO policy and had also access to IRCCS funding (''double-treated''). The IRCCS recognition caused instead a major boost in the publication rates of academic doctors and Medical Directors affected by both policies. We also assess the impact of such policies on the research quality of the hospital, by accounting for citations. We document increased cross-collaboration between the monetary-incentivized groups, indicating the emergence of knowledge spillovers; however, such increase was quite substantial for the non-academic doctors, while being modest for structured researchers in relative terms. Our findings might be able to inform the design of policies to incentivize research in healthcare organizations, highlighting the lower significance of performance-based incentives in absence of adequate research funding means.
 
 **Keywords**: Health Systems, Medical Research, Incentives, Management-By-Objective, Public Funding.
