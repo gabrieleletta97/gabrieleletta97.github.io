@@ -4,10 +4,10 @@ collection: publications
 authors:
   - name: "Georgios Chrysanthou"
     url: "https://www.dundee.ac.uk/people/georgios-chrysanthou"
-  - name: "Gabriele Letta"
-    url: "https://gabrieleletta97.github.io/"
   - name: "John Holmes"
     url: "https://sheffield.ac.uk/smph/holmes-john-professor"
+  - name: "Gabriele Letta"
+    url: "https://gabrieleletta97.github.io/"
   - name: "Alessandro Sasso"
     url: "https://sites.google.com/view/alessandrosasso/home"
   - name: "Panagiotis Tzouvanas"
