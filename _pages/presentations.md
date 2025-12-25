@@ -14,15 +14,15 @@ classes: presentations-page
 
 ### 2025
 **XXX AIES National Conference** <br>
-Italian Association of Health Economics, University of Verona, Verona, Italy <br>
+Italian Association of Health Economics, University of Verona, Italy <br>
 *Dec 2025*
 
-**Final internal seminar of the 4th year PhD Students in Economics and Finance (DEFAP)** <br>
+**Final Internal PhD seminar (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Nov 2025*
 
 **19th Portuguese Health Economics Conference - CNES** <br>
-Faculty of Economics, University of Porto, Porto, Portugal <br>
+Faculty of Economics, University of Porto, Portugal <br>
 *Oct 2025*
 
 **1st Workshop on Economics and Primary Care** <br>
@@ -84,7 +84,7 @@ Department of Economics, Management and Quantitative Methods, University of Mila
 Collegio Carlo Alberto – University of Turin, Turin, Italy <br>
 *Nov 2024*
 
-**Internal seminar of the 3rd year PhD Students in Economics and Finance (DEFAP)** <br>
+**3rd Internal PhD seminar (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Oct 2024*
 
@@ -96,13 +96,13 @@ Italian Society of Public Economics - University of Cagliari, Italy <br>
 Department of Social Science and Economics, Sapienza University of Rome, Italy <br>
 *Sep 2024*
 
-**Second Internal seminar of the 2nd year PhD Students in Economics and Finance (DEFAP)** <br>
+**2nd Internal PhD seminar (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Jan 2024*
 
 
 ### 2023
 
-**First Internal seminar of the 2nd year PhD Students in Economics and Finance (DEFAP)** <br>
+**1st Internal PhD seminar (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *May 2023*
