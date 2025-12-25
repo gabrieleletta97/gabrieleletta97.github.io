@@ -29,7 +29,7 @@ Faculty of Economics, University of Porto, Portugal <br>
 Institut Català de la Salut - ICS - Barcelona, Spain <br>
 *Oct 2025*
 
-**XXXVII SIEP Conference 2025 - Public Policy Governance and Access to Services Opportunities** <br>
+**XXXVII SIEP Conference 2025** <br>
 Italian Society of Public Economics - University of Napoli Federico II, Naples, Italy <br>
 *Sep 2025*
 
@@ -88,7 +88,7 @@ Collegio Carlo Alberto – University of Turin, Turin, Italy <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Oct 2024*
 
-**XXXVI SIEP Conference 2024 - Reimagining Welfare: Sustainable Paths in Public Finance** <br>
+**XXXVI SIEP Conference 2024** <br>
 Italian Society of Public Economics - University of Cagliari, Italy <br>
 *Sep 2024*
 
