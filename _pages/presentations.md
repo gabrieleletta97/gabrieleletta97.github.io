@@ -33,7 +33,7 @@ Institut Català de la Salut - ICS - Barcelona, Spain <br>
 Italian Society of Public Economics - University of Napoli Federico II, Naples, Italy <br>
 *Sep 2025*
 
-**Workshop on Intellectual Property Rights, Science and Innovation: Implications for Drug Discovery and the Health Sector** <br>
+**Workshop on Intellectual Property Rights, Science and Innovation** <br>
 Department of Economic Policy, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Sep 2025*
 
