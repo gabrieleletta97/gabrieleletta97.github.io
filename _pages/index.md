@@ -6,8 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**PhD Candidate in Economics and Finance** 
-<br> **Università Cattolica del Sacro Cuore, Milan - DEFAP School**, supervised by [**Gilberto Turati**](https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati) and [**Luca Salmasi**](https://sites.google.com/view/luca-salmasi/home-page).
+**PhD Candidate in Economics and Finance**
+
+**Università Cattolica del Sacro Cuore, Milan - DEFAP School**, supervised by [**Gilberto Turati**](https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati) and [**Luca Salmasi**](https://sites.google.com/view/luca-salmasi/home-page).
 <br> I visited [**Judit Vall Castellò**](https://www.juditvall.com/) at **UB - Universitat de Barcelona (IEB)**, from February to July 2025. 
 <br> Born and raised in Rome; MSc at Sapienza University of Rome, 2021.
 
