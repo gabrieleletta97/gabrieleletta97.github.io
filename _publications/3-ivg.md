@@ -17,7 +17,7 @@ presented_at: "1st and 2nd Internal Seminar of 2nd year PhD Students (DEFAP, Uni
 paperurl: "https://gabrieleletta97.github.io/blob/master/files/WP_IVG_Letta_Salmasi_Turati_new.pdf"
 image: "https://gabrieleletta97.github.io/images/ES_inactive_OLS_nolab.png"  # Path to your image
 ---
-Download Paper[https://gabrieleletta97.github.io/blob/master/files/WP_IVG_Letta_Salmasi_Turati_new.pdf]
+[Download Paper](https://gabrieleletta97.github.io/blob/master/files/WP_IVG_Letta_Salmasi_Turati_new.pdf)
 
 We investigate the effect of a COVID-related policy that mandated temporary work suspensions in specific industries on Voluntary Pregnancy Terminations (VPTs) and fertility decisions within households. We exploit the variability in the share of furloughed workers across Italian municipalities to estimate in a DiD framework the impact of closures on abortion rates and pregnancy rates. Relying on administrative data on VPTs and births, we find that—although social distancing caused an overall drop in abortions—municipalities in the 4th quartile of the furloughed workers’ distribution experienced a positive differential in quarterly ARs (10-13% relative to the mean prepandemic rate), compared to those in the lower tail of the distribution. The effect is mostly driven by married, non-working women in households with 1-2 children. We also find that the result holds for furloughed workers in the industrial sector. This suggests that economic insecurity during the first months of the pandemic in households with children, where the sole earner is the man, is the likely driver of the effect on VPTs. In line with this interpretation, we do not find any effects on births. 
 
