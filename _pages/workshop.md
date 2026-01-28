@@ -12,10 +12,10 @@ and the the 3rd edition ([2025](https://sites.google.com/view/milanphdeconworksh
 
 ---
 
-### 🔗 Milan PhD Economics Workshop - 3rd Edition <br>
-25th June 2025 - Università Cattolica del Sacro Cuore, Milan
+### 🔗 Milan PhD Economics Workshop - 4th Edition <br>
+12-13th May 2026 - Bocconi University, Milan
 
-<a href="https://sites.google.com/view/milanphdeconworkshop/home"
+<a href="https://www.unibocconi.it/en/programs/phd/phd-economics-and-finance/4k-milan-phd-economics-workshop"
    target="_blank"
    class="button-link">
    Go to Workshop Website →
