@@ -14,7 +14,7 @@ redirect_from:
 
 **Interests**: Policy Evaluation, Health and Public Economics.
 
-You can find my [CV](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/CV_Letta.pdf) attached here.
+You can find my [CV](https://gabrieleletta97.github.io/files/CV_Letta.pdf) attached here.
 
 Contacts
 ------
