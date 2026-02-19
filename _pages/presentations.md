@@ -17,7 +17,7 @@ classes: presentations-page
 Italian Association of Health Economics, University of Verona, Italy <br>
 *Dec 2025*
 
-**Final Internal PhD seminar (DEFAP)** <br>
+**4th Internal PhD seminar (DEFAP)** <br>
 Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
 *Nov 2025*
 
