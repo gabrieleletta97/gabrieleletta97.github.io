@@ -11,6 +11,14 @@ classes: presentations-page
 </div>
 
 ---
+### 2026
+**5th Bank of Italy Human Capital Workshop (forthcoming)** <br>
+Bank of Italy, Rome, Italy <br>
+*Mar 2026*
+
+**PhD Thesis Defense (DEFAP)** <br>
+Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
+*Feb 2026*
 
 ### 2025
 **XXX AIES National Conference** <br>
