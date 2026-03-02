@@ -1,5 +1,5 @@
 ---
-title: "Can the salience of mandatory restrictions curb vaccine hesitancy? A comparison between Italy and Spain"
+title: "Do vaccination-based access restriction policies curb hesitancy? A comparison between Italy and Spain"
 collection: publications
 authors:
   - name: "Gabriele Letta"
