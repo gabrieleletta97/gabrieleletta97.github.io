@@ -112,8 +112,8 @@ body.loaded .archive {
 
 
 .author__avatar img {
-  width: 130px;      
-  max-width: 130px;
+  width: 100px;      
+  max-width: 100px;
   height: auto;
   border-radius: 100px;
   display: block;
