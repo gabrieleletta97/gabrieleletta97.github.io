@@ -32,7 +32,7 @@ body {
 
 /* Effetto fade-in applicato solo al contenuto */
 main {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 3rem 2rem;
 
@@ -112,8 +112,8 @@ body.loaded .archive {
 
 
 .author__avatar img {
-  width: 150px;      
-  max-width: 150px;
+  width: 175px;      
+  max-width: 175px;
   height: auto;
   border-radius: 100px;
   display: block;
