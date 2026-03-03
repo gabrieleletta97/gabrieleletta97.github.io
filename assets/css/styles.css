@@ -60,7 +60,7 @@ h1, h2, h3 {
 }
 
 .sidebar {
-  width: 200px;
+  width: 225px;
   border-right: 1px solid #eee;
   flex-shrink: 0;
   position: sticky;
@@ -112,8 +112,8 @@ body.loaded .archive {
 
 
 .author__avatar img {
-  width: 100px;      
-  max-width: 100px;
+  width: 150px;      
+  max-width: 150px;
   height: auto;
   border-radius: 100px;
   display: block;
