@@ -24,6 +24,7 @@ image:
 This paper studies how short-run and persistent weather anomalies affect alcohol consumption in the United Kingdom. We link six years of diary-based drinking data from the Alcovision survey to local meteorological observations, exploiting station-specific temperature and rainfall anomalies defined relative to 40-year historical norms. Weather shocks have little effect on the extensive margin of drinking participation in general, but significantly influence hazardous drinking. Persistent cold temperature anomalies increase binge, heavy binge, and extreme binge drinking, with effects strongest in winter, while warm anomalies reduce binge drinking, particularly in summer. Prolonged and severe rainfall also raises hazardous drinking, especially in autumn. These changes occur through a reshaping of the social and spatial context of drinking, shifting consumption toward more social and urban settings during cold periods. These findings identify weather variability as a relevant and previously underexplored determinant of hazardous drinking.
 
 **JEL Classification**: I12, I18, Q54
+
 **Keywords**: alcohol consumption, diary data, hazardous drinking, rainfall shocks, temperature anomalies.
 
 
