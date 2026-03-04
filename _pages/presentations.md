@@ -12,13 +12,10 @@ classes: presentations-page
 
 ---
 ### 2026
-**5th Bank of Italy Human Capital Workshop (forthcoming)** <br>
+**5th Bank of Italy Human Capital Workshop - Poster Session (forthcoming)** <br>
 Bank of Italy, Rome, Italy <br>
 *Mar 2026*
 
-**PhD Thesis Defense (DEFAP)** <br>
-Department of Economics and Finance, Università Cattolica del Sacro Cuore, Milan, Italy <br>
-*Feb 2026*
 
 ### 2025
 **XXX AIES National Conference** <br>
@@ -69,7 +66,7 @@ Barcelona School of Economics - Universitat Pompeu Fabra and Universitat Autonom
 Department of Economics, University of Verona, Italy  <br>
 *May 2025*
 
-**1st Workshop IdEP in Sustainable Economics (WISE)** <br>
+**1st Workshop IdEP in Sustainable Economics (WISE)  - Poster Session** <br>
 Institute of Economics, Università della Svizzera italiana (USI), Airolo, Switzerland <br>
 *Mar 2025*
 
@@ -88,7 +85,7 @@ Department of Economics and Finance, Università Cattolica del Sacro Cuore, Mila
 Department of Economics, Management and Quantitative Methods, University of Milan, Italy <br>
 *Dec 2024*
 
-**17th UniTO-Collegio Carlo Alberto Ph.D. Workshop in Economics (Poster Session)** <br>
+**17th UniTO-Collegio Carlo Alberto Ph.D. Workshop in Economics - Poster Session** <br>
 Collegio Carlo Alberto – University of Turin, Turin, Italy <br>
 *Nov 2024*
 
