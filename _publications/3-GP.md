@@ -10,13 +10,13 @@ authors:
     url: "https://sites.google.com/view/luca-salmasi/home-page"
   - name: "Gilberto Turati"
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/ricevimento"
-category: work_in_progress
+category: working_paper
 permalink: /publication/3-GP
 excerpt: 'Work In Progress'
 venue: ""
 presented_at: 
 paperurl:
-image: 
+image: "https://gabrieleletta97.github.io/images/BW_ci_sc_ITA.jpg"  # Path to your image
 ---
 Vaccine hesitancy is a crucial public health issue worldwide. In this paper, we evaluate the causal impact of a vaccination-based access restriction policy on vaccine uptake by exploiting the introduction of the EU Digital COVID-19 Certificate at the country level. We compare two countries, Italy and Spain, which—despite using the Certificate as a prerequisite for many daily activities—experienced different adoption patterns. In Spain, the Certificate was introduced regionally, temporarily suspended by the Courts, and later reintroduced in several regions. In Italy, it was introduced in June 2021 and progressively expanded, culminating in mandatory vaccination for individuals aged over 50. We test the impact of the Certificate on vaccination rates using a Sharp Regression Kink Design,
 identifying changes in the slope of vaccination rates around the announcements by the two governments relative to the introduction of the Certificate. We find that the digital COVID-19 Certificate increased vaccinations in Italy in a range spanning from 3.12 to 11.03 percent. In Spain, by contrast, only the reintroduction seems to have been able to affect vaccinations. This result for Spain is also supported by a Difference-in-Differences model, exploiting the staggered reintroduction of the Certificate at the regional level.
