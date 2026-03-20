@@ -15,7 +15,7 @@ authors:
   - name: "Marco Villa"
   - name: "Alberto Zucchi"
   - name: "Antonio Russo"
-category: working_papers
+category: other_publications
 permalink: /publication/1-pascnet
 excerpt: ''
 date: 2025-01-01
