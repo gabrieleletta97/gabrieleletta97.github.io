@@ -12,7 +12,7 @@ classes: presentations-page
 
 ---
 ### 2026
-**5th Bank of Italy Human Capital Workshop (forthcoming)** (Poster Session) <br>
+**5th Bank of Italy Human Capital Workshop** (Poster Session) <br>
 Bank of Italy, Rome, Italy <br>
 *Mar 2026*
 
