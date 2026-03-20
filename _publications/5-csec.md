@@ -12,7 +12,7 @@ authors:
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
 category: working_papers
 permalink: /publication/5-csec
-excerpt: 'Working Paper'
+excerpt: 'Submitted'
 venue: "CIFREL Working Paper n. 04/2025"
 presented_at:
 paperurl: "https://centridiricerca.unicatt.it/content/dam/siti-web/ricerca/centri-di-ricerca/milano/cifrel/working%20papers/2025/cifrel_2025_04.pdf"
