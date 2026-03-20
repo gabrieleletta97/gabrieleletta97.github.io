@@ -12,7 +12,7 @@ authors:
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/ricevimento"
 category: working_paper
 permalink: /publication/3-GP
-excerpt: 'Work In Progress'
+excerpt: 'Working Paper'
 venue: ""
 presented_at: 
 paperurl:
