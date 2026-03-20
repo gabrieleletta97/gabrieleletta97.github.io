@@ -10,12 +10,12 @@ authors:
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
 category: working_papers
 permalink: /publication/3-mbo
-excerpt: 'Preliminary Draft'
+excerpt: 'Working Paper'
 date: 2025-01-01
 venue: ""
 presented_at: "UPF Student Seminar Series (DEB, UPF, Barcelona), III Sapienza Ph.D. Conference in Social Sciences and Economics (DISSE, Sapienza, Rome), APHEC 4th Workshop (DEI, UniGe, Genoa), Workshop on IPR, Science and Innovation (DEP, Unicatt, Milan), XXXVII SIEP 2025 (UniNa, Naples), Final Internal PhD Seminar (DEFAP, Unicatt, Milan); ACCEPTED AT: 5th Bank of Italy Human Capital Workshop (Poster Session, Bank of Italy, Rome)"
 paperurl: 
-image: "https://gabrieleletta97.github.io/images/honest_did_avg_IRCCS_BV.png"  # Path to your image
+image: "https://gabrieleletta97.github.io/images/ES_IRCCS_various.png"  # Path to your image
 ---
 <!-- [[Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_Salmasi_Turati.pdf)]
  -->
