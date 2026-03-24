@@ -20,10 +20,10 @@ permalink: /publication/1-pascnet
 excerpt: ''
 date: 2025-01-01
 venue: "CRILDA Working Paper n. 1-2025"
-paperurl: "https://centridiricerca.unicatt.it/crilda-Pascnet_WP_1_2025.pdf"
+paperurl: "https://centridiricerca.unicatt.it/content/dam/siti-web/ricerca/centri-di-ricerca/milano/crilda/pascnet/pubblicazioni/crilda-Pascnet_WP_1_2025.pdf"
 
 ---
-[[Download Paper](https://centridiricerca.unicatt.it/crilda-Pascnet_WP_1_2025.pdf)]
+[[Download Paper](https://centridiricerca.unicatt.it/content/dam/siti-web/ricerca/centri-di-ricerca/milano/crilda/pascnet/pubblicazioni/crilda-Pascnet_WP_1_2025.pdf)]
 
 Nel presente studio vengono analizzati gli effetti indiretti della diffusione dell’epidemia da
 Covid-19 sull’erogazione di prestazioni ambulatoriali in Lombardia, sfruttando dati amministrativi
