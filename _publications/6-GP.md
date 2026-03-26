@@ -15,7 +15,7 @@ permalink: /publication/3-GP
 excerpt: 'Under Review'
 venue: "DISCE - Working Papers of the Department of Economics and Finance def153, Università Cattolica del Sacro Cuore, DISCE"
 presented_at: 
-paperurl:"https://dipartimenti.unicatt.it/economia-finanza-def153.pdf"
+paperurl: "https://dipartimenti.unicatt.it/economia-finanza-def153.pdf"
 image: "https://gabrieleletta97.github.io/images/BW_ci_sc_ITA.jpg"  # Path to your image
 ---
 
