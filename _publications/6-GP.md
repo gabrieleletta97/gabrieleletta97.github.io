@@ -13,7 +13,7 @@ authors:
 category: working_papers
 permalink: /publication/3-GP
 excerpt: 'Under Review'
-venue: "Working Papers of the Department of Economics and Finance def153, Università Cattolica del Sacro Cuore, DISCE"
+venue: "DISCE Working Paper Series - N. 153 - Università Cattolica del Sacro Cuore"
 presented_at: 
 paperurl: "https://dipartimenti.unicatt.it/economia-finanza-def153.pdf"
 image: "https://gabrieleletta97.github.io/images/BW_ci_sc_ITA.jpg"  # Path to your image
