@@ -18,7 +18,7 @@ EU CC-ME, IÉSEG School of Management, Paris, France <br>
 *Jun 2026*
 
 **BSE Summer Forum - Economics of Science and Innovation** (accepted) <br>
-Barcelona School of Economics - Universitat Pompeu Fabra and Universitat Autonoma de Barcelona, Barcelona, Spain <br>
+Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 *Jun 2026*
 
 **5th Bank of Italy Human Capital Workshop** (Poster Session) <br>
@@ -67,7 +67,7 @@ Department of Economics and Business, Universitat Pompeu Fabra, Barcelona, Spain
 *May 2025*
 
 **BSE PhD Jamboree 2025** <br>
-Barcelona School of Economics - Universitat Pompeu Fabra and Universitat Autonoma de Barcelona, Barcelona, Spain <br>
+Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 *May 2025*
 
 **2nd Verona Early Career Workshop in Economics** <br>
