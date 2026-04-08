@@ -17,7 +17,7 @@ classes: presentations-page
 EU CC-ME, IÉSEG School of Management, Paris, France <br>
 *Jun 2026*
 
-**BSE Summer Forum - Workshop on Economics of Science and Innovation** (accepted) <br>
+**BSE Summer Forum - Economics of Science and Innovation** (accepted) <br>
 Barcelona School of Economics - Universitat Pompeu Fabra and Universitat Autonoma de Barcelona, Barcelona, Spain <br>
 *Jun 2026*
 
