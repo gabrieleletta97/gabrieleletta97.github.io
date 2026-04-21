@@ -21,6 +21,10 @@ EU CC-ME, IÉSEG School of Management, Paris, France <br>
 Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 *Jun 2026*
 
+**XVI NERI Workshop** (accepted) <br>
+University of Salento - Lecce, Italy <br>
+*May 2026*
+
 **5th Bank of Italy Human Capital Workshop** (Poster Session) <br>
 Bank of Italy, Rome, Italy <br>
 *Mar 2026*
