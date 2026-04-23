@@ -11,7 +11,7 @@ authors:
 category: working_papers
 permalink: /publication/12-ivg
 excerpt: 'Working Paper'
-date: 2025-01-01
+date: 2026-01-01
 venue: ""
 presented_at: "1st and 2nd Internal PhD Seminars (DEFAP, Unicatt, Milan), 2nd PhD Conference in Social Sciences and Economics (DISSE, Sapienza, Rome), XXXVI SIEP 2024 (UniCg, Cagliari), 3rd Internal PhD Seminar (DEFAP, Unicatt, Milan), 17th UniTO-CCA VPDE Workshop (Poster Session, UniTo-CCA, Turin), PhD & Post-Doc UniMi Brown Bag Seminars (DEMM, UniMi, Milan), 4th Winter Symposium (DEF, Unicatt, Milan), UB School of Economics PhD Seminars (UB, Barcelona), 1st WISE (Poster Session, IdeP, USI, Airolo), 2nd Verona ECWE (DE, UniVr, Verona), BSE PhD Jamboree 2025 (BSE, Barcelona), BReCHS Seminars* (DISMEQ, UniMiB, Milan)"
 paperurl: "https://gabrieleletta97.github.io/files/WP_IVG_Letta_Salmasi_Turati_new.pdf"
