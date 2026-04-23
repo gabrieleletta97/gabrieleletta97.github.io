@@ -13,9 +13,9 @@ authors:
 category: working_papers
 permalink: /publication/1-csec
 excerpt: 'Submitted'
+date: 2026-01-01
 venue: "CIFREL Working Paper n. 04/2025"
 presented_at:
-date: 2026-01-01
 paperurl: "https://centridiricerca.unicatt.it/content/dam/siti-web/ricerca/centri-di-ricerca/milano/cifrel/working%20papers/2025/cifrel_2025_04.pdf"
 image: "https://gabrieleletta97.github.io/images/Big_Tab_Graph_Logit.png"
 ---
