@@ -25,6 +25,10 @@ Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 University of Salento - Lecce, Italy <br>
 *May 2026*
 
+**4th Milan PhD Economic Workshop**  <br>
+Boccony University - Milan, Italy <br>
+*May 2026*
+
 **5th Bank of Italy Human Capital Workshop** (Poster Session) <br>
 Bank of Italy, Rome, Italy <br>
 *Mar 2026*
