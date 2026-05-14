@@ -1,0 +1,37 @@
+---
+title: "Incident diabetes within the first two years after SARS-CoV-2 infection: a population-based retrospective cohort study of the Agency for Health Protection of Milan, Italy"
+collection: publications
+authors:
+  - name: "Cristina Mazzali"
+  - name: "Pietro Magnoni"
+  - name: "Maria Grazia Valsecchi"
+  - name: "Claudio Lucifora"
+    url: "https://docenti.unicatt.it/ppd2/en/docenti/02980/claudio-lucifora/profilo"
+  - name: "Daria Vigani"
+    url: "https://scholar.google.it/citations?user=Epsb6CIAAAAJ&hl=it"
+  - name: "Antonio Giampiero Russo"
+  - name: "PASCNET study group (including Gabriele Letta)"
+
+category: other_publications
+permalink: /publication/1-pascnet
+excerpt: ''
+date: 2026-01-01
+venue: "BMC Infectious Diseases"
+paperurl: "https://link.springer.com/article/10.1186/s12879-026-13467-4"
+
+---
+*Collaborative publication as member of the PASCNET study group.*
+
+[[Download Paper](https://link.springer.com/article/10.1186/s12879-026-13467-4)]
+
+**Background**
+Postacute sequelae of SARS-CoV-2 infection (PASC), including persistent symptoms and acute and chronic diagnoses, have become a major research focus. Diabetes mellitus, beyond its established link to COVID-19 severity, is increasingly recognized as a potential long-term outcome. This study investigated the association between SARS-CoV-2 infection and incident diabetes using population-level health administrative data (HAD) from the Agency for Health Protection of Milan, where the epicenter of the pandemic in Italy took place.
+
+**Methods**
+This retrospective cohort study included adult residents without a history of diabetes who underwent SARS-CoV-2 testing between 1 March and 31 December 2020. Test-positive individuals were matched 1:1 to test-negative individuals based on sex, age, and testing week. The cohort was followed through 31 December 2021. The incidence of diabetes, identified using an HAD-based case-detection algorithm, was compared between the two groups, and in stratified analyses by sex and age, using weighted Cox models adjusted for chronic comorbidities, area-level deprivation, influenza and pneumococcal vaccinations. Weights were calculated via the inverse probability weighting approach. Effect estimates are presented as hazard ratios (HRs).
+
+**Results**
+Our final cohort included 248,176 residents (124,026 test-negative, 124,150 test-positive). Over a median follow-up time of 415 days, 739 positive (0.60%) and 657 negative (0.53%) individuals were newly identified with diabetes. The incidence among positive individuals was 572.82 per 100,000 person-years (CI 531.52–614.12), and that among negative individuals was 509.50 per 100,000 person-years (CI 470.54–548.46). The overall HR was 1.13 (CI 1.02–1.25). In stratified analyses, this effect was prominent in women aged 41–60 years (HR 1.31; CI 1.02–1.68).
+
+**Conclusions**
+This study provides population-based evidence supporting an association between SARS-CoV-2 infection and newly detected diabetes. These findings contribute to understanding the long-term health impact of COVID-19 and may inform public health strategies for PASC prevention and management.
