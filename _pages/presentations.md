@@ -13,10 +13,6 @@ classes: presentations-page
 ---
 ### 2026
 
-**COMPIE 2026 conference** (accepted) <br>
-EU CC-ME, IÉSEG School of Management, Paris, France <br>
-*Jun 2026*
-
 **BSE Summer Forum - Economics of Science and Innovation** (accepted) <br>
 Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 *Jun 2026*
