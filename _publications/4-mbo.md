@@ -1,5 +1,5 @@
 ---
-title: "Monetary incentives versus public funding in healthcare research: what matters the most?"
+title: "Monetary Incentives Versus Public Funding in Healthcare Research: What Matters the Most?"
 collection: publications
 authors:
   - name: "Gabriele Letta"
