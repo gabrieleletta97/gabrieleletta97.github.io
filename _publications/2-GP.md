@@ -1,5 +1,5 @@
 ---
-title: "Do vaccination-based access restriction policies curb hesitancy? A comparison between Italy and Spain"
+title: "Do Vaccination-Based Access Restriction Policies Curb Hesitancy? A Comparison between Italy and Spain"
 collection: publications
 authors:
   - name: "Gabriele Letta"
