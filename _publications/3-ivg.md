@@ -1,5 +1,5 @@
 ---
-title: "Furloughed workers, abortions and fertility."
+title: "Furloughed Workers, Abortions and Fertility."
 collection: publications
 authors:
   - name: "Gabriele Letta"
