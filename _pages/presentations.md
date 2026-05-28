@@ -13,16 +13,16 @@ classes: presentations-page
 ---
 ### 2026
 
-**BSE Summer Forum - Economics of Science and Innovation** (accepted) <br>
+**BSE Summer Forum - Economics of Science and Innovation** <br>
 Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 *Jun 2026*
 
-**XVI NERI Workshop** (accepted) <br>
+**XVI NERI Workshop** <br>
 University of Salento - Lecce, Italy <br>
 *May 2026*
 
 **4th Milan PhD Economic Workshop**  <br>
-Boccony University - Milan, Italy <br>
+Bocconi University - Milan, Italy <br>
 *May 2026*
 
 **5th Bank of Italy Human Capital Workshop** (Poster Session) <br>
