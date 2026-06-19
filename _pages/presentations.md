@@ -13,6 +13,10 @@ classes: presentations-page
 ---
 ### 2026
 
+**41st AIEL Conference (forthcoming)** <br>
+Italian Association of Labor Economics - Roma 3 University, Rome, Italy <br>
+*Sep 2026*
+
 **BSE Summer Forum - Economics of Science and Innovation** <br>
 Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 *Jun 2026*
