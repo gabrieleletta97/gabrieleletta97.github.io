@@ -12,7 +12,7 @@ authors:
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/ricevimento"
 category: working_papers
 permalink: /publication/2-GP
-excerpt: 'Under Review'
+excerpt: 'R&R at _Health Economics_'
 date: 2026-01-01
 venue: "DISCE Working Paper Series - N. 153 - Università Cattolica del Sacro Cuore"
 presented_at:
