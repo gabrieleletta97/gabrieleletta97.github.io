@@ -78,7 +78,7 @@ Department of Economics and Business, Universitat Pompeu Fabra, Barcelona, Spain
 Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 *May 2025*
 
-**2nd Verona Early Career Workshop in Economics** <br>
+**2nd Verona Early Career Workshop in Economics (ECWE)** <br>
 Department of Economics, University of Verona, Italy  <br>
 *May 2025*
 
