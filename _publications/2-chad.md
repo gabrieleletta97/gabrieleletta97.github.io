@@ -8,7 +8,7 @@ authors:
     url: "https://sites.google.com/view/gemalax-martinez/home"
   - name: "Gabriele Letta"
     url: "https://gabrieleletta97.github.io/"
-category: working_paper
+category: working_papers
 permalink: /publication/2-chad
 excerpt: 'Working Paper'
 venue: ""
