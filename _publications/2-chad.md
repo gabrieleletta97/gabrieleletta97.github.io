@@ -8,12 +8,13 @@ authors:
     url: "https://sites.google.com/view/gemalax-martinez/home"
   - name: "Gabriele Letta"
     url: "https://gabrieleletta97.github.io/"
-category: work_in_progress
-permalink: /publication/8-chad
-excerpt: 'Work In Progress'
+category: working_paper
+permalink: /publication/2-chad
+excerpt: 'Working Paper'
 venue: ""
 presented_at:
 paperurl:
-image: 
+image: "https://gabrieleletta97.github.io/images/gswe_classification_map_2016.png"
+
 ---
-<!-- "https://gabrieleletta97.github.io/images/descrip_boko.png" -->
+<!-- "https://gabrieleletta97.github.io/images/gswe_classification_map_2016.png" -->
