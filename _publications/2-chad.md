@@ -11,7 +11,7 @@ authors:
 category: working_papers
 permalink: /publication/2-chad
 excerpt: 'Working Paper'
-venue: ""
+venue: "Awarded by co-author Gema Lax Martinez the _Visiting Scholars Programme at UNU-WIDER 2026_, Helsinki, Finland"
 presented_at:
 paperurl:
 image: "https://gabrieleletta97.github.io/images/gswe_classification_map_2016.png"
