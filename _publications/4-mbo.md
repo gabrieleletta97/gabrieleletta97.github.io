@@ -13,7 +13,7 @@ permalink: /publication/4-mbo
 excerpt: 'Working Paper'
 date: 2026-01-01
 venue: ""
-presented_at: "UPF Student Seminar Series (DEB, UPF, Barcelona), III Sapienza Ph.D. Conference in Social Sciences and Economics (DISSE, Sapienza, Rome), APHEC 4th Workshop (DEI, UniGe, Genoa), Workshop on IPR, Science and Innovation (DEP, Unicatt, Milan), XXXVII SIEP 2025 (UniNa, Naples), Final Internal PhD Seminar (DEFAP, Unicatt, Milan); 5th Bank of Italy Human Capital Workshop (Poster Session, Bank of Italy, Rome); 4th Milan PhD Economic Workshop (Bocconi University, Milan); XVI NERI Workshop (UniSalento, Lecce); BSE Summer Forum, ESI Workshop (BSE, UPF-UAB, Barcelona)"
+presented_at: "UPF Student Seminar Series (DEB, UPF, Barcelona), III Sapienza Ph.D. Conference in Social Sciences and Economics (DISSE, Sapienza, Rome), APHEC 4th Workshop (DEI, UniGe, Genoa), Workshop on IPR, Science and Innovation (DEP, Unicatt, Milan), XXXVII SIEP 2025 (UniNa, Naples), Final Internal PhD Seminar (DEFAP, Unicatt, Milan); 5th Bank of Italy Human Capital Workshop (Poster Session, Bank of Italy, Rome); 4th Milan PhD Economic Workshop (Bocconi University, Milan); XVI NERI Workshop (UniSalento, Lecce); BSE Summer Forum, ESI Workshop (BSE, UPF-UAB, Barcelona); ACCEPTED AT: 41st AIEL (UniRoma3, Rome)"
 paperurl: "https://gabrieleletta97.github.io/files/MBO_vs_IRCCS_Letta_et_al.pdf"
 image: "https://gabrieleletta97.github.io/images/ES_IRCCS_various.png"  # Path to your image
 ---
