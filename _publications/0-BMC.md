@@ -16,7 +16,7 @@ category: other_publications
 permalink: /publication/0-BMC
 excerpt: ''
 date: 2026-01-01
-venue: "**BMC Infectious Diseases**"
+venue: "BMC Infectious Diseases"
 paperurl: "https://link.springer.com/article/10.1186/s12879-026-13467-4"
 
 ---
