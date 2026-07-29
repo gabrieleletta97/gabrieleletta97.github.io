@@ -1,25 +1,16 @@
 ---
 layout: archive
-title: "Other"
+title:
 permalink: /other/
 author_profile: true
 ---
 
-<div class="content-center">
-  <div class="quote-container">
-    <div class="quote">
-     <blockquote>
-      <p style="font-size: 1.3rem;">
-       "It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all." - FD
-      </p>
-     </blockquote>
-    </div>
-  </div> 
-</div>
+<section class="content-box other-card">
+  <blockquote>
+    <p>“It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all.” — FD</p>
+  </blockquote>
 
-
-<div class="content-center">
   <div class="image-container">
-    <img src="https://gabrieleletta97.github.io/images/idiotic.jpeg" alt="[Friend's Name] photo or a symbolic image" style="max-width: 40%; height: auto;">
+    <img src="{{ '/images/idiotic.jpeg' | relative_url }}" alt="Film still featuring Ingmar Bergman">
   </div>
- </div>
+</section>

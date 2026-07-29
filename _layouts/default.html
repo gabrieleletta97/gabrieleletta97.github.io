@@ -7,6 +7,13 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
 <head>
+  <script>
+    try {
+      if (localStorage.getItem('color-theme') === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    } catch (e) {}
+  </script>
   {% include head.html %}
   {% include head/custom.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -122,6 +129,7 @@ layout: compress
   {% elsif page.permalink == '/presentations/' %}presentations-page
   {% elsif page.permalink == '/workshop/' %}workshop-page
   {% elsif page.permalink == '/other/' %}other-page
+  {% elsif page.collection == 'publications' %}publication-detail
   {% endif %}
 ">
 
@@ -138,6 +146,9 @@ layout: compress
           <li><a href="{{ '/workshop/' | relative_url }}">Workshop</a></li>
           <li><a href="{{ '/other/' | relative_url }}">Other</a></li>
         </ul>
+        <button class="theme-toggle" type="button" aria-label="Activate dark mode" title="Dark mode">
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
       </nav>
     </div>
   </header>
@@ -161,6 +172,31 @@ layout: compress
     onLoaded();
   } else {
     document.addEventListener('DOMContentLoaded', onLoaded);
+  }
+
+  const themeToggle = document.querySelector('.theme-toggle');
+  const setThemeButtonState = function() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    themeToggle.setAttribute('aria-label', isDark ? 'Activate light mode' : 'Activate dark mode');
+    themeToggle.setAttribute('title', isDark ? 'Light mode' : 'Dark mode');
+    themeToggle.innerHTML = isDark
+      ? '<i class="fa-solid fa-sun" aria-hidden="true"></i>'
+      : '<i class="fa-solid fa-moon" aria-hidden="true"></i>';
+  };
+
+  if (themeToggle) {
+    setThemeButtonState();
+    themeToggle.addEventListener('click', function() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('color-theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('color-theme', 'dark');
+      }
+      setThemeButtonState();
+    });
   }
 
   // ✅ Evita il flash tra pagine
