@@ -7,13 +7,6 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
 <head>
-  <script>
-    try {
-      if (localStorage.getItem('color-theme') === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-      }
-    } catch (e) {}
-  </script>
   {% include head.html %}
   {% include head/custom.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -120,11 +113,12 @@ layout: compress
   <!-- ✅ Preload del CSS principale -->
   <link rel="preload" href="{{ "/assets/css/styles.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"></noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20260729-3' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20260729-5' | relative_url }}">
 </head>
 
 <body class="
-  {% if page.permalink == '/publications/' %}publications-page
+  {% if page.permalink == '/' %}home-page
+  {% elsif page.permalink == '/publications/' %}publications-page
   {% elsif page.permalink == '/teaching/' %}teaching-page
   {% elsif page.permalink == '/presentations/' %}presentations-page
   {% elsif page.permalink == '/workshop/' %}workshop-page
@@ -186,14 +180,31 @@ layout: compress
       var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
       if (isDark) {
         document.documentElement.removeAttribute('data-theme');
-        localStorage.setItem('color-theme', 'light');
       } else {
         document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('color-theme', 'dark');
       }
       setThemeButtonState();
     });
   }
+
+  document.querySelectorAll('.archive__item[data-href]').forEach(function(card) {
+    card.addEventListener('click', function(event) {
+      if (!event.target.closest('a')) window.location.href = card.getAttribute('data-href');
+    });
+    card.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        window.location.href = card.getAttribute('data-href');
+      }
+    });
+  });
+
+  document.querySelectorAll('.publication-detail .paper-body-card a').forEach(function(link) {
+    if (link.textContent.trim().toLowerCase() === 'download paper') {
+      var paragraph = link.closest('p');
+      if (paragraph) paragraph.remove(); else link.remove();
+    }
+  });
 
   // ✅ Evita il flash tra pagine
 document.querySelectorAll('a[href]').forEach(function(link) {

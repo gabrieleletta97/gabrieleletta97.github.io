@@ -5,10 +5,7 @@ permalink: /teaching/
 author_profile: true
 classes: teaching-page
 ---
-<div style="display: flex; align-items: center; gap: 24px; margin-bottom: 2rem;">
-  <h1 style="margin: 0; font-size: 1.5rem;">Teaching</h1>
-  <img src="/images/segantini.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
-</div>
+<header class="section-banner teaching-banner"><h1>Teaching</h1></header>
 ---
 
 **Economics - Microeconomics Tutorial (ITA)** <br>

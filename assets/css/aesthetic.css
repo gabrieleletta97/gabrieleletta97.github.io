@@ -152,6 +152,158 @@ a:hover { color: var(--ink); }
   .academic-hero h1 { font-size: 3.25rem; }
 }
 
+/* Final content hierarchy. */
+#main { grid-template-columns: 325px minmax(0, 800px); }
+.author__avatar img {
+  width: 270px;
+  height: 340px;
+  border-radius: 135px 135px 14px 14px;
+}
+
+.section-banner {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: flex-end;
+  min-height: 190px;
+  margin: 0 0 3rem;
+  padding: 1.7rem 1.9rem;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+.section-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(10, 16, 13, .78), rgba(10, 16, 13, .13));
+}
+.section-banner h1 {
+  margin: 0 !important;
+  color: #fff !important;
+  font-size: 2rem !important;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, .45);
+}
+.research-banner { background-image: url('/images/rugen.jpg'); }
+.teaching-banner { background-image: url('/images/segantini.jpg'); }
+.presentations-banner { background-image: url('/images/repin.jpg'); }
+
+.publications-page .archive__item {
+  position: relative;
+  cursor: pointer;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.publications-page .archive__item:hover,
+.publications-page .archive__item:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: 0 16px 38px rgba(23, 35, 31, .14);
+  outline: none;
+}
+
+.publication-detail .publication-image {
+  margin: 1.4rem 0 1.6rem;
+  text-align: center;
+}
+.publication-detail .publication-image img {
+  width: min(100%, 560px);
+  max-width: none;
+  height: auto;
+  border-radius: 10px;
+}
+.paper-body-card {
+  margin: 0 0 2rem;
+  padding: 1.65rem 1.8rem;
+  color: var(--ink);
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.paper-body-card > :first-child { margin-top: 0; }
+.paper-body-card > :last-child { margin-bottom: 0; }
+.floating-download {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  min-height: 46px;
+  padding: 0 1.2rem;
+  color: #fff !important;
+  background: var(--accent);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .22);
+  font-size: .76rem;
+  font-weight: 750;
+  letter-spacing: .07em;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+.floating-download:hover { background: var(--ink); }
+
+.home-page .page__inner-wrap {
+  position: relative;
+  isolation: isolate;
+  min-height: 720px;
+  padding: 2rem;
+  overflow: hidden;
+  background: url('/images/built-to-spill-etsy.jpg') center / cover no-repeat;
+  border-radius: 18px;
+}
+.home-page .page__inner-wrap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(255, 255, 255, .24);
+  backdrop-filter: blur(1px);
+}
+.home-page .content-box {
+  background: rgba(255, 255, 255, .92);
+  backdrop-filter: blur(8px);
+}
+
+/* Light is always the initial state; dark mode overrides every text family. */
+html:not([data-theme="dark"]), html:not([data-theme="dark"]) body { background: #fff !important; }
+html[data-theme="dark"] body,
+html[data-theme="dark"] .page,
+html[data-theme="dark"] .archive,
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .page__content h1,
+html[data-theme="dark"] .page__content h2,
+html[data-theme="dark"] .page__content h3,
+html[data-theme="dark"] .archive h1,
+html[data-theme="dark"] .archive h2,
+html[data-theme="dark"] .archive h3,
+html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .archive__item-title a,
+html[data-theme="dark"] .archive__item-content,
+html[data-theme="dark"] .paper-body-card,
+html[data-theme="dark"] .content-box,
+html[data-theme="dark"] strong,
+html[data-theme="dark"] em { color: var(--ink) !important; }
+html[data-theme="dark"] .home-page .page__inner-wrap::before { background: rgba(8, 12, 10, .42); }
+html[data-theme="dark"] .home-page .content-box { background: rgba(24, 31, 28, .94); }
+
+@media (max-width: 860px) {
+  #main { grid-template-columns: 1fr; }
+  .author__avatar img { width: 112px; height: 140px; }
+  .section-banner { min-height: 150px; }
+  .home-page .page__inner-wrap { padding: 1.15rem; }
+}
+
+@media (max-width: 520px) {
+  .section-banner { min-height: 125px; margin-bottom: 2rem; padding: 1.25rem; }
+  .section-banner h1 { font-size: 1.6rem !important; }
+  .floating-download { right: 16px; bottom: 16px; }
+}
+
 /* Cohesive card system and accessible color themes. */
 :root {
   --paper: #fff;
@@ -207,11 +359,11 @@ body, .page__content, .archive, .page__content h1, .page__content h2,
 .theme-toggle:hover { transform: translateY(-1px); background: var(--surface); }
 .theme-toggle:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 45%, transparent); outline-offset: 3px; }
 
-#main { grid-template-columns: 345px minmax(0, 780px); }
+#main { grid-template-columns: 320px minmax(0, 780px); }
 .author__avatar img {
-  width: 290px;
-  height: 365px;
-  border-radius: 145px 145px 14px 14px;
+  width: 265px;
+  height: 333px;
+  border-radius: 133px 133px 14px 14px;
 }
 
 .content-box,
@@ -284,6 +436,39 @@ html[data-theme="dark"] .archive > p,
 html[data-theme="dark"] .archive__item {
   border-color: var(--line);
   box-shadow: 0 12px 30px rgba(0, 0, 0, .32);
+}
+
+/* Final refinements: paper layout, home interests and complete dark contrast. */
+.research-interests p {
+  font-weight: 650;
+  letter-spacing: .01em;
+}
+
+.publication-detail .publication-image img {
+  width: min(100%, 610px);
+}
+
+.publication-detail .paper-body-card {
+  max-width: none;
+}
+
+html[data-theme="dark"] body :where(h1, h2, h3, h4, h5, h6, p, li, dt, dd, span, time, strong, em),
+html[data-theme="dark"] .page__date,
+html[data-theme="dark"] .presented-at,
+html[data-theme="dark"] .archive__item-excerpt,
+html[data-theme="dark"] .author__urls,
+html[data-theme="dark"] .author__urls a {
+  color: var(--ink) !important;
+}
+
+html[data-theme="dark"] a:not(.floating-download):not(.academic-button) {
+  color: var(--accent) !important;
+}
+
+html[data-theme="dark"] .section-banner h1,
+html[data-theme="dark"] .floating-download,
+html[data-theme="dark"] .academic-button--primary {
+  color: #fff !important;
 }
 
 @media (max-width: 860px) {

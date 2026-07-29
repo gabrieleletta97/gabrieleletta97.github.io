@@ -5,10 +5,7 @@ permalink: /presentations/
 author_profile: true
 classes: presentations-page
 ---
-<div style="display: flex; align-items: center; gap: 24px; margin-bottom: 2rem;">
-  <h1 style="margin: 0; font-size: 1.5rem;">Presentations</h1>
-  <img src="/images/repin.jpg" alt="Teaching banner" style="height: 100px; width: 450px; object-fit: cover;">
-</div>
+<header class="section-banner presentations-banner"><h1>Presentations</h1></header>
 
 ---
 ### 2026

@@ -16,11 +16,12 @@ redirect_from:
   </div>
 </section>
 
+<section class="content-box research-interests">
+  <h2>Research Interests</h2>
+  <p>Policy Evaluation · Health Economics · Public Economics</p>
+</section>
+
 <section class="content-box">
   <h2>Connect</h2>
   <p><a href="mailto:gabriele.letta@unicatt.it">Email</a> · <a href="https://www.linkedin.com/in/gabriele-letta-b0796a1b6/">LinkedIn</a> · <a href="https://x.com/gabriele_letta">X / Twitter</a> · <a href="https://github.com/gabrieleletta97">GitHub</a></p>
 </section>
-
-<div class="album-image">
-  <img src="{{ '/images/built-to-spill-etsy.jpg' | relative_url }}" alt="Built to Spill album artwork">
-</div>

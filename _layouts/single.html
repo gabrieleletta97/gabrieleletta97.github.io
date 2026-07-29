@@ -75,14 +75,33 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
-
-        {% if page.image %}
-          <div class="publication-image" style="text-align: center;">
-            <img src="{{ page.image | relative_url }}" alt="Image for {{ page.title }}" style="max-width: 400px; height: auto;">
+        {% if page.collection == 'publications' %}
+          {% if page.paperurl %}
+            <a class="floating-download" href="{{ page.paperurl }}" target="_blank" rel="noopener noreferrer">Download paper</a>
+          {% endif %}
+          {% if page.image %}
+            <div class="publication-image">
+              {% if page.image contains 'http' %}
+                <img src="{{ page.image }}" alt="Image for {{ page.title }}">
+              {% else %}
+                <img src="{{ page.image | relative_url }}" alt="Image for {{ page.title }}">
+              {% endif %}
+            </div>
+          {% endif %}
+          <div class="paper-body-card">
+            {{ content }}
           </div>
+        {% else %}
+          {{ content }}
+
+          {% if page.image %}
+            <div class="publication-image">
+              <img src="{{ page.image | relative_url }}" alt="Image for {{ page.title }}">
+            </div>
+          {% endif %}
         {% endif %}
 
+        {% unless page.collection == 'publications' %}
         {% if page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />
             <a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a>
@@ -100,6 +119,7 @@ layout: default
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
+        {% endunless %}
 
         {% if page.link %}
           <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
