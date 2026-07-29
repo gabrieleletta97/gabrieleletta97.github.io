@@ -189,6 +189,8 @@ a:hover { color: var(--ink); }
 .research-banner { background-image: url('/images/rugen.jpg'); }
 .teaching-banner { background-image: url('/images/segantini.jpg'); }
 .presentations-banner { background-image: url('/images/repin.jpg'); }
+.about-banner { background-image: url('/images/built-to-spill-etsy.jpg'); }
+.workshop-banner { background-image: url('/images/depero.jpg'); }
 
 .publications-page .archive__item {
   position: relative;
@@ -469,6 +471,37 @@ html[data-theme="dark"] .section-banner h1,
 html[data-theme="dark"] .floating-download,
 html[data-theme="dark"] .academic-button--primary {
   color: #fff !important;
+}
+
+/* Home and Workshop use image headers; the paper action sits above its image. */
+.home-page .page__inner-wrap {
+  min-height: 0;
+  padding: 0;
+  overflow: visible;
+  background: none;
+  border-radius: 0;
+}
+.home-page .page__inner-wrap::before { display: none; }
+.home-page .content-box {
+  background: var(--surface-soft);
+  backdrop-filter: none;
+}
+html[data-theme="dark"] .home-page .content-box { background: var(--surface-soft); }
+
+.floating-download {
+  position: static;
+  right: auto;
+  bottom: auto;
+  z-index: auto;
+  margin: 0 0 1rem;
+}
+
+@media (max-width: 860px) {
+  .home-page .page__inner-wrap { padding: 0; }
+}
+
+@media (max-width: 520px) {
+  .floating-download { margin-bottom: .85rem; }
 }
 
 @media (max-width: 860px) {
