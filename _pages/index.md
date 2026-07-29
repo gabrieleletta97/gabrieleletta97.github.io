@@ -8,34 +8,15 @@ redirect_from:
 ---
 
 <section class="academic-hero">
-  <p class="academic-kicker">Economist · Rome & Milan</p>
-  <h1>Research on policy, health and the public economy.</h1>
-
-  <p class="academic-lead">
-    I am an economist interested in how institutions and public policy shape health,
-    opportunity and economic outcomes.
-  </p>
+  <h1>Gabriele Letta</h1>
 
   <div class="academic-actions">
-    <a class="academic-button academic-button--primary" href="{{ '/publications/' | relative_url }}">Explore research</a>
-    <a class="academic-button" href="{{ '/files/CV_Letta.pdf' | relative_url }}">Download CV</a>
-    <a class="academic-button" href="mailto:gabriele.letta@unicatt.it">Email me</a>
+    <a class="academic-button academic-button--primary" href="{{ '/files/CV_Letta.pdf' | relative_url }}">Download CV</a>
   </div>
 </section>
 
-<div class="academic-meta" aria-label="Academic profile at a glance">
-  <div>
-    <span>Fields</span>
-    <strong>Policy Evaluation · Health · Public Economics</strong>
-  </div>
-  <div>
-    <span>Current base</span>
-    <strong>Università Cattolica del Sacro Cuore</strong>
-  </div>
-  <div>
-    <span>Education</span>
-    <strong>PhD in Economics and Finance, 2026</strong>
-  </div>
+<div class="album-image">
+  <img src="{{ '/images/built-to-spill-etsy.jpg' | relative_url }}" alt="Built to Spill album artwork">
 </div>
 
 ## About
