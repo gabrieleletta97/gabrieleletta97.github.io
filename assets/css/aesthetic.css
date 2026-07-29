@@ -191,6 +191,7 @@ a:hover { color: var(--ink); }
 .presentations-banner { background-image: url('/images/repin.jpg'); }
 .about-banner { background-image: url('/images/built-to-spill-etsy.jpg'); }
 .workshop-banner { background-image: url('/images/depero.jpg'); }
+.other-banner { background-image: url('/images/hunger-header.png'); }
 
 .publications-page .archive__item {
   position: relative;
@@ -515,4 +516,80 @@ html[data-theme="dark"] .home-page .content-box { background: var(--surface-soft
 @media (max-width: 520px) {
   .content-box, .page__content > p, .archive > p, .archive__item { padding: 1.15rem; border-radius: 11px; }
   .theme-toggle { width: 34px; height: 34px; }
+}
+
+/* Slightly shorter image headers across the site. */
+.section-banner {
+  min-height: 150px;
+  padding-top: 1.35rem;
+  padding-bottom: 1.35rem;
+}
+
+@media (max-width: 860px) {
+  .section-banner { min-height: 125px; }
+}
+
+@media (max-width: 520px) {
+  .section-banner { min-height: 105px; }
+}
+
+/* Mobile profile and complete navigation. */
+@media (max-width: 860px) {
+  .sidebar {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    width: 100%;
+  }
+
+  .author__avatar img {
+    display: block;
+    width: 150px;
+    height: 188px;
+    margin: 0 auto;
+  }
+
+  .author__name { margin-top: 1rem; }
+  .author__urls-wrapper { grid-column: auto; }
+  .author__urls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+    width: 100%;
+  }
+  .author__urls li { text-align: center; }
+
+  .site-header .wrapper {
+    align-items: center;
+    text-align: center;
+  }
+  .site-nav {
+    justify-content: center;
+    width: 100%;
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .55rem 1rem;
+    width: 100%;
+    overflow: visible;
+  }
+  .nav-list li { display: list-item !important; }
+  .nav-list a { font-size: .66rem; }
+}
+
+@media (max-width: 520px) {
+  .site-nav { align-items: center; gap: .55rem; }
+  .nav-list { gap: .45rem .75rem; }
+  .nav-list a { padding: .2rem !important; font-size: .62rem; }
+  .theme-toggle { flex: 0 0 34px; }
 }

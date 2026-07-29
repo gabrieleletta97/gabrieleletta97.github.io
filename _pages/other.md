@@ -5,6 +5,8 @@ permalink: /other/
 author_profile: true
 ---
 
+<header class="section-banner other-banner"><h1>Other</h1></header>
+
 <section class="content-box other-card">
   <blockquote>
     <p>“It's life that matters, nothing but life — the process of discovering, the everlasting and perpetual process, not the discovery itself, at all.” — FD</p>
