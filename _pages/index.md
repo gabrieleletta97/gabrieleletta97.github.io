@@ -7,14 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-<div class="academic-actions">
-  <a class="academic-button academic-button--primary" href="{{ '/files/CV_Letta.pdf' | relative_url }}">Download CV</a>
-</div>
-
 <section class="content-box">
   <h2>About</h2>
   <p>I obtained my <strong>PhD in Economics and Finance</strong> at <strong>Università Cattolica del Sacro Cuore — DEFAP School</strong> in February 2026, supervised by <a href="https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati">Gilberto Turati</a> and <a href="https://sites.google.com/view/luca-salmasi/home-page">Luca Salmasi</a>.</p>
   <p>In 2025 I was a visiting researcher at <strong>IEB — Universitat de Barcelona</strong>, hosted by <a href="https://www.juditvall.com/">Judit Vall Castelló</a>. I was born and raised in Rome and earned my MSc at Sapienza University of Rome in 2021.</p>
+  <div class="academic-actions">
+    <a class="academic-button academic-button--primary" href="{{ '/files/CV_Letta.pdf' | relative_url }}">Download CV</a>
+  </div>
 </section>
 
 <section class="content-box">

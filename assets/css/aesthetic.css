@@ -207,11 +207,11 @@ body, .page__content, .archive, .page__content h1, .page__content h2,
 .theme-toggle:hover { transform: translateY(-1px); background: var(--surface); }
 .theme-toggle:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 45%, transparent); outline-offset: 3px; }
 
-#main { grid-template-columns: 305px minmax(0, 780px); }
+#main { grid-template-columns: 345px minmax(0, 780px); }
 .author__avatar img {
-  width: 255px;
-  height: 320px;
-  border-radius: 128px 128px 14px 14px;
+  width: 290px;
+  height: 365px;
+  border-radius: 145px 145px 14px 14px;
 }
 
 .content-box,
@@ -223,10 +223,10 @@ body, .page__content, .archive, .page__content h1, .page__content h2,
   margin: 1rem 0;
   padding: 1.5rem 1.65rem;
   color: var(--ink);
-  background: var(--surface);
-  border: 1px solid var(--line);
+  background: var(--surface-soft);
+  border: 1px solid rgba(23, 35, 31, .22);
   border-radius: 14px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 10px 28px rgba(23, 35, 31, .10);
 }
 
 .content-box { margin: 1.4rem 0; }
@@ -263,13 +263,13 @@ body, .page__content, .archive, .page__content h1, .page__content h2,
 /* No oversized title on Workshop or Other. */
 .workshop-page .page__title, .other-page .page__title { display: none !important; }
 .workshop-feature h2 { font-size: 1.45rem; }
-.workshop-feature img { display: block; width: min(100%, 420px); margin: 1.4rem auto 0; }
+.workshop-feature img { display: block; width: min(100%, 340px); margin: 1.4rem auto 0; }
 
 .other-card blockquote { margin: 0; padding: 0; border: 0; }
 .other-card blockquote p { margin-top: 0; font-size: 1.18rem; }
 .other-card .image-container { text-align: center; }
 .other-card .image-container img {
-  width: min(100%, 780px) !important;
+  width: min(100%, 560px) !important;
   max-width: none !important;
   margin-top: 1.25rem;
 }
@@ -278,6 +278,13 @@ body, .page__content, .archive, .page__content h1, .page__content h2,
 .album-image img { width: min(100%, 520px); }
 
 html[data-theme="dark"] img { filter: brightness(.88) contrast(1.05); }
+html[data-theme="dark"] .content-box,
+html[data-theme="dark"] .page__content > p,
+html[data-theme="dark"] .archive > p,
+html[data-theme="dark"] .archive__item {
+  border-color: var(--line);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .32);
+}
 
 @media (max-width: 860px) {
   #main { grid-template-columns: 1fr; }
