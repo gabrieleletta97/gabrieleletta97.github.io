@@ -8,10 +8,10 @@ locale: "en-US"
 title: "Gabriele Letta"
 title_separator: "-"
 name: &name "Gabriele Letta"
-description: &description "Website"
+description: &description "Economist working on policy evaluation, health economics and public economics."
 url: "https://gabrieleletta97.github.io" # Base URL for the site
 baseurl: "" # Use this if you deploy to a subpath, e.g., "/gabriele_letta" or leave it empty
-repository: "gabrieleletta97/gabriele_letta.github.io"
+repository: "gabrieleletta97/gabrieleletta97.github.io"
 
 # Site Author
 author:
@@ -21,7 +21,9 @@ author:
   bio: "PhD in Economics and Finance"
   location: "Rome/Milan, Italy"
   employer: "UCSC, Milan"
-  email:
+  email: "gabriele.letta@unicatt.it"
+  github: "gabrieleletta97"
+  linkedin: "gabriele-letta-b0796a1b6"
 
 # Publication Category
 publication_category:

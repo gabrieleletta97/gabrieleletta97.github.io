@@ -10,6 +10,7 @@ layout: compress
   {% include head.html %}
   {% include head/custom.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e8">
   <meta name="google-site-verification" content="2I7it8xIaAcIBgcuqCDs9ydZ3fp3F5z2teCq3_NLCZw" />
 
   <title>
@@ -112,6 +113,7 @@ layout: compress
   <!-- ✅ Preload del CSS principale -->
   <link rel="preload" href="{{ "/assets/css/styles.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"></noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css' | relative_url }}">
 </head>
 
 <body class="
