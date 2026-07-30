@@ -443,21 +443,13 @@ html[data-theme="dark"] .archive__item {
 
 /* Final refinements: paper layout, home interests and complete dark contrast. */
 .research-interests p {
-  font-weight: 400;
+  font-weight: 650;
   letter-spacing: .01em;
 }
 
-.content-box .research-interests {
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--line);
-}
-
 .content-box .research-interests h2 {
-  margin: 0 0 0.5rem;
-  padding: 0;
-  border-bottom: none;
-  font-size: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.15rem;
 }
 
 .publication-detail .publication-image img {
@@ -733,9 +725,9 @@ body:not(.home-page) #main {
 /* Fit text cards to their readable line length instead of the full page width. */
 .content-box,
 .paper-body-card {
-  width: fit-content;
-  max-width: min(760px, 100%);
+  width: min(760px, 100%);
+  max-width: 100%;
   box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
