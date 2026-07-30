@@ -26,5 +26,6 @@ Vaccine hesitancy is a crucial public health issue worldwide. In this paper, we 
 identifying changes in the slope of vaccination rates around the announcements by the two governments relative to the introduction of the Certificate. We find that the digital COVID-19 Certificate increased vaccinations in Italy in a range spanning from 3.12 to 11.03 percent. In Spain, by contrast, only the reintroduction seems to have been able to affect vaccinations. This result for Spain is also supported by a Difference-in-Differences model, exploiting the staggered reintroduction of the Certificate at the regional level.
 
 **JEL Classification**: I12, I18
+
 **Keywords**: vaccine hesitancy; Digital COVID-19 Certificate, Sharp Regression Kink Design
 <!-- "https://gabrieleletta97.github.io/images/Spain.png" -->
