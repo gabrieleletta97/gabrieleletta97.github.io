@@ -447,6 +447,11 @@ html[data-theme="dark"] .archive__item {
   letter-spacing: .01em;
 }
 
+.content-box .research-interests h2 {
+  margin-top: 1.5rem;
+  font-size: 1.15rem;
+}
+
 .publication-detail .publication-image img {
   width: min(100%, 610px);
 }
