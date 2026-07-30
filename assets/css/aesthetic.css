@@ -443,7 +443,7 @@ html[data-theme="dark"] .archive__item {
 
 /* Final refinements: paper layout, home interests and complete dark contrast. */
 .research-interests p {
-  font-weight: 650;
+  font-weight: 400;
   letter-spacing: .01em;
 }
 
