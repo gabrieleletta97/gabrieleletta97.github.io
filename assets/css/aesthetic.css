@@ -702,9 +702,9 @@ body:not(.home-page) #main {
 .page,
 .archive,
 .sidebar {
-  animation-duration: .08s !important;
+  animation-duration: .25s !important;
   animation-delay: 0s !important;
-  transition-duration: .08s !important;
+  transition-duration: .25s !important;
 }
 
 .section-banner { min-height: 105px; }
