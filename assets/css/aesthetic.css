@@ -721,3 +721,13 @@ body:not(.home-page) #main {
 @media (max-width: 520px) {
   .section-banner { min-height: 72px; }
 }
+
+/* Fit text cards to their readable line length instead of the full page width. */
+.content-box,
+.paper-body-card {
+  width: fit-content;
+  max-width: min(760px, 100%);
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
