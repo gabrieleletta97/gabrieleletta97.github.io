@@ -15,7 +15,9 @@ layout: default
 {% endif %}
 
 <div id="main" role="main" class="container">
-  {% include sidebar.html %}
+  {% if page.url == '/' %}
+    {% include sidebar.html %}
+  {% endif %}
 
   <article class="page{% if page.collection == 'publications' %} publication-detail{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}

@@ -691,3 +691,28 @@ html[data-theme="dark"] .home-page .content-box { background: var(--surface-soft
 @media (max-width: 520px) {
   .section-banner { min-height: 80px; }
 }
+
+/* Final simplification: profile only on Home, faster reveal, shorter headers. */
+body:not(.home-page) #main {
+  grid-template-columns: minmax(0, 920px);
+  justify-content: center;
+}
+
+#main,
+.page,
+.archive,
+.sidebar {
+  animation-duration: .08s !important;
+  animation-delay: 0s !important;
+  transition-duration: .08s !important;
+}
+
+.section-banner { min-height: 105px; }
+
+@media (max-width: 860px) {
+  .section-banner { min-height: 85px; }
+}
+
+@media (max-width: 520px) {
+  .section-banner { min-height: 72px; }
+}
