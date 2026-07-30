@@ -443,13 +443,21 @@ html[data-theme="dark"] .archive__item {
 
 /* Final refinements: paper layout, home interests and complete dark contrast. */
 .research-interests p {
-  font-weight: 650;
+  font-weight: 400;
   letter-spacing: .01em;
 }
 
-.content-box .research-interests h2 {
+.content-box .research-interests {
   margin-top: 1.5rem;
-  font-size: 1.15rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.content-box .research-interests h2 {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  border-bottom: none;
+  font-size: 1rem;
 }
 
 .publication-detail .publication-image img {
