@@ -113,7 +113,7 @@ layout: compress
   <!-- ✅ Preload del CSS principale -->
   <link rel="preload" href="{{ "/assets/css/styles.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"></noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20260729-8' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20260730-9' | relative_url }}">
 </head>
 
 <body class="
@@ -132,7 +132,10 @@ layout: compress
     <div class="wrapper">
       <a class="site-title" href="{{ '/' | relative_url }}">Gabriele Letta</a>
       <nav class="site-nav">
-        <ul class="nav-list">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span>Menu</span><span class="nav-toggle__icon" aria-hidden="true">&#9662;</span>
+        </button>
+        <ul class="nav-list" id="primary-menu">
           <li><a href="{{ '/' | relative_url }}">Home</a></li>
           <li><a href="{{ '/publications/' | relative_url }}">Research</a></li>
           <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
@@ -184,6 +187,29 @@ layout: compress
         document.documentElement.setAttribute('data-theme', 'dark');
       }
       setThemeButtonState();
+    });
+  }
+
+  var navToggle = document.querySelector('.nav-toggle');
+  var siteNav = document.querySelector('.site-nav');
+  if (navToggle && siteNav) {
+    navToggle.addEventListener('click', function() {
+      var isOpen = siteNav.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    siteNav.querySelectorAll('.nav-list a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        siteNav.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        siteNav.classList.remove('is-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
     });
   }
 

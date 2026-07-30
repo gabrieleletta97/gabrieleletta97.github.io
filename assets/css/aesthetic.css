@@ -593,3 +593,101 @@ html[data-theme="dark"] .home-page .content-box { background: var(--surface-soft
   .nav-list a { padding: .2rem !important; font-size: .62rem; }
   .theme-toggle { flex: 0 0 34px; }
 }
+
+/* Rectangular portrait and compact mobile dropdown navigation. */
+.author__avatar img {
+  border-radius: 10px;
+}
+
+.nav-toggle { display: none; }
+
+/* Reduce page-header height one more step. */
+.section-banner { min-height: 120px; }
+
+@media (max-width: 860px) {
+  body:not(.home-page) .sidebar { display: none !important; }
+
+  .home-page .sidebar {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .author__avatar img { border-radius: 9px; }
+
+  .site-header .wrapper {
+    align-items: stretch;
+    text-align: left;
+  }
+
+  .site-title { text-align: center; }
+
+  .site-nav {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: .6rem;
+  }
+
+  .nav-toggle {
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 42px;
+    padding: 0 .9rem;
+    color: var(--ink);
+    background: var(--surface-soft);
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    font-family: var(--sans);
+    font-size: .76rem;
+    font-weight: 750;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .nav-toggle__icon {
+    margin-left: .8rem;
+    transition: transform .2s ease;
+  }
+  .site-nav.is-open .nav-toggle__icon { transform: rotate(180deg); }
+
+  .site-nav .nav-list {
+    display: none !important;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    width: 100%;
+    padding: .45rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+  }
+
+  .site-nav.is-open .nav-list { display: flex !important; }
+  .site-nav > .theme-toggle {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .site-nav .nav-list li { width: 100%; }
+  .site-nav .nav-list a {
+    display: block;
+    padding: .7rem .75rem !important;
+    border-radius: 7px;
+    font-size: .7rem;
+    text-align: left;
+  }
+  .site-nav .nav-list a:hover { background: var(--surface-soft); }
+
+  .section-banner { min-height: 95px; }
+}
+
+@media (max-width: 520px) {
+  .section-banner { min-height: 80px; }
+}
