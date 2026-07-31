@@ -1,5 +1,5 @@
 ---
-title: "Furloughed Workers, Abortions and Fertility."
+title: "Household Income Uncertainty and Pregnancy Decisions: Evidence from Temporary Work Suspensions"
 collection: publications
 authors:
   - name: "Gabriele Letta"
@@ -21,9 +21,8 @@ image: "https://gabrieleletta97.github.io/images/Map_inactive_com.png"  # Path t
 [Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabrieleletta97.github.io/master/files/WP_IVG_Letta_Salmasi_Turati_new.pdf)
 
 
-We study the impact of economic insecurity on voluntary pregnancy terminations and fertility decisions. To do so, we exploit the temporary suspension of economic activities during the first wave of the COVID-19 pandemic in Italy as a source of plausibly exogenous variation in the economic uncertainty experienced by local labor markets. We leverage this unexpected shock to examine how uncertainty affects Voluntary Pregnancy Terminations (VPT) and fertility decisions within households. We measure the local intensity of these closures with the share of furloughed workers in each municipality, and estimate their impact on abortion and
-pregnancy rates using a difference-in-differences framework. Using detailed administrative data on VPTs and births, we find that — despite an overall decline in abortions due to social distancing — municipalities in the fourth quartile of the furlough distribution experienced a significant relative increase in quarterly abortion rates (10–13\% compared to the pre-pandemic mean) relative to municipalities in the lowest quartile. The effect is primarily driven by married, non-working women in households with one or two children. Moreover, the results are largely attributable to furloughed workers in the industrial sector. These findings suggest that heightened economic insecurity during the early months of the pandemic,particularly in households with children where the male partner is the sole earner,likely explains the observed increase in VPTs. Consistent with this interpretation, we detect no significant effects on births.
+We study how uncertainty about future household income affects the decision to continue an ongoing pregnancy. To distinguish the role of uncertainty from that of realized income losses, we exploit the Italian labour-market response to the first wave of the COVID-19 pandemic. While the temporary suspension of non-essential economic activities substantially increased uncertainty about future economic prospects, workers affected by mandatory closures continued to receive income support through the national short-time work scheme. Using nationwide administrative records on voluntary pregnancy terminations and births, we combine this institutional setting with geographic variation in exposure to temporary work suspensions across municipalities. Difference-in-differences estimates show that abortion rates declined throughout Italy following the lockdown, but the decline was significantly smaller in municipalities more exposed to work suspensions. The effect is concentrated among married women, women outside the labour force, and municipalities with greater industrial employment, consistent with uncertainty affecting households whose economic prospects were more exposed to temporary work suspensions. We find no corresponding effects on births. Overall, our findings suggest that uncertainty about future household income, even in the absence of permanent job loss, can substantially affect pregnancy decisions.
 
-**Keywords**: Furloughed workers, Abortion, Fertility, Covid-19.
+**Keywords**: Household income uncertainty; Pregnancy decisions; Abortion; Temporary work suspensions; COVID-19.
 
-**JEL Classification**: I12, I18, J13, J16.
+**JEL Classification**: J13, I12, I18, J22.
