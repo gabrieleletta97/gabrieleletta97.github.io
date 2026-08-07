@@ -11,7 +11,7 @@ authors:
   - name: "Gilberto Turati"
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
 category: working_papers
-permalink: /publication/1-csec
+permalink: /publication/5-sec
 excerpt: 'Forthcoming on **_Epidemiology, Biostatistics, and Public Health_**'
 date: 2026-01-01
 venue: "CIFREL Working Paper n. 04/2025"
