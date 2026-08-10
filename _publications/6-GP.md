@@ -19,6 +19,7 @@ presented_at:
 paperurl: "https://dipartimenti.unicatt.it/economia-finanza-def153.pdf"
 image: "https://gabrieleletta97.github.io/images/BW_ci_sc_ITA.jpg"  # Path to your image
 ---
+excerpt: 'Revision requested at **_Health Economics_**'
 
 [[Download Paper](https://dipartimenti.unicatt.it/economia-finanza-def153.pdf)]
 
