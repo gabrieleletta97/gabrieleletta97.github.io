@@ -14,6 +14,10 @@ classes: presentations-page
 Italian Association of Labor Economics - Roma 3 University, Rome, Italy <br>
 *Sep 2026*
 
+**QuantBridge Applied Quantitative Webinar Series (forthcoming)** <br>
+QuantBridge Web Seminars <br>
+*Sep 2026*
+
 **[BSE Summer Forum - Economics of Science and Innovation](https://events.bse.eu/live/files/6403-sf2026-program-economics-of-science-and-innovation)** <br>
 Barcelona School of Economics - UPF and UAB, Barcelona, Spain <br>
 *Jun 2026*
