@@ -10,7 +10,7 @@ authors:
     url: "https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati/profilo"
 category: working_papers
 permalink: /publication/3-ivg
-excerpt: 'Working Paper'
+excerpt: 'Submitted'
 date: 2026-01-01
 venue: ""
 presented_at: "1st and 2nd Internal PhD Seminars (DEFAP, Unicatt, Milan), 2nd PhD Conference in Social Sciences and Economics (DISSE, Sapienza, Rome), XXXVI SIEP 2024 (UniCg, Cagliari), 3rd Internal PhD Seminar (DEFAP, Unicatt, Milan), 17th UniTO-CCA VPDE Workshop (Poster Session, UniTo-CCA, Turin), PhD & Post-Doc UniMi Brown Bag Seminars (DEMM, UniMi, Milan), 4th Winter Symposium (DEF, UCSC, Milan), UB School of Economics PhD Seminars (UB, Barcelona), 1st WISE (Poster Session, IdeP, USI, Airolo), 2nd Verona ECWE (DE, UniVr, Verona), BSE PhD Jamboree 2025 (BSE, Barcelona), BReCHS Seminars* (DISMEQ, UniMiB, Milan), Workshop in 
