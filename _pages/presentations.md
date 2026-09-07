@@ -14,7 +14,7 @@ classes: presentations-page
 Italian Association of Labor Economics - Roma 3 University, Rome, Italy <br>
 *Sep 2026*
 
-**QuantBridge Applied Quantitative Webinar Series (forthcoming)** <br>
+**[QuantBridge Applied Quantitative Webinar Series](https://dannyturkson.github.io/quantbridge.html)** <br>
 QuantBridge Web Seminars <br>
 *Sep 2026*
 
