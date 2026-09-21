@@ -10,7 +10,7 @@ classes: presentations-page
 ---
 ### 2026
 
-**41st AIEL Conference (forthcoming)** <br>
+**[41st AIEL Conference](https://www.aiel.it/Files/Administrator/Events/Documents/event639253232355281387.pdf)** <br>
 Italian Association of Labor Economics - Roma 3 University, Rome, Italy <br>
 *Sep 2026*
 
