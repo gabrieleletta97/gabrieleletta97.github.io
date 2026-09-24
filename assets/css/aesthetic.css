@@ -61,7 +61,7 @@ a:hover { color: var(--ink); }
 #main {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 3rem 4vw 6rem;
+  padding: 2rem 4vw 6rem;
   display: grid;
   grid-template-columns: 285px minmax(0, 760px);
   gap: clamp(3rem, 7vw, 7rem);
