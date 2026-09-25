@@ -731,3 +731,14 @@ body:not(.home-page) #main {
   margin-left: 0;
   margin-right: 0;
 }
+
+/* Compact page headers */
+.section-banner {
+  min-height: 85px;
+  margin-bottom: .8rem;
+  padding: 1rem 1.9rem;
+}
+
+.about-page .content-box {
+  margin-top: 0;
+}
