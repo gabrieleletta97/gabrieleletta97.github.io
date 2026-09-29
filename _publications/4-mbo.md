@@ -1,5 +1,5 @@
 ---
-title: "Research Scaling or Transformation? Incentive Structures and Research Capacity within a Healthcare Organization"
+title: "Scaling Science? Research Capacity and Scientific Production within a Healthcare Organization"
 collection: publications
 authors:
   - name: "Gabriele Letta"
@@ -17,12 +17,12 @@ presented_at: "UPF Student Seminar Series (DEB, UPF, Barcelona), III Sapienza Ph
 paperurl: "https://gabrieleletta97.github.io/files/MBO_vs_IRCCS_Letta_et_al.pdf"
 image: "https://gabrieleletta97.github.io/images/ES_IRCCS_various.png"  # Path to your image
 ---
-[[Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_et_al.pdf)]
+<!-- [[Download Paper](https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_et_al.pdf)]-->
 <!-- "https://raw.githubusercontent.com/gabrieleletta97/gabriele_letta.github.io/master/files/MBO_vs_IRCCS_Letta_et_al.pdf" -->
+This study focuses on how an expansion in organizational research capacity affects scientific production within a large Italian university hospital. In 2018, the hospital was recognized as a Scientific Institute for Research, Hospitalization and Healthcare (IRCCS), gaining access to recurring public funding, research infrastructure, formal research lines, and organizational support. Using physician-level panel data for 2012--2022 and difference-in-differences designs, we find a large and persistent increase in publications among physicians exposed to the new research environment. The increase is concentrated among physicians who were already more research-active before recognition and occurs mainly within established scientific fields and existing collaboration networks. Field shares, the relative importance of new collaborations, and authorship patterns change little. Total citations increase, while citations per publication decline. Overall, the expansion in research capacity substantially increases scientific output but produces limited changes in how research is organized and in the composition of scientific activity. The findings show that increases in research resources can generate substantially more science without necessarily producing equally large changes in the structure of scientific production.
 
-This paper studies how different organizational approaches affect scientific productivity among high-skilled workers. We compare a managerial intervention that increases the returns to research through performance-based incentives with an institutional change that expands research capacity through public funding and organizational support. Exploiting two policies within a large research-intensive Italian university hospital and detailed physician-level panel data from 2012–2022, we estimate the effects of both interventions using a set of difference-in-differences strategies. We find that performance incentives alone do not significantly increase scientific output. By contrast, expanded research capacity generates a large and persistent increase in productivity among researchers exposed to the new research environment. The results reveal substantial heterogeneity across workers: individuals already engaged in research-intensive activities respond strongly to expanded research capacity, whereas physicians primarily devoted to clinical tasks show limited responses to publication-based incentives. The increase operates primarily through the intensive margin, reflecting the expansion of existing research teams and activities rather than the emergence of new collaboration patterns, scientific leadership or research specialization. While total citations increase, citations per publication decline, suggesting a quantity–quality trade-off. Consistent with a broader expansion of research-related activity, we also document increases in high-complexity clinical procedures, with no systematic changes in healthcare quality indicators. The findings suggest that policies designed to increase scientific output are not necessarily the same as policies capable of transforming the research process itself.
 
-**Keywords**: High-skilled Workers, Knowledge Production, Management-By-Objective, Public Funding, Healthcare Research
+**Keywords**: Research Capacity, Organization of Science, Public Funding, Scientific Collaboration, Healthcare Research.
 
-**JEL Classification**: I10, I23, J24, O31.
+**JEL Classification**: I23, O31, O32, O38.
 
