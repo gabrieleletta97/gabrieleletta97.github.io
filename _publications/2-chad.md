@@ -1,5 +1,5 @@
 ---
-title: "Water Scarcity and Specialized Insurgency: Evidence from the Lake Chad Basin"
+title: "Weather Shocks, Water Proximity, and Conflict: Evidence from the Lake Chad Region"
 collection: publications
 authors:
   - name: "Andrea Berlanda"
