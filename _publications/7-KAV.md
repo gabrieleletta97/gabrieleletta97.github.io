@@ -15,7 +15,8 @@ authors:
 category: working_papers
 permalink: /publication/7-KAV
 excerpt: 'Submitted'
-venue: ""
+date: 2026-01-01
+venue: "Working Paper"
 presented_at: 
 paperurl:
 image: https://gabrieleletta97.github.io/images/map_rainfall_NONI.png
