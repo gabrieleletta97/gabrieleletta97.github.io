@@ -1,5 +1,5 @@
 ---
-title: "Temperature anomalies, rainfall and alcohol consumption: evidence from daily UK microdata	"
+title: "Temperature anomalies, rainfall and hazardous drinking: evidence from daily UK microdata	"
 collection: publications
 authors:
   - name: "Georgios Chrysanthou"
