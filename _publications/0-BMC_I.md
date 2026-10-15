@@ -13,7 +13,7 @@ authors:
   - name: "PASCNET study group (including Gabriele Letta)"
     url: "https://link.springer.com/article/10.1186/s12879-026-13467-4"
 category: other_publications
-permalink: /publication/0-BMC
+permalink: /publication/0-BMC_I
 excerpt: 'Collaborative publication as member of the PASCNET study group.'
 date: 2026-01-01
 venue: "BMC Infectious Diseases"
