@@ -28,7 +28,7 @@ permalink: /publication/0-BMC_P
 excerpt: 'Collaborative publication as member of the PASCNET study group.'
 date: 2026-01-01
 venue: "BMC Public Health"
-paperurl: "https://link.springer.com/article/10.1186/s12879-026-13467-4"
+paperurl: "https://link.springer.com/article/10.1186/s12889-026-29682-2"
 
 ---
 *Collaborative publication as member of the PASCNET study group.*
