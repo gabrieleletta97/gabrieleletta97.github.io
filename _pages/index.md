@@ -1,27 +1,51 @@
 ---
 permalink: /
 title:
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<header class="section-banner about-banner"><h1>About</h1></header>
-
-<section class="content-box">
+<section id="about" class="onepage-section onepage-hero" data-section="about">
+  <div class="onepage-hero__copy">
+  <p class="onepage-eyebrow">Economist · Health, Public and Policy Evaluation</p>
+  <h1>Gabriele Letta</h1>
+  <p class="onepage-lead">I am an applied economist working on policy evaluation, health economics and public economics.</p>
   <p>I obtained my <strong>PhD in Economics and Finance</strong> at <strong>Università Cattolica del Sacro Cuore — DEFAP School</strong> in 2026, supervised by <a href="https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati">Gilberto Turati</a> and <a href="https://sites.google.com/view/luca-salmasi/home-page">Luca Salmasi</a>.</p>
   <p>In 2025 I was a visiting researcher at <strong>IEB — Universitat de Barcelona</strong>, hosted by <a href="https://www.juditvall.com/">Judit Vall Castelló</a>. I was born and raised in Rome and earned my MSc at Sapienza University of Rome in 2021.</p>
-  <div class="research-interests">
-    <h2>Research Interests</h2>
-    <p>Policy Evaluation · Health Economics · Public Economics</p>
-  </div>
-  <div class="academic-actions">
+  <div class="onepage-interests"><span>Policy Evaluation</span><span>Health Economics</span><span>Public Economics</span></div>
+  <div class="onepage-actions">
     <a class="academic-button academic-button--primary" href="{{ '/files/CV_Letta.pdf' | relative_url }}">Download CV</a>
+    <a class="academic-button" href="#research">See my research</a>
+    <a class="onepage-text-link" href="mailto:gabriele.letta@unicatt.it">Email</a>
+    <a class="onepage-text-link" href="https://www.linkedin.com/in/gabriele-letta-b0796a1b6/">LinkedIn</a>
+    <a class="onepage-text-link" href="https://github.com/gabrieleletta97">GitHub</a>
   </div>
+  </div>
+  <figure class="onepage-hero__portrait"><img src="{{ '/images/Modified.jpg' | relative_url }}" alt="Gabriele Letta"></figure>
 </section>
 
-<section class="content-box">
-  <h2>Connect</h2>
-  <p><a href="mailto:gabriele.letta@unicatt.it">Email</a> · <a href="https://www.linkedin.com/in/gabriele-letta-b0796a1b6/">LinkedIn</a> · <a href="https://x.com/gabriele_letta">X / Twitter</a> · <a href="https://github.com/gabrieleletta97">GitHub</a></p>
+<section id="research" class="onepage-section onepage-research" data-section="research">
+  <header class="onepage-section__header"><p class="onepage-eyebrow">Research</p><h2>Research and publications</h2><p>Working papers, ongoing projects and published collaborative research.</p></header>
+  {% for category in site.publication_category %}
+    {% assign category_posts = site.publications | where: "category", category[0] | reverse %}
+    {% if category_posts.size > 0 and category[1].title %}
+      <div class="onepage-research-group"><h3>{{ category[1].title }}</h3>{% for post in category_posts %}{% include onepage-publication.html post=post %}{% endfor %}</div>
+    {% endif %}
+  {% endfor %}
 </section>
+
+{% assign teaching_page = site.pages | where: "permalink", "/teaching/" | first %}
+<section id="teaching" class="onepage-section" data-section="teaching">
+  <header class="onepage-section__header"><p class="onepage-eyebrow">Teaching</p><h2>Teaching experience</h2></header>
+  <div class="onepage-embedded onepage-teaching-list">{{ teaching_page.content | markdownify }}</div>
+</section>
+
+{% assign presentations_page = site.pages | where: "permalink", "/presentations/" | first %}
+<section id="presentations" class="onepage-section" data-section="presentations">
+  <header class="onepage-section__header"><p class="onepage-eyebrow">Presentations</p><h2>Conferences, seminars and workshops</h2></header>
+  <div class="onepage-embedded onepage-presentations-list">{{ presentations_page.content | markdownify }}</div>
+</section>
+
+<footer class="onepage-footer"><p>Gabriele Letta · <a href="mailto:gabriele.letta@unicatt.it">gabriele.letta@unicatt.it</a></p></footer>

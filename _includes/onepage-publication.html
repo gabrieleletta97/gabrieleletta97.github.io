@@ -1,0 +1,17 @@
+{% assign post = include.post %}
+<article class="onepage-paper">
+  <div class="onepage-paper__main">
+    <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+    {% if post.authors %}
+      <p class="onepage-paper__authors">{% for author in post.authors %}{% if author.url %}<a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {% endif %}
+    <div class="onepage-paper__meta">{% if post.venue %}<span><em>{{ post.venue }}</em></span>{% endif %}{% if post.date %}<span>{{ post.date | date: "%Y" }}</span>{% endif %}{% if post.excerpt %}<span>{{ post.excerpt | markdownify | strip_html }}</span>{% endif %}</div>
+    {% if post.presented_at %}<p class="onepage-paper__presented"><strong>Presented at:</strong> {{ post.presented_at }}</p>{% endif %}
+    <div class="onepage-paper__actions">{% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Paper ↗</a>{% endif %}<a href="{{ post.url | relative_url }}">Full page →</a></div>
+    <details class="onepage-abstract">
+      <summary><span>Abstract</span><span class="onepage-abstract__icon" aria-hidden="true">+</span></summary>
+      <div class="onepage-abstract__body">{{ post.content | markdownify }}</div>
+    </details>
+  </div>
+  {% if post.image %}<div class="onepage-paper__image">{% if post.image contains 'http' %}<img src="{{ post.image }}" alt="Image for {{ post.title }}">{% else %}<img src="{{ post.image | relative_url }}" alt="Image for {{ post.title }}">{% endif %}</div>{% endif %}
+</article>

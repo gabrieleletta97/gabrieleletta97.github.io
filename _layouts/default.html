@@ -113,11 +113,11 @@ layout: compress
   <!-- ✅ Preload del CSS principale -->
   <link rel="preload" href="{{ "/assets/css/styles.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"></noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20261029-1' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20261029-2' | relative_url }}">
 </head>
 
 <body class="
-  {% if page.permalink == '/' %}home-page
+  {% if page.permalink == '/' %}home-page one-page
   {% elsif page.permalink == '/publications/' %}publications-page
   {% elsif page.permalink == '/teaching/' %}teaching-page
   {% elsif page.permalink == '/presentations/' %}presentations-page
@@ -136,10 +136,10 @@ layout: compress
           <span>Menu</span><span class="nav-toggle__icon" aria-hidden="true">&#9662;</span>
         </button>
         <ul class="nav-list" id="primary-menu">
-          <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/publications/' | relative_url }}">Research</a></li>
-          <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
-          <li><a href="{{ '/presentations/' | relative_url }}">Presentations</a></li>
+          <li><a href="{{ '/#about' | relative_url }}" data-section-link="about">Home</a></li>
+          <li><a href="{{ '/#research' | relative_url }}" data-section-link="research">Research</a></li>
+          <li><a href="{{ '/#teaching' | relative_url }}" data-section-link="teaching">Teaching</a></li>
+          <li><a href="{{ '/#presentations' | relative_url }}" data-section-link="presentations">Presentations</a></li>
           <li><a href="{{ '/workshop/' | relative_url }}">Workshop</a></li>
           <li><a href="{{ '/other/' | relative_url }}">Other</a></li>
         </ul>
@@ -225,6 +225,37 @@ layout: compress
     });
   });
 
+  document.querySelectorAll('.onepage-abstract__body a').forEach(function(link) {
+    if (link.textContent.trim().toLowerCase() === 'download paper') {
+      var paragraph = link.closest('p');
+      if (paragraph) paragraph.remove(); else link.remove();
+    }
+  });
+
+  document.querySelectorAll('.onepage-abstract').forEach(function(panel) {
+    panel.addEventListener('toggle', function() {
+      var icon = panel.querySelector('.onepage-abstract__icon');
+      if (icon) icon.textContent = panel.open ? '−' : '+';
+    });
+  });
+
+  if (document.body.classList.contains('one-page') && 'IntersectionObserver' in window) {
+    var sectionLinks = document.querySelectorAll('[data-section-link]');
+    var sections = document.querySelectorAll('[data-section]');
+    var setActiveSection = function(id) {
+      sectionLinks.forEach(function(link) {
+        if (link.getAttribute('data-section-link') === id) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
+      });
+    };
+    var sectionObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) setActiveSection(entry.target.getAttribute('data-section'));
+      });
+    }, { rootMargin: '-32% 0px -58% 0px', threshold: 0 });
+    sections.forEach(function(section) { sectionObserver.observe(section); });
+  }
+
   document.querySelectorAll('.publication-detail .paper-body-card a').forEach(function(link) {
     if (link.textContent.trim().toLowerCase() === 'download paper') {
       var paragraph = link.closest('p');
@@ -236,12 +267,11 @@ layout: compress
 document.querySelectorAll('a[href]').forEach(function(link) {
   link.addEventListener('click', function(e) {
     const target = link.getAttribute('href');
+    const isSectionLink = target && (target.startsWith('#') || target.startsWith('/#'));
     const isInternal = target &&
                        !target.startsWith('http') &&
-                       !target.startsWith('#') &&
+                       !isSectionLink &&
                        !link.hasAttribute('target');
-
-    console.log('Clicked:', target, 'Is internal:', isInternal); // 👈 debug qui
 
     if (isInternal) {
       e.preventDefault();
