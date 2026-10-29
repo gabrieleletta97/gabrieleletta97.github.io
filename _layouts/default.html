@@ -21,6 +21,16 @@ layout: compress
   {% endif %}
  </title>
 
+  <script>
+    (function() {
+      try {
+        if (window.localStorage.getItem('gabriele-site-theme') === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (error) {}
+    })();
+  </script>
+
  <!-- ✅ Font Awesome per le icone -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -113,7 +123,7 @@ layout: compress
   <!-- ✅ Preload del CSS principale -->
   <link rel="preload" href="{{ "/assets/css/styles.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"></noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20261029-4' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20261029-5' | relative_url }}">
 </head>
 
 <body class="
@@ -138,8 +148,8 @@ layout: compress
         <ul class="nav-list" id="primary-menu">
           <li><a href="{{ '/#about' | relative_url }}" data-section-link="about">Home</a></li>
           <li><a href="{{ '/#research' | relative_url }}" data-section-link="research">Research</a></li>
-          <li><a href="{{ '/#teaching' | relative_url }}" data-section-link="teaching">Teaching</a></li>
           <li><a href="{{ '/#presentations' | relative_url }}" data-section-link="presentations">Presentations</a></li>
+          <li><a href="{{ '/#teaching' | relative_url }}" data-section-link="teaching">Teaching</a></li>
           <li><a href="{{ '/workshop/' | relative_url }}">Workshop</a></li>
           <li><a href="{{ '/other/' | relative_url }}">Other</a></li>
         </ul>
@@ -183,8 +193,10 @@ layout: compress
       var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
       if (isDark) {
         document.documentElement.removeAttribute('data-theme');
+        try { window.localStorage.setItem('gabriele-site-theme', 'light'); } catch (error) {}
       } else {
         document.documentElement.setAttribute('data-theme', 'dark');
+        try { window.localStorage.setItem('gabriele-site-theme', 'dark'); } catch (error) {}
       }
       setThemeButtonState();
     });

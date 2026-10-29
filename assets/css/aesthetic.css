@@ -789,7 +789,7 @@ body:not(.home-page) #main {
 .onepage-hero h1 {
   max-width: 760px;
   margin: 0 0 1.25rem;
-  font-size: clamp(2.2rem, 3.6vw, 3.45rem) !important;
+  font-size: clamp(1.95rem, 3vw, 2.8rem) !important;
   font-weight: 650;
   line-height: .92;
   letter-spacing: -.065em;
@@ -851,24 +851,24 @@ body:not(.home-page) #main {
 }
 
 .onepage-section__header {
-  display: grid;
-  grid-template-columns: minmax(190px, .35fr) minmax(0, 1fr);
-  gap: .4rem 2.5rem;
+  display: block;
   margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
 }
 
 .onepage-section__header .onepage-eyebrow {
-  grid-row: 1 / span 2;
+  margin-bottom: .8rem !important;
 }
 
 .onepage-section__header h2 {
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
-  font-size: clamp(1.85rem, 3.2vw, 2.85rem) !important;
+  width: 100%;
+  font-size: clamp(1.55rem, 2.45vw, 2.25rem) !important;
   font-weight: 650;
   line-height: 1;
   letter-spacing: -.045em;
+  white-space: nowrap;
 }
 
 .onepage-section__header > p:last-child {
@@ -887,7 +887,7 @@ body:not(.home-page) #main {
   gap: 1rem;
   margin: 0 0 .65rem;
   color: var(--ink);
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 750;
   letter-spacing: -.01em;
   text-transform: none;
@@ -915,7 +915,7 @@ body:not(.home-page) #main {
 .onepage-paper h4 {
   max-width: 850px;
   margin: 0 0 .65rem;
-  font-size: clamp(1.3rem, 2.2vw, 1.75rem);
+  font-size: clamp(1.15rem, 1.8vw, 1.48rem);
   font-weight: 650;
   line-height: 1.28;
   letter-spacing: -.025em;
@@ -1049,6 +1049,19 @@ body:not(.home-page) #main {
   font-size: .82rem;
 }
 
+.onepage-footer__nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.onepage-footer__nav a {
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /* Other publications are secondary: compact entries in one continuous list. */
 .onepage-research-group--other_publications {
   margin-top: 3rem;
@@ -1074,14 +1087,14 @@ body:not(.home-page) #main {
 
 .onepage-research-group--other_publications .onepage-paper h4 {
   margin-bottom: .3rem;
-  font-size: 1rem;
+  font-size: .82rem;
   line-height: 1.35;
 }
 
 .onepage-research-group--other_publications .onepage-paper__authors,
 .onepage-research-group--other_publications .onepage-paper__meta,
 .onepage-research-group--other_publications .onepage-paper__presented {
-  font-size: .78rem;
+  font-size: .7rem;
 }
 
 .onepage-research-group--other_publications .onepage-paper__image {
@@ -1110,19 +1123,19 @@ body:not(.home-page) #main {
 
 #teaching .onepage-section__header h2,
 #presentations .onepage-section__header h2 {
-  font-size: clamp(1.75rem, 3vw, 2.55rem) !important;
+  font-size: clamp(1.5rem, 2.35vw, 2.15rem) !important;
 }
 
 #teaching .onepage-embedded p,
 #presentations .onepage-embedded p {
   padding: .75rem 0;
-  font-size: .9rem;
+  font-size: .84rem;
   line-height: 1.55;
 }
 
 #teaching .onepage-embedded p strong,
 #presentations .onepage-embedded p strong {
-  font-size: .95rem;
+  font-size: .88rem;
 }
 
 #presentations .onepage-embedded h3 {
@@ -1152,7 +1165,8 @@ body:not(.home-page) #main {
 
 @media (max-width: 520px) {
   .onepage-section { scroll-margin-top: 68px; padding: 4.25rem 0; }
-  .onepage-hero h1 { font-size: 2.35rem !important; }
+  .onepage-hero h1 { font-size: 2.1rem !important; }
+  .onepage-section__header h2 { white-space: normal; }
   .onepage-actions { align-items: flex-start; flex-direction: column; }
   .onepage-paper { padding: 1.75rem 0; }
   .onepage-paper__meta { display: block; }
