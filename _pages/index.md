@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <section id="about" class="onepage-section onepage-hero" data-section="about">
-  <header class="section-banner about-banner onepage-art-banner"><h1>About</h1></header>
+  <header class="section-banner about-banner onepage-art-banner"><h1>Home</h1></header>
   <div class="onepage-hero__copy">
   <h1>Gabriele Letta</h1>
   <p class="onepage-lead">I am an applied economist working on policy evaluation, health economics and public economics.</p>
@@ -31,7 +31,7 @@ redirect_from:
   {% for category in site.publication_category %}
     {% assign category_posts = site.publications | where: "category", category[0] | reverse %}
     {% if category_posts.size > 0 and category[1].title %}
-      <div class="onepage-research-group onepage-research-group--{{ category[0] }}"><h3>{{ category[1].title }}</h3>{% for post in category_posts %}{% include onepage-publication.html post=post %}{% endfor %}</div>
+      <div class="onepage-research-group onepage-research-group--{{ category[0] }}"><h3>{{ category[1].title }}</h3>{% for post in category_posts %}{% unless post.homepage_last %}{% include onepage-publication.html post=post %}{% endunless %}{% endfor %}{% for post in category_posts %}{% if post.homepage_last %}{% include onepage-publication.html post=post %}{% endif %}{% endfor %}</div>
     {% endif %}
   {% endfor %}
 </section>
