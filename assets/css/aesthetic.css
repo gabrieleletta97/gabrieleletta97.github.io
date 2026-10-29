@@ -1378,9 +1378,9 @@ body:not(.home-page) #main {
 /* Final hierarchy: cool links, full-width abstracts and compact research rows. */
 :root {
   --accent: #4f7a63;
-  --paper: #f4f1e8;
-  --surface: #faf8f2;
-  --surface-soft: #ebe8df;
+  --paper: #eee9dc;
+  --surface: #f6f2e8;
+  --surface-soft: #e5dfd2;
 }
 
 html[data-theme="dark"] {
@@ -1394,7 +1394,7 @@ html[data-theme="dark"] {
 
 .onepage-hero__portrait {
   justify-self: end;
-  width: 88%;
+  width: 83%;
 }
 
 .onepage-hero__portrait img,
@@ -1466,7 +1466,7 @@ html[data-theme="dark"] {
 
 .onepage-abstract__body {
   padding: .15rem 0 .75rem;
-  font-size: .86rem;
+  font-size: .80rem;
   line-height: 1.62;
 }
 
@@ -1490,8 +1490,8 @@ html:not([data-theme="dark"]) .sidebar {
 }
 
 img[src*="Map_inactive_com"] {
-  width: min(100%, 230px) !important;
-  max-height: 270px !important;
+  width: min(100%, 255px) !important;
+  max-height: 295px !important;
   object-fit: contain;
 }
 
