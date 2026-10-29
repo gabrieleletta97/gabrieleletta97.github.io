@@ -10,7 +10,6 @@ redirect_from:
 <section id="about" class="onepage-section onepage-hero" data-section="about">
   <header class="section-banner about-banner onepage-art-banner"><h1>Home</h1></header>
   <div class="onepage-hero__copy">
-  <h1>Gabriele Letta</h1>
   <p class="onepage-lead">I am an applied economist working on policy evaluation, health economics and public economics.</p>
   <p>I obtained my <strong>PhD in Economics and Finance</strong> at <strong>Università Cattolica del Sacro Cuore — DEFAP School</strong> in 2026, supervised by <a href="https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati">Gilberto Turati</a> and <a href="https://sites.google.com/view/luca-salmasi/home-page">Luca Salmasi</a>.</p>
   <p>In 2025 I was a visiting researcher at <strong>IEB — Universitat de Barcelona</strong>, hosted by <a href="https://www.juditvall.com/">Judit Vall Castelló</a>. I was born and raised in Rome and earned my MSc at Sapienza University of Rome in 2021.</p>

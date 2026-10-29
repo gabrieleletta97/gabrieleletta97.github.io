@@ -9,6 +9,7 @@ authors:
   - name: "Gabriele Letta"
     url: "https://gabrieleletta97.github.io/"
 category: working_papers
+homepage_last: true
 permalink: /publication/2-chad
 excerpt: 'Working Paper'
 venue: "Awarded Visiting Scholars Programme at UNU-WIDER 2026, Helsinki, Finland (by Gema Lax-Martinez)"

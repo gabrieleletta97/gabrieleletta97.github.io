@@ -19,8 +19,6 @@ presented_at:
 paperurl: "https://dipartimenti.unicatt.it/economia-finanza-def153.pdf"
 image: "https://gabrieleletta97.github.io/images/BW_ci_sc_ITA.jpg"  # Path to your image
 ---
-'Revision requested at **_Health Economics_**'
-
 [[Download Paper](https://dipartimenti.unicatt.it/economia-finanza-def153.pdf)]
 
 Vaccine hesitancy is a crucial public health issue worldwide. In this paper, we evaluate the causal impact of a vaccination-based access restriction policy on vaccine uptake by exploiting the introduction of the EU Digital COVID-19 Certificate at the country level. We compare two countries, Italy and Spain, which—despite using the Certificate as a prerequisite for many daily activities—experienced different adoption patterns. In Spain, the Certificate was introduced regionally, temporarily suspended by the Courts, and later reintroduced in several regions. In Italy, it was introduced in June 2021 and progressively expanded, culminating in mandatory vaccination for individuals aged over 50. We test the impact of the Certificate on vaccination rates using a Sharp Regression Kink Design,
