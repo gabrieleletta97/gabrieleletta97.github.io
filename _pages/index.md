@@ -31,7 +31,7 @@ redirect_from:
   {% for category in site.publication_category %}
     {% assign category_posts = site.publications | where: "category", category[0] | reverse %}
     {% if category_posts.size > 0 and category[1].title %}
-      <div class="onepage-research-group"><h3>{{ category[1].title }}</h3>{% for post in category_posts %}{% include onepage-publication.html post=post %}{% endfor %}</div>
+      <div class="onepage-research-group onepage-research-group--{{ category[0] }}"><h3>{{ category[1].title }}</h3>{% for post in category_posts %}{% include onepage-publication.html post=post %}{% endfor %}</div>
     {% endif %}
   {% endfor %}
 </section>
