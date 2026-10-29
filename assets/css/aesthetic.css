@@ -1223,8 +1223,18 @@ body:not(.home-page) #main {
 
 .onepage-hero__copy {
   width: 100%;
-  padding-right: .35rem;
+  padding-right: 0;
   box-sizing: border-box;
+}
+
+.onepage-hero__copy > p,
+.onepage-hero__copy > .onepage-lead {
+  width: 100%;
+  max-width: none !important;
+}
+
+.onepage-hero {
+  column-gap: .9rem;
 }
 
 .onepage-hero .onepage-art-banner {
@@ -1367,11 +1377,14 @@ body:not(.home-page) #main {
 
 /* Final hierarchy: cool links, full-width abstracts and compact research rows. */
 :root {
-  --accent: #4f7891;
+  --accent: #4f7a63;
+  --paper: #f4f1e8;
+  --surface: #faf8f2;
+  --surface-soft: #ebe8df;
 }
 
 html[data-theme="dark"] {
-  --accent: #8dbbd0;
+  --accent: #8fc3a2;
 }
 
 .site-title {
@@ -1453,6 +1466,33 @@ html[data-theme="dark"] {
 
 .onepage-abstract__body {
   padding: .15rem 0 .75rem;
+  font-size: .86rem;
+  line-height: 1.62;
+}
+
+.onepage-research {
+  padding-top: 1.25rem;
+}
+
+html:not([data-theme="dark"]),
+html:not([data-theme="dark"]) body,
+html:not([data-theme="dark"]) .site-header,
+html:not([data-theme="dark"]) .sidebar {
+  background: var(--paper) !important;
+}
+
+.onepage-research-group--working_papers > h3 {
+  font-size: 1.2rem;
+}
+
+.onepage-research-group--working_papers .onepage-paper h4 {
+  font-size: clamp(1.02rem, 1.45vw, 1.25rem);
+}
+
+img[src*="Map_inactive_com"] {
+  width: min(100%, 230px) !important;
+  max-height: 270px !important;
+  object-fit: contain;
 }
 
 .onepage-paper--rainfall .onepage-paper__image,

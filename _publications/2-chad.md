@@ -12,7 +12,7 @@ category: working_papers
 homepage_last: true
 permalink: /publication/2-chad
 excerpt: 'Working Paper'
-venue: "Awarded Visiting Scholars Programme at UNU-WIDER 2026, Helsinki, Finland (by Gema Lax-Martinez)"
+venue: "UNU-WIDER Visiting Scholars Programme 2026 (Gema Lax-Martinez)"
 presented_at:
 paperurl:
 image: "https://gabrieleletta97.github.io/images/onion_total_conflict_combined.png"
