@@ -24,7 +24,7 @@ layout: compress
   <script>
     (function() {
       try {
-        if (window.localStorage.getItem('gabriele-site-theme') === 'dark') {
+        if (window.localStorage.getItem('gabriele-site-theme-v2') !== 'light') {
           document.documentElement.setAttribute('data-theme', 'dark');
         }
       } catch (error) {}
@@ -123,7 +123,7 @@ layout: compress
   <!-- ✅ Preload del CSS principale -->
   <link rel="preload" href="{{ "/assets/css/styles.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"></noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20261029-5' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/aesthetic.css?v=20261029-7' | relative_url }}">
 </head>
 
 <body class="
@@ -193,10 +193,10 @@ layout: compress
       var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
       if (isDark) {
         document.documentElement.removeAttribute('data-theme');
-        try { window.localStorage.setItem('gabriele-site-theme', 'light'); } catch (error) {}
+        try { window.localStorage.setItem('gabriele-site-theme-v2', 'light'); } catch (error) {}
       } else {
         document.documentElement.setAttribute('data-theme', 'dark');
-        try { window.localStorage.setItem('gabriele-site-theme', 'dark'); } catch (error) {}
+        try { window.localStorage.setItem('gabriele-site-theme-v2', 'dark'); } catch (error) {}
       }
       setThemeButtonState();
     });

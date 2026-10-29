@@ -767,13 +767,26 @@ body:not(.home-page) #main {
   border-top: 1px solid var(--line);
 }
 
+.onepage-art-banner {
+  grid-column: 1 / -1;
+  width: 100%;
+  min-height: 92px;
+  margin: 0 0 2.75rem;
+  box-sizing: border-box;
+}
+
+.onepage-art-banner h1 {
+  font-size: 1.7rem !important;
+}
+
 .onepage-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(260px, .65fr);
   align-items: center;
   gap: clamp(3rem, 8vw, 7rem);
-  min-height: calc(100vh - 78px);
-  padding-top: 3rem;
+  min-height: auto;
+  padding-top: 1.75rem;
+  padding-bottom: 4rem;
   border-top: 0;
 }
 
@@ -789,7 +802,7 @@ body:not(.home-page) #main {
 .onepage-hero h1 {
   max-width: 760px;
   margin: 0 0 1.25rem;
-  font-size: clamp(1.95rem, 3vw, 2.8rem) !important;
+  font-size: clamp(1.85rem, 2.7vw, 2.55rem) !important;
   font-weight: 650;
   line-height: .92;
   letter-spacing: -.065em;
@@ -882,11 +895,13 @@ body:not(.home-page) #main {
 }
 
 .onepage-research-group > h3 {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 1rem;
-  margin: 0 0 .65rem;
+  margin: 0 0 .85rem;
+  padding: .42rem .7rem;
   color: var(--ink);
+  background: var(--surface-soft);
+  border-radius: 5px;
   font-size: 1.2rem;
   font-weight: 750;
   letter-spacing: -.01em;
@@ -894,15 +909,12 @@ body:not(.home-page) #main {
 }
 
 .onepage-research-group > h3::after {
-  content: "";
-  flex: 1 1 auto;
-  height: 1px;
-  background: var(--line);
+  display: none;
 }
 
 .onepage-paper {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(190px, 270px);
+  grid-template-columns: minmax(0, 1fr) minmax(270px, 360px);
   gap: 2.5rem;
   padding: 2.2rem 0;
   border-top: 1px solid var(--line);
@@ -915,7 +927,7 @@ body:not(.home-page) #main {
 .onepage-paper h4 {
   max-width: 850px;
   margin: 0 0 .65rem;
-  font-size: clamp(1.15rem, 1.8vw, 1.48rem);
+  font-size: clamp(1.05rem, 1.55vw, 1.32rem);
   font-weight: 650;
   line-height: 1.28;
   letter-spacing: -.025em;
@@ -952,7 +964,7 @@ body:not(.home-page) #main {
 .onepage-paper__presented {
   max-width: 92ch !important;
   margin: 1rem 0 0 !important;
-  font-size: .86rem;
+  font-size: .74rem;
   line-height: 1.55;
 }
 
@@ -978,12 +990,13 @@ body:not(.home-page) #main {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 260px;
+  max-height: 340px;
   object-fit: contain;
   border-radius: 5px;
 }
 
 .onepage-abstract {
+  grid-column: 1 / -1;
   margin-top: 1.35rem;
   border-top: 1px solid var(--line);
 }
@@ -1006,7 +1019,8 @@ body:not(.home-page) #main {
 .onepage-abstract__icon { color: var(--accent); font-size: 1.25rem; font-weight: 400; }
 
 .onepage-abstract__body {
-  max-width: 75ch;
+  width: 100%;
+  max-width: none;
   padding: .25rem 0 1rem;
   color: var(--ink);
   font-size: .94rem;
@@ -1056,10 +1070,23 @@ body:not(.home-page) #main {
 }
 
 .onepage-footer__nav a {
-  color: var(--ink);
-  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 1.25rem;
+  color: var(--paper);
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  font-size: 1.05rem;
   font-weight: 700;
   text-decoration: none;
+}
+
+.onepage-footer__nav a:hover {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 /* Other publications are secondary: compact entries in one continuous list. */
@@ -1073,6 +1100,12 @@ body:not(.home-page) #main {
   line-height: 1.38;
 }
 
+.onepage-research-group--work_in_progress .onepage-paper {
+  padding-top: 1.35rem;
+  padding-bottom: 1.35rem;
+  gap: 1.75rem;
+}
+
 .onepage-research-group--work_in_progress .onepage-paper__authors,
 .onepage-research-group--work_in_progress .onepage-paper__meta,
 .onepage-research-group--work_in_progress .onepage-paper__presented {
@@ -1081,7 +1114,7 @@ body:not(.home-page) #main {
 
 .onepage-research-group--other_publications .onepage-paper {
   display: block;
-  padding: .9rem 0;
+  padding: .55rem 0;
   border-top: 0;
 }
 
@@ -1106,7 +1139,7 @@ body:not(.home-page) #main {
 }
 
 .onepage-research-group--other_publications .onepage-abstract {
-  margin-top: .7rem;
+  margin-top: .4rem;
 }
 
 /* Teaching and Presentations use a denser editorial rhythm. */
@@ -1118,6 +1151,11 @@ body:not(.home-page) #main {
 
 #teaching .onepage-section__header,
 #presentations .onepage-section__header {
+  margin-bottom: 2rem;
+}
+
+#teaching .onepage-art-banner,
+#presentations .onepage-art-banner {
   margin-bottom: 2rem;
 }
 
@@ -1165,8 +1203,10 @@ body:not(.home-page) #main {
 
 @media (max-width: 520px) {
   .onepage-section { scroll-margin-top: 68px; padding: 4.25rem 0; }
-  .onepage-hero h1 { font-size: 2.1rem !important; }
+  .onepage-hero h1 { font-size: 1.95rem !important; }
   .onepage-section__header h2 { white-space: normal; }
+  .onepage-art-banner { min-height: 72px; margin-bottom: 1.75rem; }
+  .onepage-art-banner h1 { font-size: 1.4rem !important; }
   .onepage-actions { align-items: flex-start; flex-direction: column; }
   .onepage-paper { padding: 1.75rem 0; }
   .onepage-paper__meta { display: block; }

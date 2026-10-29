@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 <section id="about" class="onepage-section onepage-hero" data-section="about">
+  <header class="section-banner about-banner onepage-art-banner"><h1>About</h1></header>
   <div class="onepage-hero__copy">
   <h1>Gabriele Letta</h1>
   <p class="onepage-lead">I am an applied economist working on policy evaluation, health economics and public economics.</p>
@@ -26,7 +27,7 @@ redirect_from:
 </section>
 
 <section id="research" class="onepage-section onepage-research" data-section="research">
-  <header class="onepage-section__header"><p class="onepage-eyebrow">Research</p><h2>Research and publications</h2></header>
+  <header class="section-banner research-banner onepage-art-banner"><h1>Research</h1></header>
   {% for category in site.publication_category %}
     {% assign category_posts = site.publications | where: "category", category[0] | reverse %}
     {% if category_posts.size > 0 and category[1].title %}
@@ -37,13 +38,13 @@ redirect_from:
 
 {% assign presentations_page = site.pages | where: "permalink", "/presentations/" | first %}
 <section id="presentations" class="onepage-section" data-section="presentations">
-  <header class="onepage-section__header"><p class="onepage-eyebrow">Presentations</p><h2>Conferences, seminars and workshops</h2></header>
+  <header class="section-banner presentations-banner onepage-art-banner"><h1>Presentations</h1></header>
   <div class="onepage-embedded onepage-presentations-list">{{ presentations_page.content | markdownify }}</div>
 </section>
 
 {% assign teaching_page = site.pages | where: "permalink", "/teaching/" | first %}
 <section id="teaching" class="onepage-section" data-section="teaching">
-  <header class="onepage-section__header"><p class="onepage-eyebrow">Teaching</p><h2>Teaching experience</h2></header>
+  <header class="section-banner teaching-banner onepage-art-banner"><h1>Teaching</h1></header>
   <div class="onepage-embedded onepage-teaching-list">{{ teaching_page.content | markdownify }}</div>
 </section>
 
