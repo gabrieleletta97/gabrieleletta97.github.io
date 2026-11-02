@@ -1192,8 +1192,9 @@ body:not(.home-page) #main {
 @media (max-width: 860px) {
   .one-page #main { width: min(100% - 2rem, 720px); }
   .onepage-hero { grid-template-columns: 1fr; min-height: auto; padding-top: 4rem; }
-  .onepage-hero__portrait { grid-row: 1; width: min(100%, 360px); }
+  .onepage-hero .onepage-art-banner { grid-row: 1; }
   .onepage-hero__copy { grid-row: 2; }
+  .onepage-hero__portrait { grid-row: 3; width: min(100%, 360px); }
   .onepage-section__header { grid-template-columns: 1fr; }
   .onepage-section__header .onepage-eyebrow { grid-row: auto; }
   .onepage-paper { grid-template-columns: 1fr; gap: 1.5rem; }
