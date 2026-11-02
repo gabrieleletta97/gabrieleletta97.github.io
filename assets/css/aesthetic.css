@@ -1496,7 +1496,11 @@ img[src*="Map_inactive_com"] {
   object-fit: contain;
 }
 
-.onepage-paper--rainfall .onepage-paper__image,
+.onepage-paper--rainfall .onepage-paper__image {
+  justify-self: end;
+  width: min(100%, 305px);
+}
+
 .onepage-paper--ivg .onepage-paper__image {
   justify-self: end;
   width: min(100%, 280px);
