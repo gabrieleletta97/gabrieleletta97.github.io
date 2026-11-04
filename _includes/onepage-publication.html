@@ -6,7 +6,10 @@
       <p class="onepage-paper__authors">{% for author in post.authors %}{% if author.url %}<a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
     {% endif %}
     <div class="onepage-paper__meta">{% if post.venue %}<span><strong>{{ post.venue }}</strong></span>{% endif %}{% if post.date %}<span>{{ post.date | date: "%Y" }}</span>{% endif %}{% if post.excerpt %}<span class="onepage-paper__status">{{ post.excerpt | markdownify }}</span>{% endif %}</div>
-    {% if post.presented_at %}<p class="onepage-paper__presented"><strong>Presented at:</strong> {{ post.presented_at }}</p>{% endif %}
+    {% if post.presented_at %}
+      <p class="onepage-paper__presented"><strong>Presented at:</strong> {{ post.presented_at }}</p>
+      {% if post.presented_at contains "*" %}<p class="onepage-paper__coauthor-note"><em>* Presented by coauthor</em></p>{% endif %}
+    {% endif %}
     {% if post.paperurl %}<div class="onepage-paper__actions"><a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>{% endif %}
   </div>
   {% if post.image %}<div class="onepage-paper__image">{% if post.image contains 'http' %}<img src="{{ post.image }}" alt="Image for {{ post.title }}">{% else %}<img src="{{ post.image | relative_url }}" alt="Image for {{ post.title }}">{% endif %}</div>{% endif %}

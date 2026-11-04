@@ -1446,6 +1446,12 @@ html[data-theme="dark"] {
   max-width: none !important;
 }
 
+.onepage-paper__coauthor-note {
+  margin: .25rem 0 0 !important;
+  color: var(--muted);
+  font-size: .68rem;
+}
+
 .onepage-abstract {
   width: 100%;
   max-width: none;
