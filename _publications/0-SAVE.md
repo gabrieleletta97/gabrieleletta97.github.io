@@ -7,7 +7,7 @@ authors:
   - name: "Luca Salmasi"
     url: "https://sites.google.com/view/luca-salmasi/home-page"
 category: other_publications
-permalink: /publication/0-A_SAVE
+permalink: /publication/0-SAVE
 excerpt: 'Research Report'
 date: 2026-01-01
 venue: "SAVE Project – Università Cattolica del Sacro Cuore, Fondazione Cariplo, Fondazione Don Gino Rigoldi"
