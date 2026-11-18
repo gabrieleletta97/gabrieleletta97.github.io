@@ -11,8 +11,8 @@ redirect_from:
   <header class="section-banner about-banner onepage-art-banner"><h1>Home</h1></header>
   <div class="onepage-hero__copy">
   <div class="onepage-interests"><span>Policy Evaluation</span><span>Health Economics</span><span>Public Economics</span></div>
-  <p>I obtained my <strong>PhD in Economics and Finance</strong> at <strong>Università Cattolica del Sacro Cuore — DEFAP School</strong> in 2026, supervised by <a href="https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati">Gilberto Turati</a> and <a href="https://sites.google.com/view/luca-salmasi/home-page">Luca Salmasi</a>.</p>
-  <p>In 2025 I was a visiting researcher at <strong>IEB — Universitat de Barcelona</strong>, hosted by <a href="https://www.juditvall.com/">Judit Vall Castelló</a>. I was born and raised in Rome and earned my MSc at Sapienza University of Rome in 2021.</p>
+  <p>I obtained my <strong>PhD in Economics and Finance</strong> at <strong>Università Cattolica del Sacro Cuore — DEFAP School, Milan</strong> in 2026, supervised by <a href="https://docenti.unicatt.it/ppd2/it/docenti/12695/gilberto-turati">Gilberto Turati</a> and <a href="https://sites.google.com/view/luca-salmasi/home-page">Luca Salmasi</a>.</p>
+  <p>In 2025 I was a visiting researcher at <strong>Universitat de Barcelona</strong>, hosted by <a href="https://www.juditvall.com/">Judit Vall Castelló</a>. I was born and raised in Rome and earned my MSc at Sapienza University of Rome in 2021.</p>
   <div class="onepage-actions">
     <a class="academic-button academic-button--primary" href="{{ '/files/CV_Letta.pdf' | relative_url }}">Download CV</a>
     <a class="academic-button" href="#research">Research</a>
