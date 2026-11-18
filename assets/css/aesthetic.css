@@ -191,7 +191,10 @@ a:hover { color: var(--ink); }
 .presentations-banner { background-image: url('/images/repin.jpg'); }
 .about-banner { background-image: url('/images/built-to-spill-etsy.jpg'); }
 .workshop-banner { background-image: url('/images/depero.jpg'); }
-.other-banner { background-image: url('/images/hunger-header.png'); }
+.other-banner {
+  background-image: url('/images/hunger-header.png');
+  background-position: center top;
+}
 
 .publications-page .archive__item {
   position: relative;
