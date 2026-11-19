@@ -10,10 +10,10 @@ authors:
     url: "https://gabrieleletta97.github.io/"
 category: working_papers
 homepage_last: true
-permalink: /publication/2-chad
+permalink: /publication/5-chad
 excerpt: 'Working Paper'
 venue: "UNU-WIDER Visiting Scholars Programme 2026 (Gema Lax-Martinez)"
-presented_at: "FORTHCOMING: Brown Bag seminar* (UNU-WIDER, Helsinki)"
+presented_at: "UNI-Wider Brown Bag seminar* (UNU-WIDER, Helsinki)"
 paperurl:
 image: "https://gabrieleletta97.github.io/images/onion_total_conflict_combined.png"
 
