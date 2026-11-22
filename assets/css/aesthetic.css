@@ -1507,7 +1507,7 @@ img[src*="Map_inactive_com"] {
 
 .onepage-paper--rainfall .onepage-paper__image {
   justify-self: end;
-  width: min(100%, 305px);
+  width: min(100%, 350px);
 }
 
 .onepage-paper--ivg .onepage-paper__image {
