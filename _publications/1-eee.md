@@ -9,7 +9,7 @@ permalink: /publication/1-eee
 excerpt: ''
 date: 2021-01-01
 venue: 'Etica ed Economia'
-paperurl: 
+paperurl: https://eticaeconomia.it/eredita-universale-e-concentrazione-di-ricchezza-in-italia/
 ---
 [Link](https://eticaeconomia.it/eredita-universale-e-concentrazione-di-ricchezza-in-italia/)
 
