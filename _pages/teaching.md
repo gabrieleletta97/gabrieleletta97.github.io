@@ -24,6 +24,6 @@ Università Cattolica del Sacro Cuore, Milan, Italy - Department of Economics an
 *Fall 2022*
 
 **Student tutorials - International Economics; Economic Policy (ITA)** <br>
-BSc in Scienze Economiche - Economics <br>
+BSc in Economics <br>
 Sapienza University of Rome, Italy - Department of Economics and Law <br>
 *Spring/Fall 2021*
